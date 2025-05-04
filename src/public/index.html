@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trình Dịch Tập Tin</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #121212;
+      margin: 0;
+      padding: 20px;
+      color: #e0e0e0;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #1e1e1e;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
+
+    h1 {
+      font-size: 2.2em;
+      color: #90caf9;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #bbbbbb;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    #uploadForm {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    #fileInput {
+      padding: 10px;
+      border: 1px solid #444;
+      background-color: #2c2c2c;
+      color: #e0e0e0;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    #uploadForm button {
+      padding: 10px 20px;
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    #uploadForm button:hover {
+      background-color: #1557b0;
+    }
+
+    #result {
+      padding: 15px;
+      background-color: #263238;
+      border: 1px solid #4caf50;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    #result h3 {
+      margin-top: 0;
+      color: #81c784;
+    }
+
+    #downloadLink {
+      color: #90caf9;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    #downloadLink:hover {
+      text-decoration: underline;
+    }
+
+    #translatedContent {
+      padding: 15px;
+      background-color: #1e1e1e;
+      border: 1px solid #444;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    #translatedContent h3 {
+      margin-top: 0;
+      color: #eeeeee;
+    }
+
+    #estimatedTime {
+      font-size: 1em;
+      color: #aaaaaa;
+      margin-bottom: 10px;
+    }
+
+    #translatedText {
+      white-space: pre-wrap;
+      font-family: 'Courier New', monospace;
+      background-color: #121212;
+      padding: 15px;
+      border: 1px solid #444;
+      border-radius: 5px;
+      min-height: 100px;
+      max-height: 300px;
+      overflow-y: auto;
+      font-size: 0.95em;
+      color: #e0e0e0;
+    }
+
+    #copyButton {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+    }
+
+    #copyButton:hover {
+      background-color: #388e3c;
+    }
+
+    #error {
+      padding: 15px;
+      background-color: #3e2723;
+      border: 1px solid #ff5252;
+      border-radius: 5px;
+    }
+
+    #error h3 {
+      margin-top: 0;
+      color: #ef5350;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    #themeButton {
+      background-color: #39bde5;
+      color: #212121;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      margin-bottom: 20px;
+      transition: background-color 0.3s;
+    }
+
+    #themeButton:hover {
+      background-color: #25d9f9;
+    }
+
+    #discordNote {
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    #discordNote a {
+      color: #00bcd4;
+      text-decoration: none;
+      font-size: 1.1em;
+    }
+
+    #discordNote a:hover {
+      text-decoration: underline;
+    }
+
+    /* Light theme */
+    body.light {
+      background-color: #f5f5f5;
+      color: #212121;
+    }
+
+    body.light .container {
+      background-color: #ffffff;
+    }
+
+    body.light #translatedText {
+      background-color: #f0f0f0;
+      color: #212121;
+    }
+
+    body.light #fileInput {
+      background-color: #ffffff;
+      color: #212121;
+      border: 1px solid #ccc;
+    }
+
+    body.light #translatedContent {
+      background-color: #fafafa;
+    }
+
+    body.light #result {
+      background-color: #e8f5e9;
+    }
+
+    body.light #error {
+      background-color: #ffebee;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Trình Dịch Tập Tin</h1>
+    <p>Tải lên một tập tin (.yml, .json, .properties, v.v...) để dịch sang tiếng Việt.</p>
+
+    <button id="themeButton"><i class="fa-solid fa-lightbulb"></i> Chuyển sang Giao Diện Sáng</button>
+
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input type="file" id="fileInput" name="file" accept=".yml,.yaml,.json,.properties,.lang,.cfg,.conf,.config,.ini,.sk,.txt" required>
+      <button type="submit">Tải Lên & Dịch</button>
+    </form>
+
+    <div id="result" class="hidden">
+      <h3>Kết Quả</h3>
+      <p id="message"></p>
+      <a id="downloadLink" href="#" download>Tải Tập Tin Đã Dịch</a>
+    </div>
+
+    <div id="translatedContent">
+      <h3>Nội Dung Đã Dịch</h3>
+      <p id="estimatedTime">Thời gian ước tính: Chưa bắt đầu</p>
+      <pre id="translatedText">Tải tập tin để xem nội dung đã dịch ở đây...</pre>
+      <button id="copyButton">Sao Chép Nội Dung</button>
+    </div>
+
+    <div id="error" class="hidden">
+      <h3>Lỗi</h3>
+      <p id="errorMessage"></p>
+    </div>
+
+    <div id="discordNote">
+      ❗ Đừng quên tham gia <a href="https://discord.gg/ansstudio" target="_blank">Discord của Ans Studio</a> để được hỗ trợ!
+    </div>
+  </div>
+
+  <script>
+    const themeButton = document.getElementById('themeButton');
+    themeButton.addEventListener('click', () => {
+      document.body.classList.toggle('light');
+      if (document.body.classList.contains('light')) {
+        themeButton.innerHTML = '<i class="fa-solid fa-lightbulb"></i> Chuyển sang Giao Diện Tối';
+      } else {
+        themeButton.innerHTML = '<i class="fa-solid fa-lightbulb"></i> Chuyển sang Giao Diện Sáng';
+      }
+    });
+  </script>
+  <script src="/script.js"></script>
+</body>
+</html>

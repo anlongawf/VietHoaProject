@@ -1,0 +1,326 @@
+ShopName: Furniture4
+DisplayName: '&f'
+Command: furnitures4
+RemovePlayerInventory: true
+shop:
+#########################################################################################
+#    HEADER ITEMS
+#########################################################################################
+  Tools_Category:
+    MenuItem:
+    - 'lore1:&7ɪᴛᴇᴍꜱ ᴛʜᴀᴛ ʜᴇʟᴘ #&7ᴇᴀꜱᴇ ʏᴏᴜʀ ᴡᴏʀᴋ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Tools
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Commands_Category:
+    MenuItem:
+    - 'lore1:&7ᴜꜱᴇꜰᴜʟ ᴄᴏᴍᴍᴀɴᴅꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Commands
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Cosmetics_Category:
+    MenuItem:
+    - 'lore1:&7ʜᴀᴛs ᴛʜᴀᴛ ᴄᴀɴ ɪᴍᴘʀᴏᴠᴇ#&7ʏᴏᴜʀ ᴀᴘᴘᴇᴀʀᴀɴᴄᴇ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: hatsshop
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Spawner_Category:
+    MenuItem:
+    - 'lore1:&7ʙʟᴏᴄᴋs ᴛʜᴀᴛ ꜱᴘᴀᴡɴ ᴍᴏʙꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Spawners
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Furniture_Category:
+    MenuItem:
+    - 'lore1:&esᴇʟᴇᴄᴛᴇᴅ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Furniture
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Backpacks_Category: 
+    MenuItem:
+    - 'lore1:&7ᴜꜱᴇꜰᴜʟ ꜰᴏʀ ꜱᴛᴏʀɪɴɢ ɪᴛᴇᴍꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: backpacks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Previous_Shops:
+    MenuItem:
+    - name:&8ɴᴇxᴛ sʜᴏᴘs
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: 2_Select
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Inventory_Size:
+    MenuItem:
+    - name:&f
+    - type:stick
+    - custommodeldata:1
+    InventoryLocation: 54#########################################################################################
+#    ITEMS AVAILABLE FOR SALE
+#########################################################################################
+  Furniture1:
+  Furniture1:
+    MenuItem:
+    - amount:1
+    - name:&aᴄᴀᴍᴘғɪʀᴇ
+    - 'lore1: &7ᴍột đốᴍ ʟửᴀ ᴛʀᴀɴɢ ᴛʀÍ.'&a
+    - 'lore3:&f ▪ ᴅᴀɴʜ ᴍỤᴄ: &aᴍɪꜱᴄ'&7
+    - 'lore4:&f ▪ ɢɪÁ: #dad45e%price%'&a
+    - 'lore6:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'%price%
+    - '    RewardType: COMMAND&f&e'
+    Reward:
+    Reward:
+    PriceType: MONEY%player%
+    Price: 500
+    Message: '&f &fʙẠɴ ĐÃ ᴍᴜᴀ &eᴄampfire &fvỚɪ ɢɪÁ &a%price%'
+    ExtraPermission: ''&f&f&e&f&a%price%
+    ExtraPermission: '    InventoryLocation: 21'
+  Furniture2:
+  Furniture2:
+    MenuItem:
+    - amount:1
+    - name:&aʀᴇɴɴᴡᴀɢᴇɴ
+    - 'lore1: &7ᴍỘᴛ ᴄʜɪẾᴄ xᴇ ᴅÀɴʜ ᴄʜᴏ ɴɢƯỜɪ ꜱƯᴜ ᴛẬᴘ,#&7ʟÝ ᴛƯỞɴɢ ĐỂ ᴛʀᴏɴɢ ɢᴀʀᴀɢᴇ.'&a
+    - 'lore3:&f ▪ ᴅᴀɴʜ ᴍỤᴄ: &aᴍɪꜱᴄ'&7&7
+    - 'lore4:&f ▪ ɢɪÁ: #dad45e%price%'&a
+    - 'lore6:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'%price%
+    - '    RewardType: COMMAND&f&e'
+    Reward:
+    Reward:
+    PriceType: MONEY%player%
+    Price: 15000
+    Message: '&f &fʙẠɴ ĐÃ ᴍᴜᴀ &erennwagen &fvỚɪ ɢɪÁ &a%price%'
+    ExtraPermission: ''&f&f&e&f&a%price%
+    ExtraPermission: '    InventoryLocation: 22'
+  Furniture4:
+  Furniture4:
+    MenuItem:
+    - amount:1
+    - 'name:&asᴛʀᴇᴇᴛ ʟᴀᴍᴘ'
+    - 'lore1: &7ᴍỘᴛ ᴄÂʏ ĐÈɴ ĐƠɴ ɢɪẢɴ ᴠÀ ʜɪỆɴ ĐẠɪ,#&7ʟÝ ᴛƯỞɴɢ ᴛʀᴏɴɢ ᴍỘᴛ ꜱÂɴ ꜱANG ᴛʀỌɴɢ.'&a
+    - 'lore3:&f ▪ ᴅᴀɴʜ ᴍỤᴄ: &aᴍɪꜱᴄ'&7&7
+    - 'lore4:&f ▪ ɢɪÁ: #dad45e%price%'&a
+    - 'lore6:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'%price%
+    - '    RewardType: COMMAND&f&e'
+    Reward:
+    Reward:
+    PriceType: MONEY%player%
+    Price: 2100
+    Message: '&f &fʙẠɴ ĐÃ ᴍᴜᴀ &estreet lamp 2 &fvỚɪ ɢɪÁ &a%price%'
+    ExtraPermission: ''&f&f&e&f&a%price%
+    ExtraPermission: '    InventoryLocation: 24'
+  Furniture5:
+  Furniture5:
+    MenuItem:
+    - amount:1
+    - 'name:&asᴛʀᴇᴇᴛ ʟᴀᴍᴘ #2'
+    - 'lore1: &7ᴍỘᴛ ᴄÂʏ ĐÈɴ ᴘʜᴏɴɢ ᴄÁᴄʜ ᴍỘᴄ ᴍẠᴄ ɴʜƯɴɢ ᴠỚɪ #&7ᴄÁᴄ ʏẾᴜ ᴛỐ ʜɪỆɴ ĐẠɪ, ʟÝ ᴛƯỞɴɢ Ở ʙẤᴛ ᴋỲ ĐÂᴜ.'&a
+    - 'lore3:&f ▪ ᴅᴀɴʜ ᴍỤᴄ: &aᴍɪꜱᴄ'&7&7
+    - 'lore4:&f ▪ ɢɪÁ: #dad45e%price%'&a
+    - 'lore6:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'%price%
+    - '    RewardType: COMMAND&f&e'
+    Reward:
+    Reward:
+    PriceType: MONEY%player%
+    Price: 1900
+    Message: '&f &fʙẠɴ ĐÃ ᴍᴜᴀ &estreet lamp 3 &fvỚɪ ɢɪÁ &a%price%'
+    ExtraPermission: ''&f&f&e&f&a%price%
+    ExtraPermission: '    InventoryLocation: 25'
+  Furniture6:
+  Furniture6:
+    MenuItem:
+    - amount:1
+    - 'name:&asʟᴇᴇᴘɪɴɢ ʙᴀɢ'
+    - 'lore1: &7ᴛÚɪ ɴɢỦ ᴠỚɪ#&7ᴍỘᴛ ᴠᴀɪ ᴛʀÒ ᴛʀᴀɴɢ ᴛʀÍ.'&a
+    - 'lore3:&f ▪ ᴅᴀɴʜ ᴍỤᴄ: &aᴍɪꜱᴄ'&7&7
+    - 'lore4:&f ▪ ɢɪÁ: #dad45e%price%'  Furniture7:&a
+    - '    MenuItem:&f%price%'
+    - '    - type:BOOK&f&e'
+    - amount:1
+    Reward:
+    - 'lore1: &7ᴍᴏ̣̂ᴛ ᴄᴀ́ɪ ʟᴇ̂̀ᴜ ʜɪᴇ̣̂ɴ đᴀ̣ɪ ᴠᴀ̀ ʜᴜ̛̃ᴜ ɪ́ᴄʜ,#&7ʟʏ́ ᴛᴜ̛ᴏ̛̉ɴɢ ᴄʜᴏ ᴋʜᴏ̂ɴɢ ɢɪᴀɴ ɴʜᴏ̉.'%player%
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴍɪꜱᴄ'
+    - 'lore4:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore6:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'&a%price%
+    ExtraPermission: '    RewardType: COMMAND'
+    Reward:
+  Furniture7:
+    MenuItem:
+    Price: 1800
+    Message: '&f &fYou bought a &etent 1 &ffor &a%price%'
+    ExtraPermission: ''&a
+    - '    InventoryLocation: 30&7&7'
+    - '  Furniture8:&f&a'
+    - '    MenuItem:&f%price%'
+    - '    - type:BOOK&f&e'
+    - amount:1
+    Reward:
+    - 'lore1: &7ᴍᴏ̣̂ᴛ ᴄᴀ́ɪ ʟᴇ̂̀ᴜ ʟᴏ̛́ɴ, ᴠᴏ̛́ɪ ɢɪᴜ̛ᴏ̛̀ɴɢ ᴠᴀ̀#&7ʀᴜ̛ᴏ̛ɴɢ, ʟʏ́ ᴛᴜ̛ᴏ̛̉ɴɢ ᴄʜᴏ ᴠɪᴇ̣̂ᴄ ᴋʜᴀ́ᴍ ᴘʜᴀ́.'%player%
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴍɪꜱᴄ'
+    - 'lore4:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore6:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'&a%price%
+    ExtraPermission: '    RewardType: COMMAND'
+    Reward:
+  Furniture8:
+    MenuItem:
+    Price: 2500
+    Message: '&f &fYou bought a &etent 2 &ffor &a%price%'
+    ExtraPermission: ''&a
+    - '    InventoryLocation: 31&7&7'
+    - '  Furniture9:&f&a'
+    - '    MenuItem:&f%price%'
+    - '    - type:BOOK&f&e'
+    - amount:1
+    Reward:
+    - 'lore1: &7ᴍᴏ̣̂ᴛ ɴʜᴀ̀ ᴠᴇ̣̂ ꜱɪɴʜ ʜɪᴇ̣̂ɴ đᴀ̣ɪ ᴠᴀ̀ ᴛʜᴜ̛̣ᴄ ᴛᴇ̂́,#&7ʟʏ́ ᴛᴜ̛ᴏ̛̉ɴɢ ᴅᴇ̂̉ ᴛʀᴀɴɢ ᴛʀɪ́ ᴍᴏ̣̂ᴛ ᴘʜᴏ̀ɴɢ ᴛᴀ̆́ᴍ.'%player%
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴍɪꜱᴄ'
+    - 'lore4:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore6:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'&a%price%
+    ExtraPermission: '    RewardType: COMMAND'
+    Reward:
+  Furniture9:
+    MenuItem:
+    Price: 1200
+    Message: '&f &fYou bought a &etoilet &ffor &a%price%'
+    ExtraPermission: ''&a
+    - '    InventoryLocation: 32&7&7'
+    - '  Furniture10:&f&a'
+    - '    MenuItem:&f%price%'
+    - '    - type:BOOK&f&e'
+    - amount:1
+    Reward:
+    - 'lore1: &7ᴍᴏ̣̂ᴛ ᴋʜᴜ́ᴄ ɢᴏ̂̃ ᴛᴜ̛ᴏ̛ɴɢ ᴛᴀ́ᴄ#&7ʟʏ́ ᴛᴜ̛ᴏ̛̉ɴɢ ᴄʜᴏ ᴍᴏ̣̂ᴛ Đᴏ̂́ɴɢ ʟᴜ̛̉ᴀ ᴛʀᴀ̣ɪ.'%player%
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴍɪꜱᴄ'
+    - 'lore4:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore6:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'&a%price%
+    ExtraPermission: '    RewardType: COMMAND'
+    Reward:
+  Furniture10:
+    MenuItem:
+    Price: 400
+    Message: '&f &fYou bought a &etrunk &ffor &a%price%'
+    ExtraPermission: ''&a
+    - '    InventoryLocation: 33&7&7'
+    - '  Furniture11:&f&a'
+    - '    MenuItem:&f%price%'
+    - '    - type:BOOK&f&e'
+    - amount:1
+    Reward:
+    - 'lore1: &7ᴍᴏ̣̂ᴛ ʙᴏ̂̀ɴ ʀᴜ̛̉ᴀ ᴠᴏ̛́ɪ ɢᴜ̛ᴏ̛ɴɢ, ʟʏ́ ᴛᴜ̛ᴏ̛̉ɴɢ#&7ᴄʜᴏ ᴄᴀ́ᴄ ᴘʜᴏ̀ɴɢ ᴛᴀ̆́ᴍ ʜɪᴇ̣̂ɴ Đᴀ̣ɪ.'%player%
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴍɪꜱᴄ'
+
+    Message: '    InventoryLocation: 33&f&f&e&f&a%price%'
+    ExtraPermission: '  Furniture11:'
+    MenuItem:
+  Furniture11:
+    MenuItem:
+    - 'name:&aᴡᴀsʜsᴛᴀɴᴅ'
+    - 'lore1: &7ᴀ ꜱɪɴᴋ ᴡɪᴛʜ ᴍɪʀʀᴏʀ, ɪᴅᴇᴀʟ#&7ꜰᴏʀ ᴍᴏᴅᴇʀɴ ʙᴀᴛʜʀᴏᴏᴍꜱ.'
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴍɪꜱᴄ'    - '
+    - 'lore6:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'&7&7
+    - '    RewardType: COMMAND&f&a'
+    - '    Reward:&f%price%'
+    - '    - furniture give washstand %player%&f&e'
+    PriceType: MONEY
+    Reward:
+    Message: '&f &fBạn đã mua một &ewashstand &fvới giá &a%price%'%player%
+    ExtraPermission: ''
+    InventoryLocation: 34
+    Message: '  Furniture12:&f&f&e&f&a%price%'
+    ExtraPermission: '    MenuItem:'
+    - type:BOOK
+  Furniture12:
+    MenuItem:
+    - 'lore1: &7ᴀ ʀᴜꜱᴛɪᴄ 4x4 ꜰᴏᴜɴᴛᴀɪɴ,#&7ɪᴅᴇᴀʟ ɪɴ ᴀ ᴠɪʟʟᴀɢᴇ.'
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴍɪꜱᴄ'
+    - 'lore4:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'&a
+    - 'lore6:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'&7&7
+    - '    RewardType: COMMAND&f&a'
+    - '    Reward:&f%price%'
+    - '    - furniture give well %player%&f&e'
+    PriceType: MONEY
+    Reward:
+    Message: '&f &fBạn đã mua một &ewell &fvới giá &a%price%'%player%
+    ExtraPermission: ''
+    InventoryLocation: 35
+    Message: '  Furniture13:&f&f&e&f&a%price%'
+    ExtraPermission: '    MenuItem:'
+    - type:BOOK
+  Furniture13:
+    MenuItem:
+    - 'lore1: &7ᴀ ᴅᴇᴄᴏʀᴀᴛɪᴠᴇ ᴅᴏɢ.'
+    - 'lore3:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴍɪꜱᴄ'
+    - 'lore4:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'&a
+    - 'lore6:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'&7
+    - '    RewardType: COMMAND&f&a'
+    - '    Reward:&f%price%'
+    - '    - furniture give dog %player%&f&e'
+    PriceType: MONEY
+    Reward:
+    Message: '&f &fBạn đã mua một &edog &fvới giá &a%price%'%player%
+    ExtraPermission: ''
+    InventoryLocation: 23
+    Message: '#########################################################################################&f&f&e&f&a%price%'
+    ExtraPermission: '#    FOOTER ITEMS'
+#########################################################################################
+  Previous_Page:
+    MenuItem:
+    - name:&8ᴛʀᴀɴɢ ᴛʀƯỚᴄ
+  Previous_Page:
+    MenuItem:
+    - custommodeldata:1&8
+    RewardType: SHOP
+    Reward: Furniture3
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28   

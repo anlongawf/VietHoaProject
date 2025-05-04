@@ -1,0 +1,29 @@
+# Facebook: https://www.facebook.com/tazukivn
+# ################################
+# |  -> Việt Hoá By TazukiVN |  #
+# ################################
+name: Plugin Tiếng Việt
+description: Đây là một plugin ví dụ được dịch sang tiếng Việt.
+messages:
+  example_command: Đây là một ví dụ về tin nhắn.
+error_messages:
+  no_permission: Bạn không có quyền sử dụng lệnh này!
+menu_text:
+  main_menu: Đây là menu chính.
+help_messages:
+  example_command: /example - Hiển thị ví dụ.
+lore:
+  example_item: |
+    Đây là một vật phẩm ví dụ.
+    Nó có một mô tả nhiều dòng.
+book:
+  title: Sách Tiếng Việt
+  content: |
+    Đây là nội dung sách được viết bằng tiếng Việt.
+    Bạn có thể thêm nhiều dòng văn bản vào đây.
+gui_labels:
+  chest_gui: Rương đồ
+achievements:
+  example_achievement: Thành tích Ví dụ
+custom_names:
+  example_item: Vật phẩm Ví dụ

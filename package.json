@@ -1,0 +1,29 @@
+{
+  "name": "viethoa-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/bot.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.9.0",
+    "axios-retry": "^4.0.0",
+    "chalk": "^5.4.1",
+    "cors": "^2.8.5",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.4.0",
+    "fs-extra": "^11.3.0",
+    "js-yaml": "^4.1.0",
+    "multer": "^1.4.5-lts.2",
+    "node-cache": "^5.1.2",
+    "p-limit": "^4.0.0",
+    "p-queue": "^7.4.1",
+    "p-retry": "^6.2.0",
+    "tar": "^6.1.13",
+    "winston": "^3.8.2"
+  }
+}

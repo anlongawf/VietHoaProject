@@ -1,0 +1,153 @@
+ShopName: WarpsCasino
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+RemovePlayerInventory: true
+Command: WarpsCasino:WarpCasino
+signs:
+  text: '[Warps]'
+  NeedPermissionToCreateSign: true
+shop:
+  Dungeons:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7sᴇʀᴠᴇʀ ᴡᴀʀᴘ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ'
+    RewardType: Shop
+    Reward: WarpsDungeons
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Mines:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7sᴇʀᴠᴇʀ ᴡᴀʀᴘ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ'
+    RewardType: Shop
+    Reward: WarpsMines
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Farms:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7sᴇʀᴠᴇʀ ᴡᴀʀᴘ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ'
+    RewardType: Shop
+    Reward: WarpsFarms
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Arena:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7sᴇʀᴠᴇʀ ᴡᴀʀᴘ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ'
+    RewardType: Shop
+    Reward: WarpsArena
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Auctions:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7sᴇʀᴠᴇʀ ᴡᴀʀᴘ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ'
+    RewardType: Shop
+    Reward: WarpsAuctions
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Casino:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:305
+    - 'lore1:&eĐÃ CHỌN'
+    RewardType: Shop
+    Reward: WarpsCasino
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  Crates:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7sᴇʀᴠᴇʀ ᴡᴀʀᴘ'
+    - 'lore3:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ꜱᴇʟᴇᴄᴛ'
+    RewardType: Shop
+    Reward: WarpsCrates
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+####################################################################################################################
+  Teleport:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7Đừng ngần ngại mà#&7ghé thăm warp này.' 
+    - 'lore3:&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+
+    Message: ''
+    ExtraPermission: '    InventoryLocation: 49'
+    RewardType: AND
+    Reward:
+    Reward:
+      Reward1:
+      Reward1:
+      RewardType2: CLOSE
+  Teleport2:
+  Teleport2:
+    MenuItem:
+    - 'lore1:&7đừng ngần ngại ghé thăm#&7warp này.'&f
+    - 'lore3:&f &eNhấn để dịch chuyển'&7&7
+    - '    - amount:1&f&e'
+    - type:stick
+    - custommodeldata:1
+
+    Message: ''
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 50'
+    RewardType: AND
+    Reward:
+    Reward:
+      Reward1:
+      Reward1:
+      RewardType2: CLOSE
+  Teleport3:
+  Teleport3:
+    MenuItem:
+    - 'lore1:&7đừng ngần ngại ghé thăm#&7warp này.'&f
+    - 'lore3:&f &eNhấn để dịch chuyển'&7&7
+    - '    - amount:1&f&e'
+    - type:stick
+    - custommodeldata:1
+
+    Message: ''
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 51'
+    RewardType: AND
+    Reward:
+    Reward:
+      Reward1:
+      Reward1:
+      RewardType2: CLOSE
+      RewardType2: 

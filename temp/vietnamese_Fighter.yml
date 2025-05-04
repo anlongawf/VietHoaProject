@@ -1,0 +1,267 @@
+ShopName: Fighter
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: KitsFighter:KitFighter
+RemovePlayerInventory: true
+shop:
+  Fighter:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:401
+    - 'lore1:&7Sử ᴅụɴɢ ᴋɪᴛ ɴàʏ ᴆể'
+    - 'lore2:&7ɢɪàɴʜ ᴄʜɪếɴ ᴛʜắɴɢ ᴍọɪ ᴛʀậɴ ᴄʜɪếɴ!'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+################################################################################################
+  Redeem_Available:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7ᴋɪᴛ ɴàʏ ᴆᴀɴɢ ꜱẵɴ ꜱàɴɢ#&7ᴆể ʙạɴ ꜱử ᴅụɴɢ#&7ᴄʜɪ̉ ᴠớɪ ᴍột ᴄú ɴʜấᴘ.' 
+    - 'lore3:&f &eɴʜấᴘ ᴄʜᴜột ᴛʀáɪ ᴆể ɴʜậɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: PlayerCommand
+    Reward:
+    - kit fighter
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+    Condition:
+    - type:placeholdermatch
+    - '%essentials_kit_is_available_Fighter%:match:yes'
+    - type:permission
+    - match:essentials.kits.fighter
+  Redeem_Available_2:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7ᴋɪᴛ ɴàʏ ᴆᴀɴɢ ꜱẵɴ ꜱàɴɢ#&7ᴆể ʙạɴ ꜱử ᴅụɴɢ#&7ᴄʜɪ̉ ᴠớɪ ᴍột ᴄú ɴʜấᴘ.' 
+    - 'lore3:&f &eɴʜấᴘ ᴄʜᴜột ᴛʀáɪ ᴆể ɴʜậɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: PlayerCommand
+    Reward:
+    - kit fighter
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+    Condition:
+    - type:placeholdermatch
+    - '%essentials_kit_is_available_Fighter%:match:yes'
+    - type:permission
+    - match:essentials.kits.fighter
+  Redeem_Available_3:
+    MenuItem:
+    - name:&f
+    - 'lore1:&7ᴋɪᴛ ɴàʏ ᴆᴀɴɢ ꜱẵɴ ꜱàɴɢ#&7ᴆể ʙạɴ ꜱử ᴅụɴɢ#&7ᴄʜɪ̉ ᴠớɪ ᴍột ᴄú ɴʜấᴘ.' 
+    - 'lore3:&f &eɴʜấᴘ ᴄʜᴜột ᴛʀáɪ ᴆể ɴʜậɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: PlayerCommand
+    Reward:
+    - kit fighter
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 51
+    Condition:
+    - type:placeholdermatch
+    - '%essentials_kit_is_available_Fighter%:match:yes'
+    - type:permission
+    - match:essentials.kits.fighter
+  Redeem_Cooldown:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙạɴ ᴄầɴ ᴘʜảɪ ᴄʜờ ᴆể'
+    - 'lore2:&7ɴʜậɴ ʟạɪ ᴋɪᴛ ɴàʏ'
+    - 'lore4:&f &eᴆᴀɴɢ ᴛʀᴏɴɢ ᴛʜờɪ ɢɪᴀɴ ᴄʜờ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 49
+    Condition:
+    - type:permission
+    - match:essentials.kits.fighter
+  Redeem_Cooldown_2:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1    - 'lore1:&7ʙᴀ̣ɴ ᴄᴀ̂̀ɴ ᴘʜᴀ̉ɪ ᴄʜᴏ̛̀ đᴇ̂̉'
+    - 'lore2:&7ɴʜᴀ̣̂ɴ ᴋɪᴛ ɴᴀ̀ʏ ᴍᴏ̣̂ᴛ ʟᴀ̂̀ɴ ɴᴜ̛̃ᴀ'
+    - 'lore4:&f &eᴏɴ ᴄᴏᴏʟᴅᴏᴡɴ'&7
+    Message: ''&f&e
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 50'
+    Condition:
+    Condition:
+    - match:essentials.kits.fighter
+  Redeem_Cooldown_3:
+  Redeem_Cooldown_3:
+    MenuItem:
+    - amount:1&f
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙᴀ̣ɴ ᴄᴀ̂̀ɴ ᴘʜᴀ̉ɪ ᴄʜᴏ̛̀ đᴇ̂̉'
+    - 'lore2:&7ɴʜᴀ̣̂ɴ ᴋɪᴛ ɴᴀ̀ʏ ᴍᴏ̣̂ᴛ ʟᴀ̂̀ɴ ɴᴜ̛̃ᴀ'
+    - 'lore4:&f &eᴏɴ ᴄᴏᴏʟᴅᴏᴡɴ'&7
+    Message: ''&f&e
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 51'
+    Condition:
+    Condition:
+    - match:essentials.kits.fighter
+  Redeem_Locked:
+  Redeem_Locked:
+    MenuItem:
+    - amount:1&f
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙᴀ̣ɴ ᴄᴀ̂̀ɴ ᴍᴏ̛̉ ᴋʜᴏ́ᴀ'
+    - 'lore2:&7ᴋɪᴛ ᴛᴜ̛̀ /ʀᴇᴡᴀʀᴅs'
+    - 'lore4:&f &cᴋʜᴏ̂ɴɢ ᴋʜᴀ̉ ᴅᴜ̣ɴɢ'&7
+    Message: ''&f&c
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 49'
+  Redeem_Locked_2:
+  Redeem_Locked_2:
+    MenuItem:
+    - amount:1&f
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙᴀ̣ɴ ᴄᴀ̂̀ɴ ᴍᴏ̛̉ ᴋʜᴏ́ᴀ'
+    - 'lore2:&7ᴋɪᴛ ᴛᴜ̛̀ /ʀᴇᴡᴀʀᴅs'
+    - 'lore4:&f &cᴋʜᴏ̂ɴɢ ᴋʜᴀ̉ ᴅᴜ̣ɴɢ'&7
+    Message: ''&f&c
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 50'
+  Redeem_Locked_3:
+  Redeem_Locked_3:
+    MenuItem:
+    - amount:1&f
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙᴀ̣ɴ ᴄᴀ̂̀ɴ ᴍᴏ̛̉ ᴋʜᴏ́ᴀ'
+    - 'lore2:&7ᴋɪᴛ ᴛᴜ̛̀ /ʀᴇᴡᴀʀᴅs'
+    - 'lore4:&f &cᴋʜᴏ̂ɴɢ ᴋʜᴀ̉ ᴅᴜ̣ɴɢ'&7
+    Message: ''&f&c
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 51'
+################################################################################################
+  Next_Page:
+  Next_Page:
+    MenuItem:
+    - amount:1&8
+    - type:stick
+    - custommodeldata:1
+    RewardType: Shop
+    Reward: Worker
+    Message: ''
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 21'
+  Previous_Page:
+  Previous_Page:
+    MenuItem:
+    - amount:1&8
+    - type:stick
+    - custommodeldata:1
+    RewardType: Shop
+    Reward: Adventurer
+    Message: ''
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 19'
+################################################################################################
+  Item1:
+  Item1:
+    MenuItem:
+    - amount:1&f
+    - type:diamond_helmet
+    - 'lore1:&7ᴘʀᴏᴊ. ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪ#&7ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪɪ#&7ᴜɴʙʀᴇᴀᴋɪɴɢ ɪɪ'
+    - '    - enchantment:UNBREAKING#1&7&7&7'
+    - hideflags:all
+    Message: ''
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 14'
+  Item2:
+  Item2:
+    MenuItem:
+    - amount:1&f
+    - type:iron_chestplate    - 'lore1:&7ᴘʀᴏᴊ. ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪ#&7ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪɪ#&7ᴜɴʙʀᴇᴀᴋɪɴɢ ɪɪ'
+    - enchantment:UNBREAKING#1
+    - '    - hideflags:all&7&7&7'
+    Message: ''
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 15'
+    ExtraPermission: '  Item3:'
+    MenuItem:
+  Item3:
+    MenuItem:
+    - type:diamond_leggings&f
+    - 'lore1:&7ᴘʀᴏᴊ. ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪ#&7ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪɪ#&7ᴜɴʙʀᴇᴀᴋɪɴɢ ɪɪ'
+    - enchantment:UNBREAKING#1
+    - '    - hideflags:all&7&7&7'
+    Message: ''
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 16'
+    ExtraPermission: '  Item4:'
+    MenuItem:
+  Item4:
+    MenuItem:
+    - type:diamond_boots&f
+    - 'lore1:&7ᴘʀᴏᴊ. ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪ#&7ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ɪɪ#&7ᴜɴʙʀᴇᴀᴋɪɴɢ ɪɪ'
+    - enchantment:UNBREAKING#1
+    - '    - hideflags:all&7&7&7'
+    Message: ''
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 17'
+    ExtraPermission: '  Item5:'
+    MenuItem:
+  Item5:
+    MenuItem:
+    - type:diamond_sword  &f
+    - 'lore1:&7ꜰɪʀᴇ ᴀꜱᴘᴇᴄᴛ ɪ#&7ʟᴏᴏᴛɪɴɢ ɪ#&7sʜᴀʀᴘɴᴇss ɪɪ#&7ᴜɴʙʀᴇᴀᴋɪɴɢ ɪ'
+    - enchantment:UNBREAKING#1
+    - '    - hideflags:all&7&7&7&7'
+    Message: ''
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 23'
+    ExtraPermission: '  Item6:'
+    MenuItem:
+  Item6:
+    MenuItem:
+    - type:bow&f
+    - 'lore1:&7ꜰʟᴀᴍᴇ#&7ᴘᴏᴡᴇʀ ɪɪ#&7ᴜɴʙʀᴇᴀᴋɪɴɢ ɪɪ'
+    - enchantment:UNBREAKING#1
+    - '    - hideflags:all&7&7&7'
+    Message: ''
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 24'
+    ExtraPermission: '  Item7:'
+    MenuItem:
+  Item7:
+    MenuItem:
+    - type:shield&f
+    - 'lore1:&7ᴜɴʙʀᴇᴀᴋɪɴɢ ɪɪ'
+    - enchantment:UNBREAKING#1
+    - '    - hideflags:all&7'
+    Message: ''
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 25'
+    ExtraPermission: '  Item8:'
+    MenuItem:
+  Item8:
+    MenuItem:
+    - type:spectral_arrow&f
+    - hideflags:all
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 26'
+    ExtraPermission: ''
+    InventoryLocation: 26

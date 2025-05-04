@@ -1,0 +1,530 @@
+ShopName: Spawners
+DisplayName: '&f'
+Command: spawners
+RemovePlayerInventory: true
+shop:
+#########################################################################################
+#    HEADER ITEMS
+#########################################################################################
+  Tools_Category:
+    MenuItem:
+    - 'lore1:&7ɪᴛᴇᴍꜱ ᴛʜᴀᴛ ʜᴇʟᴘ #&7ᴇᴀꜱᴇ ʏᴏᴜʀ ᴡᴏʀᴋ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Tools
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Commands_Category:
+    MenuItem:
+    - 'lore1:&7ᴜꜱᴇꜰᴜʟ ᴄᴏᴍᴍᴀɴᴅꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Commands
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Cosmetics_Category:
+    MenuItem:
+    - 'lore1:&7ʜᴀᴛs ᴛʜᴀᴛ ᴄᴀɴ ɪᴍᴘʀᴏᴠᴇ#&7ʏᴏᴜʀ ᴀᴘᴘᴇᴀʀᴀɴᴄᴇ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: hatsshop
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Spawner_Category:
+    MenuItem:
+    - 'lore1:&esᴇʟᴇᴄᴛᴇᴅ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Spawners
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Furniture_Category:
+    MenuItem:
+    - 'lore1:&7ɪᴛᴇᴍꜱ ᴛᴏ ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ#&7ʜᴏᴜꜱᴇ ᴀɴᴅ ɢᴀʀᴅᴇɴ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Furniture
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Backpacks_Category: 
+    MenuItem:
+    - 'lore1:&7ᴜꜱᴇꜰᴜʟ ꜰᴏʀ ꜱᴛᴏʀɪɴɢ ɪᴛᴇᴍꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: backpacks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Previous_Shops:
+    MenuItem:
+    - name:&8ᴄᴀ́ᴄ ᴄᴜ̛̉ᴀ ʜᴀ̀ɴɢ ᴛʀᴜ̛ᴏ̛́ᴄ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: 2_Select
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Inventory_Size:
+    MenuItem:
+    - name:&f
+    - type:stick
+    - custommodeldata:1
+    InventoryLocation: 54#########################################################################################
+#    ITEMS AVAILABLE FOR SALE
+#########################################################################################
+  0:
+  0:
+    MenuItem:
+    - '    - type:PLAYER_HEAD&a'
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU5OWRlZWY5MTlkYjY2YWMyYmQyOGQ2MzAyNzU2Y2NkNTdjN2Y4YjEyYjlkY2E4ZjQxYzNlMGEwNGFjMWNjIn19fQ==
+    - amount:1
+    - 'lore2:&f ▪ ᴅᴀɴʜ ᴍỤᴄ: &aᴛʀỨɴɢ'
+    - 'lore3:&f ▪ ɢɪÁ: #dad45e%price%'&a
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'%price%
+    - '    RewardType: COMMAND&f&e'
+    Reward:
+    Reward:
+    PriceType: MONEY%player%
+    Price: 2800
+    Message: '&f &fBạn đã mua &etrứng triệu hồi dơi &fvới giá &a%price%'
+    ExtraPermission: ''&f&f&e&f&a%price%
+    ExtraPermission: '    InventoryLocation: 21'
+  1:
+  1:
+    MenuItem:
+    - '    - type:PLAYER_HEAD&a'
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MjRhOWE0Y2RkNjhiYTQ5NDE1NTYwZTViZTQwYjRhMWM0N2NiNWJlMWQ2NmFlZGI1MmEzMGU2MmVmMmQ0NyJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴅᴀɴʜ ᴍỤᴄ: &aᴛʀỨɴɢ'
+    - 'lore3:&f ▪ ɢɪÁ: #dad45e%price%'&a
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'%price%
+    - '    RewardType: COMMAND&f&e'
+    Reward:
+    Reward:
+    PriceType: MONEY%player%
+    Price: 3500
+    Message: '&f &fBạn đã mua &etrứng triệu hồi ong &fvới giá &a%price%'
+    ExtraPermission: ''&f&f&e&f&a%price%
+    ExtraPermission: '    InventoryLocation: 22'
+  2:
+  2:
+    MenuItem:
+    - '    - type:PLAYER_HEAD&a'
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmIyNTNmYzZiNjU2OTg4NDUzYTJkNzEzOGZjYTRkMWYyNzUyZjQ3NjkxZjBjNDM0ZTQzMjE4Mzc3MWNmZTEifX19
+    - amount:1
+    - 'lore2:&f ▪ ᴅᴀɴʜ ᴍỤᴄ: &aᴛʀỨɴɢ'
+    - 'lore3:&f ▪ ɢɪÁ: #dad45e%price%'&a
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'%price%
+    - '    RewardType: COMMAND&f&e'
+    Reward:
+    Reward:
+    PriceType: MONEY%player%
+    Price: 5750
+    Message: '&f &fBạn đã mua &etrứng triệu hồi mèo &fvới giá &a%price%'
+    ExtraPermission: ''&f&f&e&f&a%price%
+    ExtraPermission: '    InventoryLocation: 23'
+  3:
+  3:
+    MenuItem:
+    - '    - type:PLAYER_HEAD&a'
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5MmQ3ZGQ2YWFkZjM1Zjg2ZGEyN2ZiNjNkYTRlZGRhMjExZGY5NmQyODI5ZjY5MTQ2MmE0ZmIxY2FiMCJ9fX0=
+    - amount:1
+    - 'lore2:&f ▪ ᴅᴀɴʜ ᴍỤᴄ: &aᴛʀỨɴɢ'
+    - 'lore3:&f ▪ ɢɪÁ: #dad45e%price%'
+    - '    RewardType: COMMAND&f%price%'
+    - '    Reward:&f&e'
+    - give %player% cod_spawn_egg 1
+    Reward:
+    Price: 3000%player%
+    Message: '&f &fBạn đã mua &etrứng cá tuyết &fvới giá &a%price%'
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 24&f&f&e&f&a%price%'
+    ExtraPermission: '  4:'
+    MenuItem:
+  4:
+    MenuItem:
+    - '    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU5Njg4Yjk1MGQ4ODBiNTViN2FhMmNmY2Q3NmU1YTBmYTk0YWFjNmQxNmY3OGU4MzNmNzQ0M2VhMjlmZWQzIn19fQ==&a'
+    - amount:1
+    - 'lore2:&f ▪ ᴅᴀɴʜ ᴍỤᴄ: &aᴛʀỨɴɢ'
+    - 'lore3:&f ▪ ɢɪÁ: #dad45e%price%'
+    - 'lore5:&f &eɴʜẤɴ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'&a
+    - '    RewardType: COMMAND&f%price%'
+    - '    Reward:&f&e'
+    - give %player% dolphin_spawn_egg 1
+    Reward:
+    Price: 6500%player%
+    Message: '&f &fBạn đã mua &etrứng tạo vật dolphin &fvới giá &a%price%'
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 25&f&f&e&f&a%price%'
+    ExtraPermission: '  5:'
+    MenuItem:
+  5:
+    MenuItem:
+    - '    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE0NGJkYWQ2YmMxOGEzNzE2YjE5NmRjNGE0YmQ2OTUyNjVlY2NhYWRkMGQ5NDViZWI5NzY0NDNmODI2OTNiIn19fQ==&a'
+    - amount:1
+    - 'lore2:&f ▪ ᴅᴀɴʜ ᴍỤᴄ: &aᴛʀỨɴɢ'
+    - 'lore3:&f ▪ ɢɪÁ: #dad45e%price%'
+    - 'lore5:&f &eɴʜẤɴ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'&a
+    - '    RewardType: COMMAND&f%price%'
+    - '    Reward:&f&e'
+    - give %player% donkey_spawn_egg 1
+    Reward:
+    Price: 4350%player%
+    Message: '&f &fBạn đã mua &etrứng tạo vật donkey &fvới giá &a%price%'
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 29&f&f&e&f&a%price%'
+    ExtraPermission: '  6:'
+    MenuItem:
+  6:
+    MenuItem:
+    - '    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM3ZDhiNDQ5NGY1YTNhZjdlZWM4N2RiYjM0NjZjZDNkZGE3ODM1Y2Y1ZDNhMzVkMWQ2YTFmYTQzMzdlMGIzIn19fQ==&a'
+    - amount:1
+    - 'lore2:&f ▪ ᴅᴀɴʜ ᴍỤᴄ: &aᴛʀỨɴɢ'
+    - 'lore3:&f ▪ ɢɪÁ: #dad45e%price%'
+    - 'lore5:&f &eɴʜẤɴ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'&a
+    - '    RewardType: COMMAND&f%price%'
+    - '    Reward:&f&e'
+    - give %player% fox_spawn_egg 1
+    Reward:
+    Price: 6000%player%
+    Message: '&f &fBạn đã mua &etrứng tạo vật fox &fvới giá &a%price%'
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 30&f&f&e&f&a%price%'
+    ExtraPermission: '  6frog:'
+    MenuItem:
+  6frog:
+    MenuItem:
+    - '    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcyYjllNjYzNzQxZmZmMDdiMGFhZjUxNGFlYmI3MGJiODE0ZjE2ODhlNzk4NDY4MjNjYjRmOTE0NzBkNTYxIn19fQ==  6:&a'
+    MenuItem:
+    - 'name: &aꜰʀᴏɢ ꜱᴘᴀᴡɴ ᴇɢɢ'
+    - type:PLAYER_HEAD
+    - '    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ0ZjQ4YjQ4ZTI0NzQxYjE5Y2I4N2E3YjQ4YjQxZGE4N2QzYjQ0YjI0NzQxYjE5Y2I4N2E3YjQ4In19fQ==&f&a'
+    - '    - amount:1&f%price%'
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴇɢɢ'&e
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    Reward:
+    RewardType: COMMAND%player%
+    Reward:
+    - give %player% frog_spawn_egg 1
+    Message: '    PriceType: MONEY&f&f&e&f&a%price%'
+    ExtraPermission: '    Price: 8000'
+    Message: '&f &fBạn đã mua một &etrứng ếch &fvới giá &a%price%'
+  7:
+    MenuItem:
+    - '  7:&a'
+    MenuItem:
+    - 'name: &aʜᴏʀꜱᴇ ꜱᴘᴀᴡɴ ᴇɢɢ'
+    - type:PLAYER_HEAD
+    - '    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxNWMyN2NiN2MzNWE2ZTdhYTc2MzU3M2RkYmZmOTgwODUxNmJkYWJjMjNmMWNiNTE2MzkxOGM0YTEzOTIifX19&f&a'
+    - '    - amount:1&f%price%'
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴇɢɢ'&e
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    Reward:
+    RewardType: COMMAND%player%
+    Reward:
+    - give %player% horse_spawn_egg 1
+    Message: '    PriceType: MONEY&f&f&e&f&a%price%'
+    ExtraPermission: '    Price: 3800'
+    Message: '&f &fBạn đã mua một &etrứng ngựa &fvới giá &a%price%'
+  8:
+    MenuItem:
+    - '  8:&a'
+    MenuItem:
+    - 'name: &aʟʟᴀᴍᴀ ꜱᴘᴀᴡɴ ᴇɢɢ'
+    - type:PLAYER_HEAD
+    - '    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNkOWI1OTE1OTEyZmZjMmI4NTc2MWQ2YWRjYjQyOGE4MTJmOWI4M2ZmNjM0ZTMzMTE2MmNlNDZjOTllOSJ9fX0=&f&a'
+    - '    - amount:1&f%price%'
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴇɢɢ'&e
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    Reward:
+    RewardType: COMMAND%player%
+    Reward:
+    - give %player% llama_spawn_egg 1
+    Message: '    PriceType: MONEY&f&f&e&f&a%price%'
+    ExtraPermission: '    Price: 5000'
+    Message: '&f &fBạn đã mua một &etrứng lạc đà không bướu &fvới giá &a%price%'
+  9:
+    MenuItem:
+    - '  9:&a'
+    MenuItem:
+    - 'name: &aᴍᴜʟᴇ ꜱᴘᴀᴡɴ ᴇɢɢ'
+    - type:PLAYER_HEAD
+    - '    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZkY2RhMjY1ZTU3ZTRmNTFiMTQ1YWFjYmY1YjU5YmRjNjA5OWZmZDNjY2UwYTY2MWIyYzAwNjVkODA5MzBkOCJ9fX0=&f&a'
+    - '    - amount:1&f%price%'
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴇɢɢ'&e
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    Reward:
+    RewardType: COMMAND%player%
+    Reward:
+    - give %player% mule_spawn_egg 1
+    Message: '    PriceType: MONEY&f&f&e&f&a%price%'
+    ExtraPermission: '    Price: 3750'
+    Message: '&f &fBạn đã mua một &etrứng la &fvới giá &a%price%'
+  10:
+    MenuItem:
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴇɢɢ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    RewardType: COMMAND
+    - '    Reward:&f&a'
+    - '    - give %player% mooshroom_spawn_egg 1&f%price%'
+    - '    PriceType: MONEY&f&e'
+    Price: 11500
+    Reward:
+    ExtraPermission: ''%player%
+    InventoryLocation: 35
+  11:
+    Message: '    MenuItem:&f&f&e&f&a%price%'
+    - 'name: &aᴏᴄᴇʟᴏᴛ ꜱᴘᴀᴡɴ ᴇɢɢ'
+    - type:PLAYER_HEAD
+  11:
+    MenuItem:
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴇɢɢ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    RewardType: COMMAND
+    - '    Reward:&f&a'
+    - '    - give %player% ocelot_spawn_egg 1&f%price%'
+    - '    PriceType: MONEY&f&e'
+    Price: 5200
+    Reward:
+    ExtraPermission: ''%player%
+    InventoryLocation: 38
+  12:
+    Message: '    MenuItem:&f&f&e&f&a%price%'
+    - 'name: &aᴘᴀɴᴅᴀ ꜱᴘᴀᴡɴ ᴇɢɢ'
+    - type:PLAYER_HEAD
+  12:
+    MenuItem:
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴇɢɢ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    RewardType: COMMAND
+    - '    Reward:&f&a'
+    - '    - give %player% panda_spawn_egg 1&f%price%'
+    - '    PriceType: MONEY&f&e'
+    Price: 7000
+    Reward:
+    ExtraPermission: ''%player%
+    InventoryLocation: 39
+  13:
+    Message: '    MenuItem:&f&f&e&f&a%price%'
+    - 'name: &aᴘᴀʀʀᴏᴛ ꜱᴘᴀᴡɴ ᴇɢɢ'
+    - type:PLAYER_HEAD
+  13:
+    MenuItem:
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴇɢɢ'
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    RewardType: COMMAND
+    - '    Reward:&f&a'
+    - '    - give %player% parrot_spawn_egg 1&f%price%'
+    - '    PriceType: MONEY&f&e'
+    Price: 6300
+    Reward:
+    ExtraPermission: ''    InventoryLocation: 40%player%
+  14:
+    MenuItem:
+    - 'name: &aᴘᴏʟᴀʀ ʙᴇᴀʀ ꜱᴘᴀᴡɴ ᴇɢɢ'&f&f&e&f%price%
+    ExtraPermission: '    - type:PLAYER_HEAD'
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ2ZDIzZjA0ODQ2MzY5ZmEyYTM3MDJjMTBmNzU5MTAxYWY3YmZlODQxOTk2NjQyOTUzM2NkODFhMTFkMmIifX19
+  14:
+    MenuItem:
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'&a
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    RewardType: COMMAND
+    Reward:
+    - '    - give %player% polar_bear_spawn_egg 1&f&a'
+    - '    PriceType: MONEY&f%price%'
+    - '    Price: 6700&f&e'
+    Message: '&f &fBạn đã mua &atrứng triệu hồi gấu bắc cực &f với giá &a%price%'
+    Reward:
+    InventoryLocation: 41%player%
+  15:
+    MenuItem:
+    - 'name: &aᴘᴜꜰꜰᴇʀꜰɪꜱʜ ꜱᴘᴀᴡɴ ᴇɢɢ'&f&f&e&f%price%
+    ExtraPermission: '    - type:PLAYER_HEAD'
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNiMTk1NWQzYjZlYjQyZjUwZTUzNmMxYTMyODVhYjczZWQ3ZTJiZTA1MWIwOWIyMWUxNzgxMWYxYTZkIn19fQ==
+  15:
+    MenuItem:
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'&a
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    RewardType: COMMAND
+    Reward:
+    - '    - give %player% pufferfish_spawn_egg 1&f&a'
+    - '    PriceType: MONEY&f%price%'
+    - '    Price: 3500&f&e'
+    Message: '&f &fBạn đã mua &atrứng triệu hồi cá nóc &f với giá &a%price%'
+    Reward:
+    InventoryLocation: 42%player%
+  16:
+    MenuItem:
+    - 'name: &aꜱᴀʟᴍᴏɴ ꜱᴘᴀᴡɴ ᴇɢɢ'&f&f&e&f%price%
+    ExtraPermission: '    - type:PLAYER_HEAD'
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFlYjIxYTI1ZTQ2ODA2Y2U4NTM3ZmJkNjY2ODI4MWNmMTc2Y2VhZmU5NWFmOTBlOTRhNWZkODQ5MjQ4NzgifX19
+  16:
+    MenuItem:
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'&a
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    RewardType: COMMAND
+    Reward:
+    - '    - give %player% salmon_spawn_egg 1&f&a'
+    - '    PriceType: MONEY&f%price%'
+    - '    Price: 3200&f&e'
+    Message: '&f &fBạn đã mua &atrứng triệu hồi cá hồi &f với giá &a%price%'
+    Reward:
+    InventoryLocation: 43%player%
+  17:
+    MenuItem:
+    - 'name: &aᴛʀᴀᴅᴇʀ ʟʟᴀᴍᴀ ꜱᴘᴀᴡɴ ᴇɢɢ'&f&f&e&f%price%
+    ExtraPermission: '    - type:PLAYER_HEAD'
+    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA4N2E1NTZkNGZmYTk1ZWNkMjg0NGYzNTBkYzQzZTI1NGU1ZDUzNWZhNTk2ZjU0MGQ3ZTc3ZmE2N2RmNDY5NiJ9fX0=
+  17:
+    MenuItem:
+    - 'lore3:&f ▪ ᴘʀɪᴄᴇ: #dad45e%price%'&a
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    RewardType: COMMAND
+    Reward:
+    - '    - give %player% trader_llama_spawn_egg 1    PriceType: MONEY&f&a'
+    - '    Price: 5750&f%price%'
+    Message: '&f &fBạn đã mua &etrứng triệu hồi lạc đà không bướu thương nhân &fvới giá &a%price%'
+    ExtraPermission: ''
+    Reward:
+  18:%player%
+    MenuItem:
+    - 'name: &aᴛʀᴏᴘɪᴄᴀʟ ꜰɪꜱʜ ꜱᴘᴀᴡɴ ᴇɢɢ'
+    Message: '    - type:PLAYER_HEAD&f&f&e&f&a%price%'
+    ExtraPermission: '    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZkZDVlNmFkZGI1NmFjYmM2OTRlYTRiYTU5MjNiMWIyNTY4ODE3OGZlZmZhNzIyOTAyOTllMjUwNWM5NzI4MSJ9fX0='
+    - amount:1
+  18:
+    MenuItem:
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'&a
+    RewardType: COMMAND
+    Reward:
+    - give %player% tropical_fish_spawn_egg 1
+    - '    PriceType: MONEY&f&a'
+    - '    Price: 3700&f%price%'
+    Message: '&f &fBạn đã mua &etrứng triệu hồi cá nhiệt đới &fvới giá &a%price%'
+    ExtraPermission: ''
+    Reward:
+  19:%player%
+    MenuItem:
+    - 'name: &aᴛᴜʀᴛʟᴇ ꜱᴘᴀᴡɴ ᴇɢɢ'
+    Message: '    - type:PLAYER_HEAD&f&f&e&f&a%price%'
+    ExtraPermission: '    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMGE0MDUwZTdhYWNjNDUzOTIwMjY1OGZkYzMzOWRkMTgyZDdlMzIyZjlmYmNjNGQ1Zjk5YjU3MThhIn19fQ=='
+    - amount:1
+  19:
+    MenuItem:
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'&a
+    RewardType: COMMAND
+    Reward:
+    - give %player% turtle_spawn_egg 1
+    - '    PriceType: MONEY&f&a'
+    - '    Price: 5250&f%price%'
+    Message: '&f &fBạn đã mua &etrứng triệu hồi rùa &fvới giá &a%price%'
+    ExtraPermission: ''
+    Reward:
+  20:%player%
+    MenuItem:
+    - 'name: &aᴠɪʟʟᴀɢᴇʀ ꜱᴘᴀᴡɴ ᴇɢɢ'
+    Message: '    - type:PLAYER_HEAD&f&f&e&f&a%price%'
+    ExtraPermission: '    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFiODMwZWI0MDgyYWNlYzgzNmJjODM1ZTQwYTExMjgyYmI1MTE5MzMxNWY5MTE4NDMzN2U4ZDM1NTU1ODMifX19'
+    - amount:1
+  20:
+    MenuItem:
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'&a
+    RewardType: COMMAND
+    Reward:
+    - give %player% villager_spawn_egg 1
+    - '    PriceType: MONEY&f&a'
+    - '    Price: 6000&f%price%'
+    Message: '&f &fBạn đã mua &etrứng triệu hồi dân làng &fvới giá &a%price%'
+    ExtraPermission: ''
+    Reward:
+  21:%player%
+    MenuItem:
+    - 'name: &aᴡᴀɴᴅᴇʀᴇɪɴɢ ᴛʀᴀᴅᴇʀ ꜱᴘᴀᴡɴ ᴇɢɢ'
+    Message: '    - type:PLAYER_HEAD&f&f&e&f&a%price%'
+    ExtraPermission: '    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWYxMzc5YTgyMjkwZDdhYmUxZWZhYWJiYzcwNzEwZmYyZWMwMmRkMzRhZGUzODZiYzAwYzkzMGM0NjFjZjkzMiJ9fX0='
+    - amount:1
+  21:
+    MenuItem:
+    - '    RewardType: COMMAND&a'
+    Reward:
+    - give %player% wandering_trader_spawn_egg 1
+    PriceType: MONEY
+    - '    Price: 7000&f&a'
+    Message: '&f &fBạn đã mua &etrứng triệu hồi wandering trader &fvới giá &a%price%'
+    ExtraPermission: ''&f&e
+    InventoryLocation: 52
+    Reward:
+    MenuItem:%player%
+    - 'name: &aᴛʀỨɴɢ ᴛRɪỆU ʜỒI ᴡᴏʟꜰ'
+    - type:PLAYER_HEAD
+    Message: '    - customskull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjlkMWQzMTEzZWM0M2FjMjk2MWRkNTlmMjgxNzVmYjQ3MTg4NzNjNmM0NDhkZmNhODcyMjMxN2Q2NyJ9fX0=&f&f&e&f&a%price%'
+    ExtraPermission: '    - amount:1'
+    - 'lore2:&f ▪ ᴄᴀᴛᴇɢᴏʀʏ: &aᴛʀỨɴɢ'
+  22:
+    MenuItem:
+    - '    RewardType: COMMAND&a'
+    Reward:
+    - give %player% wolf_spawn_egg 1
+    PriceType: MONEY
+    - '    Price: 5000&f&a'
+    Message: '&f &fBạn đã mua &etrứng triệu hồi wolf &fvới giá &a%price%'
+    ExtraPermission: ''&f&e
+    InventoryLocation: 53
+    Reward:
+#    FOOTER ITEMS%player%
+#########################################################################################
+  Next_Page:
+    Message: '    MenuItem:&f&f&e&f&a%price%'
+    ExtraPermission: '    - name:&8ᴛʀᴀɴɢ ᴋẾ ᴛɪẾᴘ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+  Next_Page:
+    MenuItem:
+    Message: ''&8
+    ExtraPermission: ''
+    InventoryLocation: 36
+
+
+    Reward: spawners2
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36   

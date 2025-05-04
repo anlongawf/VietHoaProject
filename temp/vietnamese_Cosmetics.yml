@@ -1,0 +1,439 @@
+ShopName: HatsShop
+DisplayName: '&f'
+Command: hats
+RemovePlayerInventory: true
+shop:
+#########################################################################################
+#    HEADER ITEMS
+#########################################################################################
+  Tools_Category:
+    MenuItem:
+    - 'lore1:&7ɪᴛᴇᴍꜱ ᴛʜᴀᴛ ʜᴇʟᴘ #&7ᴇᴀꜱᴇ ʏᴏᴜʀ ᴡᴏʀᴋ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Tools
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Commands_Category:
+    MenuItem:
+    - 'lore1:&7ᴜꜱᴇꜰᴜʟ ᴄᴏᴍᴍᴀɴᴅꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Commands
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Cosmetics_Category:
+    MenuItem:
+    - 'lore1:&esᴇʟᴇᴄᴛᴇᴅ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: hatsshop
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Spawner_Category:
+    MenuItem:
+    - 'lore1:&7ʙʟᴏᴄᴋs ᴛʜᴀᴛ ꜱᴘᴀᴡɴ ᴍᴏʙꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Spawners
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Furniture_Category:
+    MenuItem:
+    - 'lore1:&7ɪᴛᴇᴍꜱ ᴛᴏ ᴅᴇᴄᴏʀᴀᴛᴇ ʏᴏᴜʀ#&7ʜᴏᴜꜱᴇ ᴀɴᴅ ɢᴀʀᴅᴇɴ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Furniture
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Backpacks_Category: 
+    MenuItem:
+    - 'lore1:&7ᴜꜱᴇꜰᴜʟ ꜰᴏʀ ꜱᴛᴏʀɪɴɢ ɪᴛᴇᴍꜱ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: backpacks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Previous_Shops:
+    MenuItem:
+    - name:&8ɴᴇxᴛ sʜᴏᴘs
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: 2_Select
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Inventory_Size:
+    MenuItem:
+    - name:&f
+    - type:stick
+    - custommodeldata:1
+    InventoryLocation: 54
+#########################################################################################
+#    ITEMS AVAILABLE FOR SALE#########################################################################################
+  1:
+    MenuItem:
+    - 'lore1: &7ᴇxᴄʟᴜsɪᴠᴇ ꜰᴏʀ ᴀ ᴋɪɴɢ'
+    - 'lore3: &f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜUỘᴛ TRÁI ĐỂ MUA'&7
+    - '    - name:#E58E02ᴄʀᴏᴡɴ&f%price%&f&f&e'
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:19
+    - RewardType: COMMAND
+    RewardType: 
+    - 'dgive %player% leather_horse_armor 1 -silent -name <#E58E02>ᴄʀᴏᴡɴ -lore &7ᴇxᴄʟᴜsɪᴠᴇ ꜰᴏʀ ᴀ ᴋɪɴɢ -custommodeldata 19'
+    - '    - PriceType: MONEY%player%&7'
+    PriceType: 10000
+    Price: '&f &fBạn đã mua &ecrown &fvới giá &a%price%'
+    Message: ''&f&f&e&f&a%price%
+    ExtraPermission: '    ExtraPermission: 21'
+    InventoryLocation: 
+    MenuItem:
+    - 'lore1: &7ɪᴅᴇᴀʟ ꜰᴏʀ ᴀɴ#&7ᴏʀɪᴇɴᴛᴀʟ ᴘᴀʀᴛʏ'
+    - 'lore3: &f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜUỘᴛ TRÁI ĐỂ MUA'&7&7
+    - '    - name:#28E502ᴛɪᴋɪ ʜᴀᴛ&f%price%&f&f&e'
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:1
+    - RewardType: COMMAND
+    RewardType: 
+    - dgive %player% leather_horse_armor 1 -silent -name <#28E502>ᴛɪᴋɪ ʜᴀᴛ -lore &7ɪᴅᴇᴀʟ ꜰᴏʀ ᴀɴ\n&7ᴏʀɪᴇɴᴛᴀʟ ᴘᴀʀᴛʏ -custommodeldata 1
+    - PriceType: MONEY%player%&7&7
+    PriceType: 6500
+    Price: '&f &fBạn đã mua &etiki hat &fvới giá &a%price%'
+    Message: ''&f&f&e&f&a%price%
+    ExtraPermission: '    ExtraPermission: 22'
+    InventoryLocation: 
+    MenuItem:
+    - 'lore1: &7ᴀ sʏᴍʙᴏʟ ꜰᴏʀ#&7ᴀ ꜰɪɢʜᴛᴇʀ'
+    - 'lore3: &f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜUỘᴛ TRÁI ĐỂ MUA'&7&7
+    - '    - name:#FFC800ᴠɪᴋɪɴɢ ʜᴏʀɴs ʜᴀᴛ&f%price%&f&f&e'
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:5
+    - RewardType: COMMAND
+    RewardType: 
+    - dgive %player% leather_horse_armor 1 -silent -name <#FFC800>ᴠɪᴋɪɴɢ ʜᴏʀɴs ʜᴀᴛ -lore &7ᴀ sʏᴍʙᴏʟ ꜰᴏʀ\n&7ᴀ ꜰɪɢʜᴛᴇʀ -custommodeldata 5
+    - PriceType: MONEY%player%&7&7
+    PriceType: 5500
+    Price: '&f &fBạn đã mua &eviking horns hat &fvới giá &a%price%'
+    Message: ''&f&f&e&f&a%price%
+    ExtraPermission: '    ExtraPermission: 23'
+    InventoryLocation: 
+    MenuItem:
+    - 'lore1: &7ᴀ ʀᴇᴀʟ ʜᴀᴛ ꜰᴏʀ#&7ᴀ ᴠɪᴋɪɴɢ'
+    - 'lore3: &f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜUỘᴛ TRÁI ĐỂ MUA'&7&7
+    - '    - name:#0077FFᴠɪᴋɪɴɢ ʜᴀᴛ&f%price%&f&f&e'
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:3
+    - RewardType: COMMAND
+    RewardType: 
+    - dgive %player% leather_horse_armor 1 -silent -name <#0077FF>ᴠɪᴋɪɴɢ ʜᴀᴛ -lore &7ᴀ ʀᴇᴀʟ ʜᴀᴛ ꜰᴏʀ\n&7ᴀ ᴠɪᴋɪɴɢ -custommodeldata 3
+    - PriceType: MONEY%player%&7&7
+    PriceType: 6750
+    Price: '&f &fBạn đã mua &eviking hat &fvới giá &a%price%'
+    Message: ''&f&f&e&f&a%price%
+    ExtraPermission: '    ExtraPermission: 24'
+    InventoryLocation: 
+    MenuItem:
+    - 'lore1: &7ɢᴏʀɢᴇᴏᴜs ʙᴜᴛ ɴᴏᴛ#&7ʀᴇᴀʟʟʏ ᴘʀᴏᴛᴇᴄᴛɪᴠᴇ'
+    - 'lore3: &f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜUỘᴛ TRÁI ĐỂ MUA'&7&7
+    - '    - name:#0651A7ᴠɪᴋɪɴɢ ʜᴇʟᴍᴇᴛ&f%price%&f&f&e'
+    - amount:1
+    - type:leather_horse_armor  7:
+    - MenuItem:
+    - 'lore1: &7ʙảᴏ ᴠệ ʙảɴ ᴛʜâɴ ᴋʜỏɪ#&7ᴛɪᴀ ɴắɴɢ ᴍặᴛ ᴛʀờɪ'
+    RewardType: - 'lore3: &f  ▪ ɢɪá: #dad45e%price%#&f#&f &eɴʜấɴ ᴄʜᴜộᴛ ᴛʀáɪ để ᴍᴜᴀ'
+    - name:#202E3Esᴜɴɢʟᴀsᴇss
+    - amount:1%player%&7&7
+    PriceType: - type:leather_horse_armor
+    Price: - custommodeldata:9
+    Message: '    Message: COMMAND&f&f&e&f&a%price%'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - dgive %player% leather_horse_armor 1 -silent -name <#202E3E>sᴜɴɢʟᴀsᴇss -lore &7ʙảᴏ ᴠệ ʙảɴ ᴛʜâɴ ᴋʜỏɪ\n&7ᴛɪᴀ ɴắɴɢ ᴍặᴛ ᴛʀờɪ -custommodeldata 9
+    PriceType: MONEY
+    Price: 800
+    - '&f &fBạn đã mua một cặp &esunglasess &fvới giá &a%price%''s ʀᴀʏs'
+    - ExtraPermission: ''&f%price%&f&f&e
+    - InventoryLocation: 29
+    - 8:
+    - MenuItem:
+    - 'lore1: &7ʙɪếɴ ʙạɴ ᴛʜàɴʜ#&7ᴍộᴛ ᴛʜɪêɴ ᴛʜầɴ'
+    RewardType: - 'lore3: &f  ▪ ɢɪá: #dad45e%price%#&f#&f &eɴʜấɴ ᴄʜᴜộᴛ ᴛʀáɪ để ᴍᴜᴀ'
+    - name:#F1E04Aʜᴀʟᴏ ᴄɪʀᴄʟᴇ
+    - dgive %player% leather_horse_armor 1 -silent -name <#202E3E>sᴜɴɢʟᴀsᴇss -lore &7ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀsᴇʟꜰ ꜰʀᴏᴍ\n&7ᴛʜᴇ sᴜɴ'    - amount:1%player%&7&7's ʀᴀʏs -custommodeldata 9
+    PriceType: - type:leather_horse_armor
+    Price: - custommodeldata:17
+    Message: '    Message: COMMAND&f&f&e&f&a%price%'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - dgive %player% leather_horse_armor 1 -silent -name <#F1E04A>ʜᴀʟᴏ ᴄɪʀᴄʟᴇ -lore &7ʙɪếɴ ʙạɴ ᴛʜàɴʜ\n&7ᴍộᴛ ᴛʜɪêɴ ᴛʜầɴ -custommodeldata 17
+    PriceType: MONEY
+    Price: 1500
+    - Message: '&f &fBạn đã mua một &ehalo circle &fvới giá &a%price%'&7&7
+    - ExtraPermission: ''&f%price%&f&f&e
+    - InventoryLocation: 30
+    - 9:
+    - MenuItem:
+    - 'lore1: &7ʜãʏ ᴄẩɴ ᴛʜậɴ ᴠớɪ ᴠɪʀᴜs#&7xᴜɴɢ ǫᴜᴀɴʜ ʙạɴ'
+    RewardType: - 'lore3: &f  ▪ ɢɪá: #dad45e%price%#&f#&f &eɴʜấɴ ᴄʜᴜộᴛ ᴛʀáɪ để ᴍᴜᴀ'
+    - name:#1D1F1Dᴍᴀsᴋ
+    - amount:1%player%&7&7
+    PriceType: - type:leather_horse_armor
+    Price: - custommodeldata:18
+    Message: '    Message: COMMAND&f&f&e&f&a%price%'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - dgive %player% leather_horse_armor 1 -silent -name <#1D1F1D>ᴍᴀsᴋ -lore &7ʜãʏ ᴄẩɴ ᴛʜậɴ ᴠớɪ ᴠɪʀᴜs\n&7xᴜɴɢ ǫᴜᴀɴʜ ʙạɴ -custommodeldata 18
+    PriceType: MONEY
+    Price: 400
+    - Message: '&f &fBạn đã mua một chiếc &emask &fvới giá &a%price%'&7&7
+    - ExtraPermission: ''&f%price%&f&f&e
+    - InventoryLocation: 31
+    - 10:
+    - MenuItem:
+    - 'lore1: &7ᴠᴜɪ ᴠẻ ᴠà ɢɪảɪ ᴛʀí'
+    RewardType: - 'lore3: &f  ▪ ɢɪá: #dad45e%price%#&f#&f &eɴʜấɴ ᴄʜᴜộᴛ ᴛʀáɪ để ᴍᴜᴀ'
+    - name:#C8D4C8ʙᴜɴɴʏ ᴇᴀʀs
+    - amount:1%player%&7&7
+    PriceType: - type:leather_horse_armor
+    Price: - custommodeldata:12
+    Message: '    Message: COMMAND&f&f&e&f&a%price%'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - dgive %player% leather_horse_armor 1 -silent -name <#C8D4C8>ʙᴜɴɴʏ ᴇᴀʀs -lore &7ᴠᴜɪ ᴠẻ ᴠà ɢɪảɪ ᴛʀí -custommodeldata 12
+    PriceType: MONEY
+    Price: 650
+    - Message: '&f &fBạn đã mua một đôi &ebᴜɴɴʏ ᴇᴀʀs &fvới giá &a%price%'&7
+    - '    - &f%price%&f&f&e'
+    - type:leather_horse_armor
+    - custommodeldata:12
+    - RewardType: COMMAND
+    - Reward:
+    RewardType: - dgive %player% leather_horse_armor 1 -silent -name <#C8D4C8>ʙᴜɴɴʏ ᴇᴀʀs -lore &7ꜰᴜɴ ᴀɴᴅ ᴇɴᴛᴇʀᴛᴀɪɴɪɴɢ -custommodeldata 12
+    PriceType: MONEY
+    - Price: 650    Message: '&f &fBạn đã mua một đôi &etai thỏ &fvới giá &a%price%'%player%&7
+    PriceType: ''
+    Price: 32
+    Message: '    Message: &f&f&e&f&a%price%'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - 'lore1: &7ᴍột ᴅᴀɴʜ ʜɪệᴜ ʜùɴɢ ᴍạɴʜ#&7ᴄủᴀ ʀừɴɢ xᴀɴʜ'
+    - 'lore3: &f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    - name:#633511ɢạᴄʜ ɴᴀᴍ
+    - '    - amount:1&7&7'
+    - '    - type:leather_horse_armor&f%price%&f&f&e'
+    - custommodeldata:10
+    - RewardType: COMMAND
+    - Reward:
+    - dgive %player% leather_horse_armor 1 -silent -name <#633511>ɢạᴄʜ ɴᴀᴍ -lore &7ᴍột ᴅᴀɴʜ ʜɪệᴜ ʜùɴɢ ᴍạɴʜ\n&7ᴄủᴀ ʀừɴɢ xᴀɴʜ -custommodeldata 10
+    RewardType: MONEY
+    Price: 2350
+    - Message: '&f &fBạn đã mua một đôi &esừng hươu &fvới giá &a%price%'%player%&7&7
+    PriceType: ''
+    Price: 33
+    Message: '    Message: &f&f&e&f&a%price%'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - 'lore1: &7ᴍột ᴍóɴ Đồ ᴛʀᴜʏềɴ ᴛʜốɴɢ'
+    - 'lore3: &f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    - name:#031B63ᴍũ ʙᴇᴀɴɪᴇ
+    - '    - amount:1&7'
+    - '    - type:leather_horse_armor&f%price%&f&f&e'
+    - custommodeldata:7
+    - RewardType: COMMAND
+    - Reward:
+    - dgive %player% leather_horse_armor 1 -silent -name <#031B63>ᴍũ ʙᴇᴀɴɪᴇ -lore &7ᴍột ᴍóɴ Đồ ᴛʀᴜʏềɴ ᴛʜốɴɢ -custommodeldata 7
+    RewardType: MONEY
+    Price: 1800
+    - Message: '&f &fBạn đã mua một chiếc &emũ beanie &fvới giá &a%price%'%player%&7
+    PriceType: ''
+    Price: 34
+    Message: '    Message: &f&f&e&f&a%price%'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - 'lore1: &7ᴍột ᴍóɴ Đồ ʟý ᴛưởɴɢ#&7ᴄʜᴏ ᴍÙᴀ Đôɴɢ'
+    - 'lore3: &f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    - name:#2D190Aᴍũ ᴍÙᴀ Đôɴɢ
+    - '    - amount:1&7&7'
+    - '    - type:leather_horse_armor&f%price%&f&f&e'
+    - custommodeldata:6
+    - RewardType: COMMAND
+    - Reward:
+    - dgive %player% leather_horse_armor 1 -silent -name <#2D190A>ᴍũ ᴍÙᴀ Đôɴɢ -lore &7ᴍột ᴍóɴ Đồ ʟý ᴛưởɴɢ\n&7ᴄʜᴏ ᴍÙᴀ Đôɴɢ -custommodeldata 6
+    RewardType: MONEY
+    Price: 2300
+    - Message: '&f &fBạn đã mua một chiếc &emũ mùa đông &fvới giá &a%price%'%player%&7&7
+    PriceType: ''
+    Price: 35
+    Message: '    Message: &f&f&e&f&a%price%'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - 'lore1: &7ᴍũ ᴍÙᴀ Đôɴɢ Ấᴍ Áᴘ ɴʜẤᴛ'
+    - 'lore3: &f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    - name:#312E29ᴍũ ʟôɴɢ
+    - '    - amount:1&7'
+    - '    - type:leather_horse_armor&f%price%&f&f&e'
+    - custommodeldata:14
+    - RewardType: COMMAND
+    - Reward:
+    - dgive %player% leather_horse_armor 1 -silent -name <#312E29>ᴍũ ʟôɴɢ -lore &7ᴍũ ᴍÙᴀ Đôɴɢ Ấᴍ Áᴘ ɴʜẤᴛ -custommodeldata 14
+    RewardType: MONEY
+    Price: 2500
+    - Message: '&f &fBạn đã mua một chiếc &emũ lông &fvới giá &a%price%'%player%&7
+    PriceType: ''
+    Price: 38
+    Message: '    Message: &f&f&e&f&a%price%'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - 'lore1: &7ʜÃʏ ᴛỰ ʙẢᴏ ᴠỆ ᴍÌɴʜ ᴛẠɪ#&7ᴄôɴɢ ᴛʀÌɴʜ xÂʏ ᴅỰɴɢ'
+    - 'lore3: &f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    - name:#C78C2Eᴍũ ᴄỨɴɢ    - amount:1
+    - '    - type:leather_horse_armor&7&7'
+    - '    - custommodeldata:16&f%price%&f&f&e'
+    - RewardType: COMMAND
+    - Reward:
+    - dgive %player% leather_horse_armor 1 -silent -name <#C78C2E>ʜᴀʀᴅ ʜᴀᴛ -lore &7ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀsᴇʟꜰ ᴏɴ ᴛʜᴇ\n&7ᴄᴏɴsᴛʀᴜᴄᴛɪᴏɴ sɪᴛᴇ -custommodeldata 16
+    - PriceType: MONEY
+    RewardType: 3250
+    Message: '&f &fBạn đã mua &emũ cứng &fvới giá &a%price%'
+    - ExtraPermission: ''%player%&7&7
+    PriceType: 39
+    Price: 
+    Message: '    Message: &f&f&e&f&a%price%'
+    ExtraPermission: - 'lore1: &7ʟý ᴛưởɴɢ ᴄʜᴏ ᴍộᴛ#&7ɴôɴɢ ᴅâɴ ʟÂᴜ đờɪ'
+    InventoryLocation: - 'lore3: &f  ▪ ɢɪÁ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    - name:#FFEC15ᴍũ ʀƠM
+    - amount:1
+    - '    - type:leather_horse_armor&7&7'
+    - '    - custommodeldata:15&f%price%&f&f&e'
+    - RewardType: COMMAND
+    - Reward:
+    - dgive %player% leather_horse_armor 1 -silent -name <#FFEC15>ᴍũ ʀƠM -lore &7ʟý ᴛưởɴɢ ᴄʜᴏ ᴍộᴛ\n&7ɴôɴɢ ᴅâɴ ʟÂᴜ đờɪ -custommodeldata 15
+    - PriceType: MONEY
+    RewardType: 2750
+    Message: '&f &fBạn đã mua &emũ rơm &fvới giá &a%price%'
+    - ExtraPermission: ''%player%&7&7
+    PriceType: 40
+    Price: 
+    Message: '    Message: &f&f&e&f&a%price%'
+    ExtraPermission: - 'lore1: &7ʙẢᴏ ᴠỆ ĐẦᴜ ᴋʜỎɪ#&7ᴛɪᴀ ɴẮɴɢ ᴍẶᴛ ᴛʀờɪ'
+    InventoryLocation: - 'lore3: &f  ▪ ɢɪÁ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    - name:#28201Bʙʀᴇᴛᴏɴ
+    - amount:1
+    - '    - type:leather_horse_armor&7&7''s ʀᴀʏs'
+    - '    - custommodeldata:20&f%price%&f&f&e'
+    - RewardType: COMMAND
+    - Reward:
+    - dgive %player% leather_horse_armor 1 -silent -name <#28201B>ʙʀᴇᴛᴏɴ -lore &7ʙẢᴏ ᴠỆ ĐẦᴜ ᴋʜỎɪ\n&7ᴛɪᴀ ɴẮɴɢ ᴍẶᴛ ᴛʀờɪ -custommodeldata 20
+    - PriceType: MONEY
+    RewardType: 3100
+    Message: '&f &fBạn đã mua &ebreton &fvới giá &a%price%'
+    - ExtraPermission: ''%player%&7&7
+    PriceType: 41
+    Price: 
+    Message: '    Message: &f&f&e&f&a%price%'
+    ExtraPermission: - 'lore1: &7ʟý ᴛưởɴɢ ᴄʜᴏ ᴍộᴛ#&7ɴʜÀ ᴠĂɴ ᴄỔ đẠɪ'
+    InventoryLocation: - 'lore3: &f  ▪ ɢɪÁ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    - name:#8D580Fʜᴏᴍʙᴜʀɢ
+    - amount:1
+    - '    - type:leather_horse_armor&7&7'
+    - '    - custommodeldata:11&f%price%&f&f&e'
+    - RewardType: COMMAND
+    - Reward:
+    - dgive %player% leather_horse_armor 1 -silent -name <#8D580F>ʜᴏᴍʙᴜʀɢ -lore &7ʟý ᴛưởɴɢ ᴄʜᴏ ᴍộᴛ\n&7ɴʜÀ ᴠĂɴ ᴄỔ đẠɪ -custommodeldata 11
+    - PriceType: MONEY
+    RewardType: 4000
+    Message: '&f &fBạn đã mua &ehomburg &fvới giá &a%price%'
+    - ExtraPermission: ''%player%&7&7
+    PriceType: 42
+    Price: 
+    Message: '    Message: &f&f&e&f&a%price%'
+    ExtraPermission: - 'lore1: &7sỬ ᴅỤɴɢ ɴÓ ĐỂ ɢɪẤᴜ ᴄʜÚ ᴛHỎ'
+    InventoryLocation: - 'lore3: &f  ▪ ɢɪÁ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    - name:#251626ᴛᴏᴘ  ʙᴏᴀʀᴅ
+    - amount:1
+    - '    - type:leather_horse_armor&7'
+    - '    - custommodeldata:13&f%price%&f&f&e'
+    - RewardType: COMMAND
+    - Reward:
+    - dgive %player% leather_horse_armor 1 -silent -name <#251626>ᴛᴏᴘ  ʙᴏᴀʀᴅ -lore &7sỬ ᴅỤɴɢ ɴÓ ĐỂ ɢɪẤᴜ ᴄʜÚ ᴛHỎ -custommodeldata 13
+    - PriceType: MONEY    Price: 4500
+    RewardType: '&f &fBạn đã mua một &etop board &fvới giá &a%price%'
+    ExtraPermission: ''
+    - InventoryLocation: 43%player%&7
+    PriceType: 
+    Price: 
+    Message: - 'lore1: &7ᴍᴀᴋᴇ ʙᴇᴛᴛᴇʀ ᴘᴏᴛɪᴏɴꜱ#&7ᴡʜᴇɴ ʏᴏᴜ ᴡᴇᴀʀ ᴛʜɪs'&f&f&e&f&a%price%
+    ExtraPermission: - 'lore3: &f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍUA'
+    InventoryLocation: - name:#630193ᴡɪᴛᴄʜ ʜᴀᴛ
+    - amount:1
+    - type:leather_horse_armor
+    - '    - custommodeldata:2&7&7'
+    - '    - RewardType: COMMAND&f%price%&f&f&e'
+    - Reward:
+    - dgive %player% leather_horse_armor 1 -silent -name <#630193>ᴡɪᴛᴄʜ ʜᴀᴛ -lore &7ᴍᴀᴋᴇ ʙᴇᴛᴛᴇʀ ʟɪǫᴜᴏʀ''s\n&7ᴡʜᴇɴ ʏᴏᴜ ᴡᴇᴀʀ ᴛʜɪs -custommodeldata 2
+    - PriceType: MONEY
+    - Price: 5000
+    RewardType: '&f &fBạn đã mua một &ewitch Hat &fvới giá &a%price%'
+    ExtraPermission: ''
+    - dgive %player% leather_horse_armor 1 -silent -name <#630193>ᴡɪᴛᴄʜ ʜᴀᴛ -lore &7ᴍᴀᴋᴇ ʙᴇᴛᴛᴇʀ ʟɪǫᴜᴏʀ'    - InventoryLocation: 44%player%&7&7's\n&7ᴡʜᴇɴ ʏᴏᴜ ᴡᴇᴀʀ ᴛʜɪs -custommodeldata 2
+    PriceType: 
+    Price: 
+    Message: '    Message: - name:&aʜᴀᴛ ᴄᴏᴍᴍᴀɴᴅ&f&f&e&f%price%'
+    ExtraPermission: '    ExtraPermission: - amount:1'
+    InventoryLocation: - type:book
+    - 'lore1:&7Để Đeo những chiếc nón này bạn cần #&f/ʜᴀᴛ &7ᴄᴏᴍᴍᴀɴᴅ.'
+    - 'lore3:&f &aĐÃ ᴍUA'
+    - Message: ''&a
+    - ExtraPermission: ''
+    - InventoryLocation: 50
+    - '    - Condition:&7&f&7'
+    - '    - type:permission&f&a'
+    Message: '    Message: - match:dreamcore.hat.use'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:&aʜᴀᴛ ᴄᴏᴍᴍᴀɴᴅ
+    - amount:1
+    - type:book
+    - 'lore1:&7Để Đeo những chiếc nón này bạn cần #&f/ʜᴀᴛ &7ᴄᴏᴍᴍᴀɴᴅ.'
+    - 'lore3:&f  ▪ ᴘʀɪᴄᴇ: #dad45e%price%#&f#&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍUA'
+    - RewardType: COMMAND&a
+    - Reward:
+    - lp user %player% permission set dreamcore.hat.use
+    - '    - PriceType: MONEY&7&f&7'
+    - '    - Price: 3500&f%price%&f&f&e'
+    RewardType: ''
+    ExtraPermission: ''
+    - InventoryLocation: 50%player%
+    PriceType: 
+    Price: 3500
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50

@@ -1,0 +1,1010 @@
+ShopName: Rewards2
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: Rewards2
+RemovePlayerInventory: true
+shop:
+  Daily:
+    MenuItem:
+    - name:#fca475ᴘʜᴀ̂̀ɴ ᴛʜᴜ̛ᴏ̛̉ɴɢ ʜᴀ̀ɴɢ ɴɢᴀ̀ʏ ᴄᴜ̉ᴀ ʙᴀ̣ɴ
+    - amount:1
+    - type:stick
+    - custommodeldata:141
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Daily Key &7x1'
+    - 'lore5:&f &7ᴍỞ ᴋʜÓᴀ ʙẰɴɢ &6/ᴅᴀɪʟʏ'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  Every3:
+    MenuItem:
+    - name:#80c8fcᴘʜᴀ̂̀ɴ ᴛʜᴜ̛ᴏ̛̉ɴɢ ᴍỖɪ 3 ᴛɪẾɴɢ
+    - amount:1
+    - type:stick
+    - custommodeldata:142
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Balanced Key &7x1'
+    - 'lore5:&f &7ʙᴀ̣ɴ ɴʜẬɴ đƯỢᴄ ᴋʜÓᴀ ɴÀʏ ᴠÀᴏ'
+    - 'lore6:&7ᴍỖɪ 3 ᴛɪẾɴɢ ᴄʜƠɪ'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 28
+  19_redeemed:
+    MenuItem:
+    - name:#9fca36&mᴘʜᴀ̂̀ɴ ᴛʜƯỞɴɢ ᴛʜỜɪ ɢɪᴀɴ ᴄʜƠɪ 19
+    - amount:1
+    - type:stick
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Enchanted Book &7x1'
+    - 'lore5:&f &aĐÃ ɴʜẬɴ'
+    - enchantment:LOOTING#2
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+    Condition:
+    - type:permission
+    - match:reward.take.19
+  20_redeemed:
+    MenuItem:
+    - name:#9fca36&mᴘʜᴀ̂̀ɴ ᴛʜƯỞɴɢ ᴛʜỜɪ ɢɪᴀɴ ᴄʜƠɪ 20
+    - amount:1
+    - type:stick
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Netherite Helmet &7x1'
+    - 'lore4:&f ▪ &f &7x1'
+    - 'lore6:&f &aĐÃ ɴʜẬɴ'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+    Condition:
+    - type:permission
+    - match:reward.take.20
+  21_redeemed:
+    MenuItem:
+    - name:#9fca36&mᴘʜᴀ̂̀ɴ ᴛʜƯỞɴɢ ᴛʜỜɪ ɢɪᴀɴ ᴄʜƠɪ 21
+    - amount:1
+    - type:stick
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Ender Chest &7x1'
+    - 'lore5:&f &aĐÃ ɴʜẬɴ'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    Condition:
+    - type:permission
+    - match:reward.take.21
+  22_redeemed:
+    MenuItem:
+    - name:#9fca36&mᴘʜᴀ̂̀ɴ ᴛʜƯỞɴɢ ᴛʜỜɪ ɢɪᴀɴ ᴄʜƠɪ 22
+    - amount:1
+    - type:stick
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Wither Skeleton Skull &7x1'
+    - 'lore4:&f ▪ Potion of Strength II &7x2'
+    - 'lore6:&f &aĐÃ ɴʜẬɴ'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15    Condition:
+    - type:permission
+    - match:reward.take.22
+    - 23_redeemed:
+    MenuItem:
+    - name:#9fca36&mᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 23
+    - amount:1&m
+    - type:stick
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Hopper &7x5'
+    - 'lore5:&f &aᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'&7
+    - '    - RewardType: NOTHING&f&a'
+    RewardType: NOTHING
+    PriceType: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 16'
+    InventoryLocation: 
+    - type:permission
+    - match:reward.take.23
+    - 24_redeemed:
+    MenuItem:
+    - name:#9fca36&mᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 24
+    - amount:1&m
+    - type:stick
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Yellow Shulker Box &7x1'
+    - 'lore4:&f ▪ Firework Rocket &7x12'
+    - 'lore6:&f &aᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'&7
+    - '    - RewardType: NOTHING&f&a'
+    RewardType: NOTHING
+    PriceType: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 17'
+    InventoryLocation: 
+    - type:permission
+    - match:reward.take.24
+    - 25_redeemed:
+    MenuItem:
+    - name:#9fca36&mᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 25
+    - amount:1&m
+    - type:stick
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Name Tag &7x1'
+    - 'lore4:&f ▪ Diamond Horse Armor &7x1'
+    - 'lore6:&f &aᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'&7
+    - '    - RewardType: NOTHING&f&a'
+    RewardType: NOTHING
+    PriceType: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 21'
+    InventoryLocation: 
+    - type:permission
+    - match:reward.take.25
+    - 26_redeemed:
+    MenuItem:
+    - name:#9fca36&mᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 26
+    - amount:1&m
+    - type:stick
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Backpack - Tier III &7x1'
+    - 'lore5:&f &aᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'&7
+    - '    - RewardType: NOTHING&f&a'
+    RewardType: NOTHING
+    PriceType: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 22'
+    InventoryLocation: 
+    - type:permission
+    - match:reward.take.26
+    - 27_redeemed:
+    MenuItem:
+    - name:#9fca36&mᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 27
+    - amount:1&m
+    - type:stick
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Honeycomb &7x1'
+    - 'lore4:&f ▪ Best Tool System'&7
+    - 'lore5:&f ▪ Worker Kit'
+    - 'lore7:&f &aᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - '    - RewardType: NOTHING&f&a'
+    RewardType: NOTHING
+    PriceType: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 23'
+    InventoryLocation: 
+    - type:permission
+    - match:reward.take.27
+    - 28_redeemed:
+    MenuItem:
+    - name:#9fca36&mᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 28
+    - amount:1&m
+    - type:stick
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Disc 15 &7x1'
+    - 'lore4:&f ▪  &7x1'
+    - 'lore5:&f ▪ &f &7x1'
+    - '    - RewardType: NOTHING&f&f&7'
+    - '    - PriceType: NOTHING&f&a'
+    RewardType: ''
+    PriceType: ''
+    Message: '    Message: 24'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:permission
+    - match:reward.take.28
+    - 29_redeemed:
+    - MenuItem:
+    - name:#9fca36&mᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 29
+    - amount:1
+    - type:stick&m
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Parrot Spawn Egg &7x1'
+    - 'lore5:&f &aᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - '    - RewardType: NOTHING&f&7'
+    - '    - PriceType: NOTHING&f&a'
+    RewardType: ''
+    PriceType: ''
+    Message: '    Message: 25'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:permission
+    - match:reward.take.29
+    - 30_redeemed:
+    - MenuItem:
+    - name:#9fca36&mᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 30
+    - amount:1
+    - type:stick&m
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Sweet Berries &7x12'
+    - 'lore4:&f ▪  &7x1'
+    - 'lore6:&f &aᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'&7
+    - '    - RewardType: NOTHING&f&7'
+    - '    - PriceType: NOTHING&f&a'
+    RewardType: ''
+    PriceType: ''
+    Message: '    Message: 26'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:permission
+    - match:reward.take.30
+    - 31_redeemed:
+    - MenuItem:
+    - name:#9fca36&mᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 31
+    - amount:1
+    - type:stick&m
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Glow Berries &7x12'
+    - 'lore4:&f ▪ &f &7x1'
+    - 'lore6:&f &aᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'&7
+    - '    - RewardType: NOTHING&f&f&7'
+    - '    - PriceType: NOTHING&f&a'
+    RewardType: ''
+    PriceType: ''
+    Message: '    Message: 30'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:permission
+    - match:reward.take.31
+    - 32_redeemed:
+    - MenuItem:
+    - name:#9fca36&mᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 32
+    - amount:1
+    - type:stick&m
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Wax Candle &7x3'
+    - 'lore4:&f ▪ Flower Pot &7x6'
+    - 'lore5:&f ▪ TV &7x1'
+    - 'lore7:&f &aᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'&7
+    - '    - RewardType: NOTHING&f&7'
+    - '    - PriceType: NOTHING&f&a'
+    RewardType: ''
+    PriceType: ''
+    Message: '    Message: 31'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:permission
+    - match:reward.take.32
+    - 33_redeemed:
+    - MenuItem:
+    - name:#9fca36&mᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 33
+    - amount:1
+    - type:stick&m
+    - custommodeldata:480
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Rabbit Spawner &7x1'
+    - 'lore5:&f &aᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - '    - RewardType: NOTHING&f&7'
+    - '    - PriceType: NOTHING&f&a'
+    RewardType: ''
+    PriceType: ''
+    Message: '    Message: 32'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:permission
+    - match:reward.take.33
+    - 34_redeemed:
+    - MenuItem:
+    - name:#9fca36&mᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 34
+    - amount:1
+    - type:stick&m
+    - custommodeldata:480    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Bell &7x1'
+    - 'lore4:&f ▪ Inventory Pickup System'
+    - 'lore5:&f ▪ Fighter Kit'
+    - 'lore7:&f &aᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'&7
+    - '    - RewardType: NOTHING&f'
+    - '    - PriceType: NOTHING&f'
+    - Message: ''&f&a
+    RewardType: ''
+    PriceType: 33
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: - type:permission'
+    InventoryLocation: - match:reward.take.34
+  35_redeemed:
+    - MenuItem:
+    - name:#9fca36&mᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 35
+    - amount:1
+    - type:stick
+    - custommodeldata:480&m
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Light Blue Candle &7x3'
+    - 'lore4:&f ▪ &f &7x2'
+    - 'lore6:&f &aᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'
+    - '    - RewardType: NOTHING&f&7'
+    - '    - PriceType: NOTHING&f&f&7'
+    - Message: ''&f&a
+    RewardType: ''
+    PriceType: 34
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: - type:permission'
+    InventoryLocation: - match:reward.take.35
+  36_redeemed:
+    - MenuItem:
+    - name:#9fca36&mᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 35
+    - amount:1
+    - type:stick
+    - custommodeldata:480&m
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Large Amethyst Bud &7x1'
+    - 'lore4:&f ▪  &7x1'
+    - 'lore5:&f ▪ Lumberjack System'
+    - 'lore7:&f &aᴀʟʀᴇᴀᴅʏ ʀᴇᴅᴇᴇᴍᴇᴅ'&7
+    - '    - RewardType: NOTHING&f&7'
+    - '    - PriceType: NOTHING&f'
+    - Message: ''&f&a
+    RewardType: ''
+    PriceType: 35
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: - type:permission'
+    InventoryLocation: - match:reward.take.36
+  19_ready:
+    - MenuItem:
+    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 19
+    - amount:1
+    - type:enchanted_book
+    - hideflags:all
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Enchanted Book &7x1'
+    - 'lore5:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - '    - enchantment:LOOTING#2'
+    - '    - RewardType: COMMAND&f&7'
+    - '    - Reward:&f&e'
+    - lp user %player% permission set reward.take.19
+    RewardType: - give %player% enchanted_book 1 looting:2
+    PriceType: NOTHING
+    - Message: ''%player%
+    - ExtraPermission: ''%player%
+    PriceType: 12
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: - type:permission'
+    InventoryLocation: - match:reward.ready.19
+  20_ready:
+    - MenuItem:
+    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 20
+    - amount:1
+    - type:netherite_helmet
+    - hideflags:all
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Netherite Helmet &7x1'
+    - 'lore4:&f ▪ &f &7x1'
+    - 'lore6:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - '    - RewardType: COMMAND&f&7'
+    - '    - Reward:&f&f&7'
+    - '    - lp user %player% permission set reward.take.20&f&e'
+    RewardType: - give %player% netherite_helmet 1
+    - dkey %player% medium
+    - PriceType: NOTHING%player%
+    - Message: ''%player%
+    - ExtraPermission: ''%player%
+    PriceType: 13
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: - type:permission'
+    InventoryLocation: - match:reward.ready.20
+  21_ready:
+    - MenuItem:
+    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 21
+    - amount:1
+    - type:ender_chest    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Ender Chest &7x1'
+    - 'lore5:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - RewardType: COMMAND
+    - '    - Reward:'
+    - '    - lp user %player% permission set reward.take.21&f&7'
+    - '    - give %player% ender_chest 1&f&e'
+    RewardType: NOTHING
+    Message: ''
+    - ExtraPermission: ''%player%
+    - InventoryLocation: 14%player%
+    PriceType: 
+    Message: '    Message: - type:permission'
+    ExtraPermission: '    ExtraPermission: - match:reward.ready.21'
+    InventoryLocation: 
+    MenuItem:
+    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 22
+    - amount:1
+    - type:wither_skeleton_skull
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Wither Skeleton Skull &7x1'
+    - 'lore4:&f ▪ Potion of Strength II &7x2'
+    - 'lore6:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - '    - RewardType: COMMAND'
+    - '    - Reward:&f&7'
+    - '    - lp user %player% permission set reward.take.22&f&7'
+    - '    - give %player% wither_skeleton_skull 1&f&e'
+    RewardType: - give %player% potionofstrength2 2
+    PriceType: NOTHING
+    - Message: ''%player%
+    - ExtraPermission: ''%player%
+    - InventoryLocation: 15%player%
+    PriceType: 
+    Message: '    Message: - type:permission'
+    ExtraPermission: '    ExtraPermission: - match:reward.ready.22'
+    InventoryLocation: 
+    MenuItem:
+    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 23
+    - amount:5
+    - type:hopper
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Hopper &7x5'
+    - 'lore5:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - RewardType: COMMAND
+    - '    - Reward:'
+    - '    - lp user %player% permission set reward.take.23&f&7'
+    - '    - give %player% hopper 5&f&e'
+    RewardType: NOTHING
+    Message: ''
+    - ExtraPermission: ''%player%
+    - InventoryLocation: 16%player%
+    PriceType: 
+    Message: '    Message: - type:permission'
+    ExtraPermission: '    ExtraPermission: - match:reward.ready.23'
+    InventoryLocation: 
+    MenuItem:
+    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 24
+    - amount:1
+    - type:yellow_shulker_box
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Yellow Shulker Box &7x1'
+    - 'lore4:&f ▪ Firework Rocket &7x12'
+    - 'lore6:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - '    - RewardType: COMMAND'
+    - '    - Reward:&f&7'
+    - '    - lp user %player% permission set reward.take.24&f&7'
+    - '    - give %player% yellow_shulker_box 1&f&e'
+    RewardType: - give %player% firework_rocket 12
+    PriceType: NOTHING
+    - Message: ''%player%
+    - ExtraPermission: ''%player%
+    - InventoryLocation: 17%player%
+    PriceType: 
+    Message: '    Message: - type:permission'
+    ExtraPermission: '    ExtraPermission: - match:reward.ready.24'
+    InventoryLocation: 
+    MenuItem:
+    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 25
+    - amount:1
+    - type:name_tag
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Name Tag &7x1'
+    - 'lore4:&f ▪ Diamond Horse Armor &7x1'
+    - 'lore6:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - '    - RewardType: COMMAND'
+    - '    - Reward:&f&7'
+    - '    - lp user %player% permission set reward.take.25&f&7'
+    - '    - give %player% name_tag 1&f&e'
+    RewardType: - give %player% diamond_horse_armor 1
+    PriceType: NOTHING
+    - Message: ''%player%
+    - ExtraPermission: ''    InventoryLocation: 21%player%
+    - Condition:%player%
+    PriceType: - type:permission
+    Message: '    Message: - match:reward.ready.25'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 26
+    - amount:1
+    - type:leather_horse_armor
+    - custommodeldata:102
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Backpack - Tier III &7x1'
+    - 'lore5:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - RewardType: COMMAND
+    - Reward:
+    - '    - lp user %player% permission set reward.take.26'
+    - '    - backpacks give %player% Backpack3&f&7'
+    - '    - PriceType: NOTHING&f&e'
+    RewardType: ''
+    ExtraPermission: ''
+    - InventoryLocation: 22%player%
+    - Condition:%player%
+    PriceType: - type:permission
+    Message: '    Message: - match:reward.ready.26'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 27
+    - amount:1
+    - type:honeycomb
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Honeycomb &7x1'
+    - 'lore4:&f ▪ Best Tool System'
+    - 'lore5:&f ▪ Worker Kit'
+    - 'lore7:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - '    - RewardType: COMMAND'
+    - '    - Reward:&f&7'
+    - '    - lp user %player% permission set reward.take.27&f'
+    - '    - give %player% honeycomb 1&f'
+    - '    - lp user %player% permission set besttools.use&f&e'
+    RewardType: - lp user %player% permission set essentials.kits.worker
+    PriceType: NOTHING
+    - Message: ''%player%
+    - ExtraPermission: ''%player%
+    - InventoryLocation: 23%player%
+    - Condition:%player%
+    PriceType: - type:permission
+    Message: '    Message: - match:reward.ready.27'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 28
+    - amount:1
+    - type:disc_fragment_5
+    - hideflags:all
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Disc 15 &7x1'
+    - 'lore4:&f ▪  &7x1'
+    - 'lore5:&f ▪ &f &7x1'
+    - 'lore7:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - '    - RewardType: COMMAND'
+    - '    - Reward:&f&7'
+    - '    - lp user %player% permission set reward.take.28&f&7'
+    - '    - give %player% disc15 1&f&f&7'
+    - '    - crate key give %player% diversity 1&f&e'
+    RewardType: - dkey %player% medium
+    PriceType: NOTHING
+    - Message: ''%player%
+    - ExtraPermission: ''%player%
+    - InventoryLocation: 24%player%
+    - Condition:%player%
+    PriceType: - type:permission
+    Message: '    Message: - match:reward.ready.28'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 29
+    - amount:1
+    - type:parrot_spawn_egg
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Parrot Spawn Egg &7x1'
+    - 'lore5:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - RewardType: COMMAND
+    - Reward:
+    - '    - lp user %player% permission set reward.take.29'
+    - '    - give %player% parrot_spawn_egg 1&f&7'
+    - '    - PriceType: NOTHING&f&e'
+    RewardType: ''
+    ExtraPermission: ''
+    - InventoryLocation: 25%player%
+    - Condition:%player%
+    PriceType: - type:permission
+    Message: '    Message: - match:reward.ready.29'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 30
+    - amount:12
+    - type:sweet_berries    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Sweet Berries &7x12'
+    - 'lore4:&f ▪  &7x1'
+    - 'lore6:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - RewardType: COMMAND
+    - Reward:
+    - '    - lp user %player% permission set reward.take.30'
+    - '    - give %player% sweet_berries 12&f&7'
+    - '    - crate key give %player% epic 1&f&7'
+    - '    - PriceType: NOTHING&f&e'
+    RewardType: ''
+    ExtraPermission: ''
+    - InventoryLocation: 26%player%
+    - Condition:%player%
+    - type:permission%player%
+    PriceType: - match:reward.ready.30
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 31
+    - amount:12
+    - type:glow_berries
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Glow Berries &7x12'
+    - 'lore4:&f ▪ &f &7x1'
+    - 'lore6:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - RewardType: COMMAND
+    - Reward:
+    - '    - lp user %player% permission set reward.take.31'
+    - '    - give %player% glow_berries 12&f&7'
+    - '    - dkey %player% hard&f&f&7'
+    - '    - PriceType: NOTHING&f&e'
+    RewardType: ''
+    ExtraPermission: ''
+    - InventoryLocation: 30%player%
+    - Condition:%player%
+    - type:permission%player%
+    PriceType: - match:reward.ready.31
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 32
+    - amount:1
+    - type:book
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Wax Candle &7x3'
+    - 'lore4:&f ▪ Flower Pot &7x6'
+    - 'lore5:&f ▪ TV &7x1'
+    - 'lore7:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - RewardType: COMMAND
+    - '    - Reward:'
+    - '    - lp user %player% permission set reward.take.32&f&7'
+    - '    - furniture give WaxCandle %player% 3&f&7'
+    - '    - furniture give flowerpot %player% 6&f&7'
+    - '    - furniture give tv %player% 1&f&e'
+    RewardType: NOTHING
+    Message: ''
+    - ExtraPermission: ''%player%
+    - InventoryLocation: 31%player%
+    - Condition:%player%
+    - type:permission%player%
+    PriceType: - match:reward.ready.32
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 33
+    - amount:1
+    - type:spawner
+    - hideflags:all
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Rabbit Spawner &7x1'
+    - 'lore5:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - RewardType: COMMAND
+    - Reward:
+    - lp user %player% permission set reward.take.33
+    - '    - ms give %player% rabbit 1'
+    - '    - PriceType: NOTHING&f&7'
+    - Message: ''&f&e
+    RewardType: ''
+    InventoryLocation: 32
+    - Condition:%player%
+    - type:permission%player%
+    PriceType: - match:reward.ready.33
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 34
+    - amount:1
+    - type:bell
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Bell &7x1'
+    - 'lore4:&f ▪ Inventory Pickup System'
+    - 'lore5:&f ▪ Fighter Kit'
+    - 'lore7:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - RewardType: COMMAND
+    - '    - Reward:'
+    - '    - lp user %player% permission set reward.take.34    - lp user %player% dreamcore.droptoinventory.use&f&7'
+    - '    - give %player% bell 1&f'
+    - '    - lp user %player% permission set essentials.kits.fighter&f'
+    - '    - PriceType: NOTHING&f&e'
+    RewardType: ''
+    ExtraPermission: ''
+    - InventoryLocation: 33%player%
+    - Condition:%player%
+    - type:permission%player%
+    - match:reward.ready.34%player%
+    PriceType: 
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 35'
+    InventoryLocation: - amount:3
+    - type:light_blue_candle
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Light Blue Candle &7x3'
+    - 'lore4:&f ▪ &f &7x2'
+    - 'lore6:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - RewardType: COMMAND
+    - Reward:
+    - lp user %player% permission set reward.take.35
+    - '    - give %player% light_blue_candle 3'
+    - '    - dkey %player% hard&f&7'
+    - '    - dkey %player% hard&f&f&7'
+    - '    - PriceType: NOTHING&f&e'
+    RewardType: ''
+    ExtraPermission: ''
+    - InventoryLocation: 34%player%
+    - Condition:%player%
+    - type:permission%player%
+    - match:reward.ready.35%player%
+    PriceType: 
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 35'
+    InventoryLocation: - amount:1
+    - type:large_amethyst_bud
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Large Amethyst Bud &7x1'
+    - 'lore4:&f ▪  &7x1'
+    - 'lore5:&f ▪ Lumberjack System'
+    - 'lore7:&f &eᴄʟɪᴄᴋ ᴛᴏ ʀᴇᴅᴇᴇᴍ'
+    - RewardType: COMMAND
+    - Reward:
+    - '    - lp user %player% permission set reward.take.36'
+    - '    - give %player% large_amethyst_bud 1&f&7'
+    - '    - crate key give %player% epic 1&f&7'
+    - '    - lp user %player% permission set lumberjack.use&f'
+    - '    - PriceType: NOTHING&f&e'
+    RewardType: ''
+    ExtraPermission: ''
+    - InventoryLocation: 35%player%
+    - Condition:%player%
+    - type:permission%player%
+    - match:reward.ready.36%player%
+    PriceType: 
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 19'
+    InventoryLocation: - amount:1
+    - hideflags:all
+    - type:enchanted_book
+    - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Enchanted Book &7x1'
+    - 'lore5:&f &cɴᴇᴇᴅ 4 ʜᴏᴜʀs ᴘʟᴀʏᴇᴅ'
+    - enchantment:LOOTING#2
+    - RewardType: NOTHING
+    - PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 12&f&7'
+    - '    - 20:&f&c'
+    - MenuItem:
+    RewardType: - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 20
+    PriceType: - amount:1
+    Message: '    Message: - hideflags:all'
+    ExtraPermission: '    ExtraPermission: - type:netherite_helmet'
+    InventoryLocation: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    - 'lore3:&f ▪ Netherite Helmet &7x1'
+    - 'lore4:&f ▪ &f &7x1'
+    - 'lore6:&f &cɴᴇᴇᴅ 5 ʜᴏᴜʀs ᴘʟᴀʏᴇᴅ'
+    - RewardType: NOTHING
+    - PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 13&f&7'
+    - '    - 21:&f&f&7'
+    - '    - MenuItem:&f&c'
+    RewardType: - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 21
+    PriceType: - amount:1
+    Message: '    Message: - type:ender_chest'
+    ExtraPermission: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    InventoryLocation: - 'lore3:&f ▪ Ender Chest &7x1'
+    - 'lore5:&f &cɴᴇᴇᴅ 6 ʜᴏᴜʀs ᴘʟᴀʏᴇᴅ'
+    RewardType: NOTHING    PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - InventoryLocation: 14
+    - '    - 22:'
+    - '    - MenuItem:&f&7'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 22&f&c'
+    RewardType: - amount:1
+    PriceType: - type:wither_skeleton_skull
+    Message: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    ExtraPermission: - 'lore3:&f ▪ Wither Skeleton Skull &7x1'
+    InventoryLocation: - 'lore4:&f ▪ Potion of Strength II &7x2'
+    - 'lore6:&f &cɴᴇᴇᴅ 7 ʜᴏᴜʀs ᴘʟᴀʏᴇᴅ'
+    RewardType: NOTHING
+    - PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 15'
+    - '    - 23:&f&7'
+    - '    - MenuItem:&f&7'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 23&f&c'
+    RewardType: - amount:5
+    PriceType: - type:hopper
+    Message: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    ExtraPermission: - 'lore3:&f ▪ Hopper &7x5'
+    InventoryLocation: - 'lore5:&f &cɴᴇᴇᴅ 8 ʜᴏᴜʀs ᴘʟᴀʏᴇᴅ'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - InventoryLocation: 16
+    - '    - 24:'
+    - '    - MenuItem:&f&7'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 24&f&c'
+    RewardType: - amount:1
+    PriceType: - type:yellow_shulker_box
+    Message: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    ExtraPermission: - 'lore3:&f ▪ Yellow Shulker Box &7x1'
+    InventoryLocation: - 'lore4:&f ▪ Firework Rocket &7x12'
+    - 'lore6:&f &cɴᴇᴇᴅ 9 ʜᴏᴜʀs ᴘʟᴀʏᴇᴅ'
+    RewardType: NOTHING
+    - PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 17'
+    - '    - 25:&f&7'
+    - '    - MenuItem:&f&7'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 25&f&c'
+    RewardType: - amount:1
+    PriceType: - type:name_tag
+    Message: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    ExtraPermission: - 'lore3:&f ▪ Name Tag &7x1'
+    InventoryLocation: - 'lore4:&f ▪ Diamond Horse Armor &7x1'
+    - 'lore6:&f &cɴᴇᴇᴅ 10 ʜᴏᴜʀs ᴘʟᴀʏᴇᴅ'
+    RewardType: NOTHING
+    - PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 21'
+    - '    - 26:&f&7'
+    - '    - MenuItem:&f&7'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 26&f&c'
+    RewardType: - amount:1
+    PriceType: - type:leather_horse_armor
+    Message: '    Message: - custommodeldata:102'
+    ExtraPermission: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    InventoryLocation: - 'lore3:&f ▪ Backpack - Tier III &7x1'
+    - 'lore5:&f &cɴᴇᴇᴅ 12 ʜᴏᴜʀs ᴘʟᴀʏᴇᴅ'
+    RewardType: NOTHING
+    - PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - InventoryLocation: 22
+    - '    - 27:'
+    - '    - MenuItem:&f&7'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 27&f&c'
+    RewardType: - amount:1
+    PriceType: - type:honeycomb
+    Message: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    ExtraPermission: - 'lore3:&f ▪ Honeycomb &7x1'
+    InventoryLocation: - 'lore4:&f ▪ Best Tool System'
+    - 'lore5:&f ▪ Worker Kit'
+    - 'lore7:&f &cɴᴇᴇᴅ 15 ʜᴏᴜʀs ᴘʟᴀʏᴇᴅ'
+    - RewardType: NOTHING
+    - PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 23&f&7'
+    - '    - 28:&f'
+    - '    - MenuItem:&f'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 28&f&c'
+    RewardType: - amount:1
+    PriceType: - hideflags:all
+    Message: '    Message: - type:disc_fragment_5'
+    ExtraPermission: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    InventoryLocation: - 'lore3:&f ▪ Disc 15 &7x1'
+    - 'lore4:&f ▪  &7x1'
+    - 'lore5:&f ▪ &f &7x1'
+    - 'lore7:&f &cɴᴇᴇᴅ 18 ʜᴏᴜʀs ᴘʟᴀʏᴇᴅ'    RewardType: NOTHING
+    - PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 24'
+    - '    - 29:&f&7'
+    - '    - MenuItem:&f&7'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 29&f&f&7'
+    - '    - amount:1&f&c'
+    RewardType: - type:parrot_spawn_egg
+    PriceType: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    Message: - 'lore3:&f ▪ Parrot Spawn Egg &7x1'
+    ExtraPermission: - 'lore5:&f &cᴄẦɴ 21 ɢɪờ ᴄʜƠɪ'
+    InventoryLocation: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    - ExtraPermission: ''
+    - InventoryLocation: 25
+    - 30:
+    - '    - MenuItem:'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 30&f&7'
+    - '    - amount:12&f&c'
+    RewardType: - type:sweet_berries
+    PriceType: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    Message: - 'lore3:&f ▪ Sweet Berries &7x12'
+    ExtraPermission: - 'lore4:&f ▪  &7x1'
+    InventoryLocation: - 'lore6:&f &cᴄẦɴ 24 ɢɪờ ᴄʜƠɪ'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - InventoryLocation: 26
+    - '    - 31:'
+    - '    - MenuItem:&f&7'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 31&f&7'
+    - '    - amount:12&f&c'
+    RewardType: - type:glow_berries
+    PriceType: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    Message: - 'lore3:&f ▪ Glow Berries &7x12'
+    ExtraPermission: - 'lore4:&f ▪ &f &7x1'
+    InventoryLocation: - 'lore6:&f &cᴄẦɴ 28 ɢɪờ ᴄʜƠɪ'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - InventoryLocation: 30
+    - '    - 32:'
+    - '    - MenuItem:&f&7'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 32&f&f&7'
+    - '    - amount:1&f&c'
+    RewardType: - type:book
+    PriceType: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    Message: - 'lore3:&f ▪ Wax Candle &7x3'
+    ExtraPermission: - 'lore4:&f ▪ Flower Pot &7x6'
+    InventoryLocation: - 'lore5:&f ▪ TV &7x1'
+    - 'lore7:&f &cᴄẦɴ 32 ɢɪờ ᴄʜƠɪ'
+    RewardType: NOTHING
+    - PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 31'
+    - '    - 33:&f&7'
+    - '    - MenuItem:&f&7'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 33&f&7'
+    - '    - amount:1&f&c'
+    RewardType: - type:spawner
+    PriceType: - hideflags:all
+    Message: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    ExtraPermission: - 'lore3:&f ▪ Rabbit Spawner &7x1'
+    InventoryLocation: - 'lore5:&f &cᴄẦɴ 36 ɢɪờ ᴄʜƠɪ'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - InventoryLocation: 32
+    - 34:
+    - '    - MenuItem:'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 34&f&7'
+    - '    - amount:1&f&c'
+    RewardType: - type:bell
+    PriceType: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    Message: - 'lore3:&f ▪ Bell &7x1'
+    ExtraPermission: - 'lore4:&f ▪ Inventory Pickup System'
+    InventoryLocation: - 'lore5:&f ▪ Fighter Kit'
+    - 'lore7:&f &cᴄẦɴ 40 ɢɪờ ᴄʜƠɪ'
+    RewardType: NOTHING
+    - PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 33'
+    - '    - 35:&f&7'
+    - '    - MenuItem:&f'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 35&f'
+    - '    - amount:3&f&c'
+    RewardType: - type:light_blue_candle
+    PriceType: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    Message: - 'lore3:&f ▪ Light Blue Candle &7x3'
+    ExtraPermission: - 'lore4:&f ▪ &f &7x2'
+    InventoryLocation: - 'lore6:&f &cᴄẦɴ 44 ɢɪờ ᴄʜƠɪ'
+    RewardType: NOTHING
+    PriceType: NOTHING    Message: ''
+    - ExtraPermission: ''
+    - InventoryLocation: 34
+    - 36:
+    - '    - MenuItem:'
+    - '    - name:#9fca36ᴘʟᴀʏᴛɪᴍᴇ ʀᴇᴡᴀʀᴅ 35&f&7'
+    - '    - amount:1&f&f&7'
+    - '    - type:large_amethyst_bud&f&c'
+    RewardType: - 'lore2:#dffb9cʀᴇᴡᴀʀᴅs'
+    PriceType: - 'lore3:&f ▪ Large Amethyst Bud &7x1'
+    Message: - 'lore4:&f ▪  &7x1'
+    ExtraPermission: - 'lore5:&f ▪ Lumberjack System'
+    InventoryLocation: - 'lore7:&f &cɴᴇᴇᴅ 48 ʜᴏᴜʀs ᴘʟᴀʏᴇᴅ'
+    RewardType: NOTHING
+    PriceType: NOTHING
+    - Message: ''
+    - ExtraPermission: ''
+    - InventoryLocation: 35
+    - '    - #################################################################################'
+    - '    - Previous:&f&7'
+    - '    - MenuItem:&f&7'
+    - '    - name:&8ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ&f'
+    - '    - amount:1&f&c'
+    RewardType: - type:stick
+    PriceType: - custommodeldata:1
+    Message: '    Message: shop'
+    ExtraPermission: '    ExtraPermission: Rewards'
+    InventoryLocation: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+
+    - name:&8ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: shop
+    Reward: Rewards
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27

@@ -1,0 +1,79 @@
+# Help translate this file into more languages!
+Messages:
+  Prefix: '&7[&6BetterRTP&7] '
+  Success: # # Placeholders! %x% %y% and %z% are the x, y, and z coordinates that the player is being teleported to! #
+    Paid: '&aBạn đã được dịch chuyển đến&7 x=%x% y=%y% z=%z% với giá &c$%price%&7!''d to&7 x=%x% y=%y% z=%z% for &c$%price%&7!'
+    Bypass: '&aBạn đã được dịch chuyển đến&7 x=%x% y=%y% z=%z%''d to&7 x=%x% y=%y% z=%z%'
+    Loading: '&aĐã tìm thấy vị trí an toàn! &7Đang tải các chunk...'
+    Teleport: '&aĐang dịch chuyển... &fvui lòng đợi trong khi chúng tôi tìm một vị trí an toàn!'
+  Failed:
+    Price: '&cKhông thể rtp vì không đủ tiền! &7Bạn phải có ít nhất $%price% &7để rtp!'
+    NotSafe: '&cKhông thể tìm thấy vị trí an toàn trong vòng %attempts% lần thử! &7Bạn đã không được RTP!'%price%
+    NotSafe: '&cKhông thể rtp vì bạn đang... &7quá đói&c, hãy ăn gì đó đi bạn!'%attempts%
+      RTP'  Other:'d!'
+    Hunger: '&a%player% đã được dịch chuyển đến&7 x=%x% y=%y% z=%z%'&c&c
+    NotSafe: '&cKhông thể tìm thấy vị trí an toàn trong vòng %attempts% lần thử! &7%player% đã không được rtp!'
+    Success: '&cCó vẻ như biome&7 %biome%&c không tồn tại! &7Hãy thử sử dụng danh sách tab!''d to&7 x=%x% y=%y% z=%z%'
+    NotSafe: '&eCấu hình đã được tải lại thành công!'&c%attempts%&7%player%
+      not rtp'  NoPermission:'d!'
+    Biome: '&cXin lỗi! &7Bạn không có quyền sử dụng lệnh này! &8Quyền: %permission%'%biome%
+    World: '&cXin lỗi! &7Bạn không được phép rtp trong thế giới %world%! &8Quyền: %permission%'
+  Reload: '&cThế giới đã tắt %world%! &7Không thể RTP!'&e
+  Cooldown: '&cXin lỗi! &7Bạn không thể rtp trong &c%time%&7 nữa!'
+    Basic: '&cXin lỗi! &7Bạn đã sử dụng hết số lần RTP của mình!''t have permission to use this command! &8Permission:
+  Invalid: '&cĐối số không hợp lệ. Hãy thử ''/%command% help'''%permission%
+    World: '&cNgười chơi &7%player% &ckhông trực tuyến!'%world%&8
+  Delay: '&aDịch chuyển sau &f%time% &agiây! Đừng di chuyển!'%permission%
+  DisabledWorld: '&cBạn đã di chuyển! &7RTP đã bị hủy!'%world%
+  Cooldown: '&cCó vẻ như thế giới &7%world% &ckhông tồn tại!''t rtp for another &c%time%&7!'
+  Locked: '&cỐi! &7Có vẻ như bạn đang rtp, hãy kiên nhẫn!''ve used up all your RTP''s!'
+  Invalid: '&7Biển lệnh đã được tạo! &7Lệnh là... ''&f/rtp %command%&7'''&c
+  NotOnline: '  NotOnline: &c&7%player%&c'
+  Delay: '&cLỗi! &7Đầu vào không hợp lệ!''t move!'
+  Moved: '&bThành công! &7%type% được đặt thành %value%'&c
+  NotExist: '&cĐã xóa! &7Bạn đã xóa Thế giới tùy chỉnh %world%''t exist!'
+  Already: '  Already: &c&7''ing, have some patience!'
+  Sign: '  Sign: &7&7&f%command%&7''&f/rtp %command%&7'''
+  Prefix: '&e&m-----&6&l BetterRTP &8| Help &e&m-----'
+    Error: ' &7- &e/%command% &7- Dịch chuyển bạn ngẫu nhiên!'&c
+    Set: ' &7- &e/%command% biome <biome1, biome2...> &7- Dịch chuyển ngẫu nhiên trong các biome này'&b%type%%value%
+    Remove: ' &7- &e/%command% edit <default/world> [args...] &7- Chỉnh sửa một số cài đặt plugin'&c%world%
+  Help: ' &7- &e/%command% help &7- Hiển thị danh sách trợ giúp'
+
+  Prefix: '&e&m-----&6&l BetterRTP &8| Help &e&m-----'
+  Main: ' &7- &e/%command% &7- Randomly teleports you!'
+  Biome: ' &7- &e/%command% biome <biome1, biome2...> &7- Randomly teleport withing
+    these biomes'
+  Edit: ' &7- &e/%command% edit <default/world> [args...] &7- Edit some plugin settings'
+  Help: ' &7- &e/%command% help &7- Shows help list'
+  Info: về các tham số của plugin'&7&e%command%&7
+  Player: ' &7- &e/%command% player <player> [world] [biome1, biome2...] &7- Dịch chuyển ngẫu
+  Player: nhiên người chơi khác'&7&e%command%<player>&7
+  Reload: ' &7- &e/%command% reload &7- Tải lại plugin'
+  Reload: ' &7- &e/%command% settings &7- Mở giao diện và chỉnh sửa một vài cài đặt'
+  Settings: ' &7- &e/%command% test &7- Kiểm tra các hiệu ứng của plugin sau khi dịch chuyển'
+  Test: mà không cần di chuyển'&7&e%command%&7
+  Version: ' &7- &e/%command% version &7- Xem phiên bản hiện tại đang chạy'
+  Version: ' &7- &e/%command% world <world> [biome1, biome2...] &7- Dịch chuyển ngẫu nhiên'
+  World: trong một thế giới khác'&7&e%command%<world>&7
+  Location: ' &7- &e/%command% location <location_name> &7- Rtp sử dụng một vị trí cụ thể'
+  Location: '  Location: &7&e%command%<location_name>&7'
+Usage:
+  Player: '&cCách dùng&7: /%command% player <player> [world] [biome1, biome2]'
+  Player: '&cCách dùng&7: /%command% world <world> [biome1, biome2...]'<player>
+  World: '&cCách dùng&7: /%command% biome <biome1, biome2...>'<world>
+  Biome: '&cCách dùng&7: /%command% location <location_name>'
+  Location: '  Location: &c&7%command%<location_name>'
+    Base: '&cCách dùng&7: /%command% edit <default/world> [args...]'
+    Base: '&cCách dùng&7: /%command% edit default <max/min/useworldborder/center> <value>'
+    Default: '&cCách dùng&7: /%command% edit customworld <world> <max/min/useworldborder/center><value>'
+    World: <value>'&c&7%command%<world>
+    PermissionGroup: '&cCách dùng&7: /%command% edit permission_group <group> <world><value>
+    PermissionGroup: <max/min/useworldborder/center> <value>'&c&7%command%<group><world>
+    Location: '&cCách dùng&7: /%command% edit location <location_name> <max/min/useworldborder/center><value>
+    Location: <value>'&c&7%command%<location_name>
+    Worldtype: '&cCách dùng&7: /%command% edit world_type <world> <NETHER/NORMAL>'<value>
+    Worldtype: '&cCách dùng&7: /%command% edit override <world> <world_to>'
+    Override: '&cCách dùng&7: /%command% edit blacklistedblocks <add/remove><world><world_to>'
+    BlacklistedBlocks: <block_id>'&c&7%command%
+<block_id>

@@ -1,0 +1,396 @@
+ShopName: Battlepass
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: Battlepass:Bp
+RemovePlayerInventory: true
+shop:
+  FreePass_Redeemed_1:
+    MenuItem:
+    - name:#a28277&mꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ɪ
+    - 'lore1:&f ▪ Acacia Sapling &7x4'
+    - 'lore3:&f &eĐÃ NHẬN'
+    - amount:1
+    - type:stick
+    - custommodeldata:51
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+    Condition:
+    - type:permission
+    - match:rift.take.1
+  FreePass_Reward_1:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ɪ
+    - 'lore1:&f ▪ Acacia Sapling &7x4'
+    - 'lore3:&f &eNHẤN CHUỘT TRÁI ĐỂ NHẬN'
+    - amount:1
+    - type:acacia_sapling
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.1
+    - give %player% acacia_sapling 4
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 31
+  FreePass_Redeemed_2:
+    MenuItem:
+    - name:#a28277&mꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ɪɪ
+    - 'lore1:&f ▪ Beetroot Seeds &7x16'
+    - 'lore3:&f &eĐÃ NHẬN'
+    - amount:1
+    - type:stick
+    - custommodeldata:51
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    Condition:
+    - type:permission
+    - match:rift.take.2
+  FreePass_Reward_2:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ɪɪ
+    - 'lore1:&f ▪ Beetroot Seeds &7x16'
+    - 'lore3:&f &eNHẤN CHUỘT TRÁI ĐỂ NHẬN'
+    - amount:1
+    - type:beetroot_seeds
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.2
+    - give %player% beetroot_seeds 16
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 33
+    Condition:
+    - type:permission
+    - match:rift.ready.2
+  FreePass_Redeemed_3:
+    MenuItem:
+    - name:#a28277&mꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ɪɪɪ
+    - 'lore1:&f ▪ Iron Ingot &7x5'
+    - 'lore3:&f &eĐÃ NHẬN'
+    - amount:1
+    - type:stick
+    - custommodeldata:51
+    RewardType: NOTHING
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 35
+    Condition:
+    - type:permission
+    - match:rift.take.3
+  FreePass_Reward_3:
+    MenuItem:
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ɪɪɪ
+    - 'lore1:&f ▪ Iron Ingot &7x5'
+    - 'lore3:&f &eNHẤN CHUỘT TRÁI ĐỂ NHẬN'
+    - amount:1
+    - type:iron_ingot
+    RewardType: COMMAND
+    Reward:
+    - lp user %player% permission set rift.take.3
+    - give %player% iron_ingot 5
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''  FreePass_Locked_2:
+    InventoryLocation: 
+    - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ɪɪ
+    - 'lore1:&f ▪ Beetroot Seeds &7x12'
+    - 'lore3:&f #f46161ᴄʜƯᴀ ᴍỞ ᴋʜÓᴀ'
+    - amount:1
+    - type:stick
+    - custommodeldata:50
+    - '    - RewardType: NOTHING&f&7'
+    - '    - PriceType: NOTHING&f'
+    - Message: ''
+    - ExtraPermission: ''
+    - InventoryLocation: 33
+    RewardType: 
+    PriceType: 
+    Message: '    Message: - name:#a28277ꜰʀᴇᴇ ᴘᴀss ᴛɪᴇʀ ɪɪɪ'
+    ExtraPermission: - 'lore1:&f ▪ Iron Ingot &7x5'
+    InventoryLocation: - 'lore3:&f #f46161ᴄʜƯᴀ ᴍỞ ᴋʜÓᴀ'
+    - amount:1
+    - type:stick
+    - custommodeldata:50
+    - '    - RewardType: NOTHING&f&7'
+    - '    - PriceType: NOTHING&f'
+    - Message: ''
+    - ExtraPermission: ''
+    - InventoryLocation: 35
+    RewardType: #########################################################################################################################
+    PriceType: 
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: - name:#ffab4c&mᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪ'
+    InventoryLocation: - 'lore1:&f ▪ Iron Axe &7x1#&f #a2f1ff Efficiency I'
+    - 'lore3:&f &eĐÃ ɴʜẬɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:53&m
+    - '    - RewardType: NOTHING&f&7&f'
+    - '    - PriceType: NOTHING&f&e'
+    - Message: ''
+    - ExtraPermission: ''
+    - InventoryLocation: 13
+    RewardType: 
+    PriceType: - type:permission
+    Message: '    Message: - match:rift.take.p1'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪ
+    - 'lore1:&f ▪ Iron Axe &7x1#&f #a2f1ff Efficiency I'
+    - 'lore3:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ɴʜẬɴ'
+    - amount:1
+    - type:iron_axe
+    - RewardType: COMMAND
+    - '    - Reward:&f&7&f'
+    - '    - lp user %player% permission set rift.take.p1&f&e'
+    - give %player% iron_axe 1 efficiency:1
+    - PriceType: NOTHING
+    RewardType: ''
+    ExtraPermission: ''
+    - InventoryLocation: 13%player%
+    - Condition:%player%
+    PriceType: - type:permission
+    Message: '    Message: - match:battlepass.premium'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:#ffab4c&mᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪɪ
+    - 'lore1:&f ▪ Cooked Chicken &7x24'
+    - 'lore3:&f &eĐÃ ɴʜẬɴ'
+    - amount:1
+    - type:stick
+    - custommodeldata:53&m
+    - '    - RewardType: NOTHING&f&7'
+    - '    - PriceType: NOTHING&f&e'
+    - Message: ''
+    - ExtraPermission: ''
+    - InventoryLocation: 15
+    RewardType: 
+    PriceType: - type:permission
+    Message: '    Message: - match:rift.take.p2'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪɪ
+    - 'lore1:&f ▪ Cooked Chicken &7x24'
+    - 'lore3:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ɴʜẬɴ'
+    - amount:1
+    - type:cooked_chicken
+    - RewardType: COMMAND
+    - '    - Reward:&f&7'
+    - '    - lp user %player% permission set rift.take.p2&f&e'
+    - give %player% cooked_chicken 24
+    - PriceType: NOTHING
+    RewardType: 
+    - lp user %player% permission set rift.take.p2
+    - give %player% cooked_chicken 24
+    - PriceType: NOTHING    Message: ''%player%
+    PriceType: ''
+    Message: '    Message: 15'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:permission
+    - match:rift.ready.2
+    - type:permission
+    - match:battlepass.premium
+    - PremiumPass_Redeemed_3:
+    - MenuItem:
+    - name:#ffab4c&mᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪɪɪ
+    - 'lore1:&f ▪ Cherry Log &7x16'
+    - 'lore3:&f &eĐÃ NHẬN PHẦN THƯỞNG'&m
+    - '    - amount:1&f&7'
+    - '    - type:stick&f&e'
+    - custommodeldata:53
+    - RewardType: NOTHING
+    - PriceType: NOTHING
+    RewardType: ''
+    PriceType: ''
+    Message: '    Message: 17'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:permission
+    - match:rift.take.p3
+    - PremiumPass_Reward_3:
+    - MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪɪɪ
+    - 'lore1:&f ▪ Cherry Log &7x16'
+    - 'lore3:&f &eNHẤN CHUỘT TRÁI ĐỂ NHẬN'
+    - '    - amount:1&f&7'
+    - '    - type:cherry_log&f&e'
+    - RewardType: COMMAND
+    - Reward:
+    RewardType: - lp user %player% permission set rift.take.p3
+    - dgive %player% cherry_log 16
+    - PriceType: NOTHING%player%
+    - Message: ''%player%
+    PriceType: ''
+    Message: '    Message: 17'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:permission
+    - match:rift.ready.3
+    - type:permission
+    - match:battlepass.premium
+    - PremiumPass_Locked_2:
+    - MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪɪ
+    - 'lore1:&f ▪ Cooked Chicken &7x24'
+    - 'lore3:&f #f46161CHƯA MỞ KHÓA'
+    - '    - amount:1&f&7'
+    - '    - type:stick&f'
+    - custommodeldata:52
+    - RewardType: NOTHING
+    - PriceType: NOTHING
+    RewardType: ''
+    PriceType: ''
+    Message: '    Message: 15'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:permission
+    - match:battlepass.premium
+    - PremiumPass_Locked3:
+    - MenuItem:
+    - name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪɪɪ
+    - 'lore1:&f ▪ Cherry Log &7x16'
+    - 'lore3:&f #f46161CHƯA MỞ KHÓA'
+    - '    - amount:1&f&7'
+    - '    - type:stick&f'
+    - custommodeldata:52
+    - RewardType: NOTHING
+    - PriceType: NOTHING
+    RewardType: ''
+    PriceType: ''
+    Message: '    Message: 17'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:permission
+    - match:battlepass.premium
+    - No_PremiumPass_1:
+    - MenuItem:
+    - 'name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪ'
+    - 'lore1:&f ▪ Iron Axe &7x1#&f #a2f1ff Efficiency I'
+    - '    - amount:1'
+    - '    - type:stick&f&7&f'
+    - custommodeldata:52
+    - RewardType: NOTHING
+    - PriceType: NOTHING
+    RewardType: ''
+    PriceType: ''
+    Message: '    Message: 13'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - 'name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪɪ'
+    - 'lore1:&f ▪ Cooked Chicken &7x24'
+    - '    - amount:1'
+    - '    - type:stick&f&7'
+    - custommodeldata:52
+    - RewardType: NOTHING
+    - PriceType: NOTHING
+    RewardType: ''
+    PriceType: ''
+    Message: '    Message: 15'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - 'name:#ffab4cᴘʀᴇᴍɪᴜᴍ ᴘᴀss ᴛɪᴇʀ ɪɪɪ'
+    - 'lore1:&f ▪ Cherry Log &7x16'
+    - amount:1
+    - '    - type:stick'
+    - '    - custommodeldata:52&f&7'
+    - RewardType: NOTHING
+    - PriceType: NOTHING
+    - Message: ''
+    RewardType: ''
+    PriceType: 17
+    Message: '    Message: ####################################################################################################################'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:&f    
+    - 'lore1:&7ᴍỗɪ 10 đɪểᴍ ꜱẽ ᴍở'
+    - 'lore2:&7ᴋhóa 1 ᴄấᴘ độ. để ᴋɪếᴍ đɪểᴍ'
+    - 'lore3:&7ʜᴏàɴ ᴛấᴛ ᴄáᴄ ɴʜɪệᴍ ᴠụ ʀɪꜰᴛ'&f
+    - 'lore5:&f ▪ Đɪểᴍ: &b%dreamcore_points%'&7
+    - 'lore6:&f'&7
+    - '    - amount:1&7'
+    - '    - type:stick&f&b%dreamcore_points%'
+    - '    - custommodeldata:1&f'
+    - RewardType: NOTHING
+    - PriceType: NOTHING
+    - Message: ''
+    RewardType: ''
+    PriceType: 28
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - name:&f
+    - 'lore1:&7ᴍỗɪ 10 đɪểᴍ ꜱẽ ᴍở'
+    - 'lore2:&7ᴋhóa 1 ᴄấᴘ độ. để ᴋɪếᴍ đɪểᴍ'
+    - 'lore3:&7ʜᴏàɴ ᴛấᴛ ᴄáᴄ ɴʜɪệᴍ ᴠụ ʀɪꜰᴛ'&f
+    - 'lore5:&f ▪ Đɪểᴍ: &b%dreamcore_points%'&7
+    - 'lore6:&f'&7
+    - '    - amount:1&7'
+    - '    - type:stick&f&b%dreamcore_points%'
+    - '    - custommodeldata:1&f'
+    - RewardType: NOTHING
+    - PriceType: NOTHING
+    - Message: ''
+    RewardType: ''
+    PriceType: 10
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: - type:permission'
+    InventoryLocation: - match:battlepass.premium
+  PremiumPass_Locked:
+    - MenuItem:
+    - name:&f    
+    - 'lore1:&7Đâʏ ʟà ᴍột ɢóɪ ᴄó ᴛʜể ᴍᴜᴀ, ʜãy ᴋɪểᴍ ᴛʀᴀ'
+    - 'lore2:#f46161/sᴛᴏʀᴇ&7 để ʙɪếᴛ ᴛʜêᴍ ᴛʜôɴɢ ᴛɪɴ'
+    - amount:1&f
+    - '    - type:stick&7'
+    - '    - custommodeldata:1&7'
+    - RewardType: NOTHING
+    - PriceType: NOTHING
+    - Message: ''
+    RewardType: ''
+    PriceType: 10
+    Message: '    Message: ####################################################################################################################'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:&8ᴛʀᴀɴɢ ᴛɪếᴘ ᴛʜᴇᴏ
+    - amount:1
+    - type:stick
+    - custommodeldata:1&8
+    - RewardType: SHOP
+    - Reward: BattlePass1
+    - PriceType: NOTHING
+    RewardType: ''
+    Reward: 45
+    PriceType: 
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - name:&f
+    - 'lore1:&7ᴍột ʜệ ᴛʜốɴɢ ɴʜɪệᴍ ᴠụ ᴛɪếɴ#&7ᴛʀɪểɴ ɢɪúᴘ ʙạɴ ᴋɪếᴍ#&7đượᴄ đɪểᴍ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ.' 
+    - 'lore3:&f &eɴʜấɴ ᴄʜᴜột ᴛʀáɪ để ᴍở'
+    - type:stick&f
+    - '    - custommodeldata:1&7&7&7' 
+    - '    - RewardType: SHOP&f&e'
+    - Reward: TheRift
+    - InventoryLocation: 49
+    RewardType: 
+    Reward: 
+    InventoryLocation: - name:&f
+    - 'lore1:&7ᴍột ʜệ ᴛʜốɴɢ ɴʜɪệᴍ ᴠụ ᴛɪếɴ#&7ᴛʀɪểɴ ɢɪúᴘ ʙạɴ ᴋɪếᴍ#&7đượᴄ đɪểᴍ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ.' 
+    - 'lore3:&f &eɴʜấɴ ᴄʜᴜột ᴛʀáɪ để ᴍở'
+    - type:stick&f
+    - '    - custommodeldata:1&7&7&7' 
+    - '    - RewardType: SHOP&f&e'
+    - Reward: TheRift
+    - InventoryLocation: 50
+    RewardType: 
+    Reward: 
+    InventoryLocation: - name:&f    - 'lore1:&7ᴍột ʜệ ᴛʜốɴɢ ɴʜɪệᴍ ᴠụ ᴛɪếɴ ᴛʀɪểɴ#&7ɢɪúᴘ ʙạɴ ᴋɪếᴍ đượᴄ#&7Đɪểᴍ ʙᴀᴛᴛʟᴇᴘᴀꜱꜱ.'
+    - 'lore3:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍỞ'
+    - type:stick
+    - custommodeldata:1&f
+    - '    - RewardType: SHOP&7&7&7' 
+    - '    - Reward: TheRift&f&e'
+    - InventoryLocation: 51
+    - 
+    RewardType: SHOP
+    Reward: TheRift
+    InventoryLocation: 51

@@ -1,0 +1,56 @@
+Main:
+  NoPermission: '&f &fBạn không có quyền thực hiện điều này!'
+  AlreadyBought: '&f &fBạn đã mua rồi!'
+  ShopNotExisting: '&f &fCửa hàng đó không tồn tại...'
+  ShopItemNotExisting: '&f &fMặt hàng cửa hàng đó không tồn tại...'
+  OpenShop: ''
+  OpenShopOtherPlayer: '&f &fĐang mở cửa hàng &e%shop% &fcho &e%player%&f.'
+  CloseShopOtherPlayer: '&f &fĐã đóng kho hàng của &e%player%&f.'
+  CloseShop: ''
+  InventoryFull: '&f &fKho đồ của bạn không đủ chỗ trống!'
+  PlayerNotFound: '&f &fKhông tìm thấy người chơi &e%name%&f!'
+  ClickSpamWarning: '&f &fVui lòng chờ thêm %time_left% giây nữa để sử dụng lại.'
+  OffensiveClickSpamWarning: '&f &fVui lòng đừng click nhanh như vậy.'
+  OffensiveClickSpamKick: '&cĐã bị đá vì click spam.'
+  NeedItemInHand: '&f &fBạn cần một vật phẩm trong tay để thực hiện lệnh này.'
+  PrintedItemInfo: '&f &fTất cả thông tin vật phẩm đã được lưu thành công tại đây: &e''/plugins/BossShopPro/ItemDataStorage.yml''&f.'
+  ListAndSeparator: ' & '
+  ListOrSeparator: ' hoặc '
+Economy:
+  NoAccount: '&f &fBạn không có tài khoản kinh tế!'
+NotEnough:
+  Money: '&f &fBạn không đủ tiền!'
+  Item: '&f &fBạn không đủ vật phẩm!'
+  Points: '&f &fBạn không đủ điểm!'
+  Exp: '&f &fBạn không đủ kinh nghiệm!'
+  Or: '&f &fBạn không đủ tài nguyên!'
+Enchantment:
+  Invalid: '&f &fBạn không thể rèn vật phẩm trong tay bằng phép thuật này!'
+  EmptyHand: '&f &fBạn cần có vật phẩm trong tay!'
+Display:
+  Exp: '%levels% cấp kinh nghiệm'
+  Money: '&6%money%&fさつ'
+  Points: '%points% Điểm'
+  Item: '%items%'
+  ItemAll: tất cả %item%
+  ItemAllBuy: một kho đầy %item%
+  ItemAllEach: '%value%'
+  Nothing: không có gì
+  BungeeCordServer: Di chuyển máy chủ đến %server%
+  BungeeCordCommand: 'Lệnh BungeeCord: %commands%'
+  Close: Đóng cửa hàng
+  Command: 'Lệnh điều khiển: %commands%'
+  Custom: Không xác định
+  Enchantment: 'Phép thuật: %type% cấp %level%'
+  Permission: 'Quyền: %permissions%'
+  PlayerCommand: 'Lệnh: %commands%'
+  PlayerCommandOp: 'Lệnh: %commands%'
+  Shop: Mở cửa hàng %shop%
+  Page: Mở trang cửa hàng %page%
+Time:
+  Seconds: '%time% giây'
+  Minutes: '%time% phút'
+  Hours: '%time% giờ'
+  Days: '%time% ngày'
+  Weeks: '%time% tuần'
+Locale: vi_VN

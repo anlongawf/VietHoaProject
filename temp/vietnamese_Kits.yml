@@ -1,0 +1,147 @@
+ShopName: Kits
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+RemovePlayerInventory: true
+shop:
+############################################################################################################################################
+# Customize your kits to your liking, here you have the list of all unicodes for tools, weapons and armor, use them!
+# 
+# Chainmail Helmet - 
+# Chainmail Chestplate - 
+# Chainmail Leggings - 
+# Chainmail Boots - 
+# Golden Helmet - 
+# Golden Chestplate - 
+# Golden Leggings - 
+# Golden Boots - 
+# Iron Helmet - 
+# Iron Chestplate - 
+# Iron Leggings - 
+# Iron Boots - 
+# Diamond Helmet - 
+# Diamond Chestplate - 
+# Diamond Leggings - 
+# Diamond Boots - 
+# Netherite Helmet - 
+# Netherite Chestplate - 
+# Netherite Leggings - 
+# Netherite Boots - 
+#
+# Bow - 
+# Crossbow - 
+# Trident - 
+# Wooden Sword - 
+# Stone Sword - 
+# Golden Sword - 
+# Iron Sword - 
+# Diamond Sword - 
+# Netherite Sword - 
+#
+# Wooden Pickaxe - 
+# Wooden Shovel - 
+# Wooden Axe - 
+# Golden Pickaxe - 
+# Golden Shovel - 
+# Golden Axe - 
+# Stone Pickaxe - 
+# Stone Shovel - 
+# Stone Axe - 
+# Iron Pickaxe - 
+# Iron Shovel - 
+# Iron Axe - 
+# Diamond Pickaxe - 
+# Diamond Shovel - 
+# Diamond Axe - 
+# Netherite Pickaxe - 
+# Netherite Shovel - 
+# Netherite Axe - 
+##################################################################################################################################
+  Knight:
+    MenuItem:
+    - amount:1
+    - type:stick
+    - custommodeldata:30
+    - name:&f
+    - 'lore1:&8ᴋɪᴛ ᴄó ᴛʜể ᴍᴜᴀ'
+    - 'lore3:#ff8cf3&lɢóɪ ʜàɴɢ ʙᴀᴏ ɢồᴍ'
+    - 'lore4:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ'
+    - 'lore5:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ'
+    - 'lore6:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ'
+    - 'lore7:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ' 
+    - 'lore8:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ' 
+    - 'lore9:&f ▪ x8 ᴛᴇsᴛ ɪᴛᴇᴍs' 
+    - 'lore10:&f ▪ x8 ᴛᴇsᴛ ᴋᴇʏs' 
+    - 'lore12:#f46161để ᴍᴜᴀ ᴋɪᴛ ɴàʏ ʙạɴ ᴄầɴ ᴘʜảɪ'
+    - 'lore13:#f46161ᴛʀᴜʏ ᴄậᴘ @ sᴛᴏʀᴇ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ'
+    - 'lore15:#351335đâʏ ᴋʜôɴɢ ᴘʜảɪ ʟà ᴍộᴛ ᴋɪᴛ ʜɪệᴜ ǫᴜả, ở đâʏ'
+    - 'lore16:#351335ʙạɴ ʜɪểɴ ᴛʜị ᴄáᴄ ᴋɪᴛ ʙạɴ ʙáɴ!'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  DragonSlayer:
+    MenuItem:
+    - amount:1
+    - type:stick
+    - custommodeldata:31
+    - name:&f
+    - 'lore1:&8ᴋɪᴛ ᴄó ᴛʜể ᴍᴜᴀ'
+    - 'lore3:#ff8cf3&lɢóɪ ʜàɴɢ ʙᴀᴏ ɢồᴍ'
+    - 'lore4:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ'
+    - 'lore5:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ'
+    - 'lore6:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ' 
+    - 'lore7:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ'
+    - 'lore8:&f ▪ x1  &7ᴇɴᴄʜᴀɴᴛ'
+    - 'lore9:&f ▪ x8 ᴛᴇsᴛ ɪᴛᴇᴍs' 
+    - 'lore12:#f46161ᴛᴏ ʙᴜʏ ᴛʜɪs ᴋɪᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ'&f
+    - 'lore13:#f46161ᴀᴄᴄᴇss @ sᴛᴏʀᴇ.sᴜʀᴠɪᴠᴀʟ.ɴᴇᴛ'
+    - 'lore15:#351335ᴛʜɪs ɪs ɴᴏᴛ ᴀ ᴡᴏʀᴋɪɴɢ ᴋɪᴛ, ʜᴇʀᴇ'
+    - 'lore16:#351335ʏᴏᴜ ᴅɪsᴘʟᴀʏ ᴛʜᴇ ᴋɪᴛs ʏᴏᴜ sᴇʟʟ!'
+    - Message: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 12'
+    InventoryLocation: ##################################################################################################################################
+  ranks:
+    MenuItem:
+    - 'lore1:&7ᴍᴜᴏ̂́ɴ ᴍᴏ̣̂ᴛ ꜱᴏ̂́ ᴜ̛ᴜ đᴀ̃ɪ ᴛʜᴇ̂ᴍ?#&7ʙᴀ̣ɴ ᴄᴏ́ ᴛʜᴇ̂̉ ᴍᴜᴀ ᴍᴏ̣̂ᴛ ᴄᴀ̂́ᴘ ʙᴀ̣̂ᴄ'
+    - '    - name:&f&7&7'
+    - amount:1&f
+    - type:stick
+    - custommodeldata:1
+    - RewardType: SHOP
+    RewardType: Ranks
+    Reward: NOTHING
+    PriceType: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 2'
+    InventoryLocation: 
+    MenuItem:
+    - 'lore1:&eĐᴀ̃ ᴄʜᴏ̣ɴ'
+    - '    - name:&f&e'
+    - amount:1&f
+    - type:stick
+    - custommodeldata:1
+    - RewardType: SHOP
+    RewardType: Kits
+    Reward: NOTHING
+    PriceType: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 3'
+    InventoryLocation: 
+    MenuItem:
+    - 'lore1:&7ᴄᴀ́ᴄ ᴍᴀ̣̆ᴛ ʜᴀ̀ɴɢ ᴄᴏ́ ᴛʜᴇ̂̉ ᴍᴜᴀ ᴋʜᴏ̂ɴɢ ᴠᴜ̛̀ᴀ#&7ᴠᴀ̀ᴏ ᴄᴀ́ᴄ ᴅᴀɴʜ ᴍᴜ̣ᴄ ᴋʜᴀ́ᴄ'
+    - '    - name:&f&7&7'
+    - amount:1&f
+    - type:stick
+    - custommodeldata:1
+    - RewardType: SHOP
+    RewardType: Others
+    Reward: NOTHING
+    PriceType: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 4'
+    InventoryLocation: 
+    MenuItem:
+    - name:&f
+    - type:stick&f
+    - custommodeldata:1
+    - InventoryLocation: 54
+    InventoryLocation: 

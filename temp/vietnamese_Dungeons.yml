@@ -1,0 +1,632 @@
+ShopName: Dungeons
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: dungeons:dungeon
+RemovePlayerInventory: true
+shop:
+####################################################################################################################
+  dungeon_easy_1:
+    MenuItem:
+    - name:&aᴇᴀꜱʏ ᴀʀᴇɴᴀ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴍột ᴀʀᴇɴᴀ ᴠớɪ 20 ᴢᴏᴍʙɪᴇꜱ ʟɪêɴ ᴛụᴄ ꜱᴘᴀᴡɴ'
+    - 'lore2:&7ᴄʜúɴɢ ᴄó ꜱứᴄ ᴍạɴʜ ᴠà ᴛʀᴀɴɢ ʙị ᴋʜáᴄ ɴʜᴀᴜ,'
+    - 'lore3:&7ᴛùʏ ᴛʜᴜộᴄ ᴠàᴏ ᴄấᴘ độ ᴄủᴀ ᴄʜúɴɢ, ɴʜưɴɢ'
+    - 'lore4:&7ᴛốᴄ độ ᴋʜôɴɢ ǫᴜá ᴄᴀᴏ. ᴠì ᴠậʏ, ʙạɴ ᴄó ᴛʜể''ᴛ ᴛᴏᴏ ʜɪɢʜ. ᴛʜᴜꜱ, ʏᴏᴜ ᴄᴀɴ'
+    - 'lore5:&7ʟᴜôɴ ᴄʜạʏ ᴛʀốɴ ᴋʜỏɪ ᴄʜúɴɢ ở ᴄᴜốɪ đườɴɢ.'
+    - 'lore7:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'
+    - 'lore9:&f &eᴄʟɪᴄᴋ để ᴛᴇʟᴇᴘᴏʀᴛ ᴠàᴏ ᴀʀᴇɴᴀ'
+    - 'lore10:&f &cᴍấᴛ đồ ᴋʜɪ ᴄʜếᴛ'
+    RewardType: AND
+    Reward:
+      RewardType1: COMMAND
+      Reward1:
+      - opendungeoneasymenu %player%
+      RewardType2: CLOSE
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  dungeon_easy_2:
+    MenuItem:
+    - name:&aᴇᴀꜱʏ ᴀʀᴇɴᴀ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴍột ᴀʀᴇɴᴀ ᴠớɪ 20 ᴢᴏᴍʙɪᴇꜱ ʟɪêɴ ᴛụᴄ ꜱᴘᴀᴡɴ'
+    - 'lore2:&7ᴄʜúɴɢ ᴄó ꜱứᴄ ᴍạɴʜ ᴠà ᴛʀᴀɴɢ ʙị ᴋʜáᴄ ɴʜᴀᴜ,'
+    - 'lore3:&7ᴛùʏ ᴛʜᴜộᴄ ᴠàᴏ ᴄấᴘ độ ᴄủᴀ ᴄʜúɴɢ, ɴʜưɴɢ'
+    - 'lore4:&7ᴛốᴄ độ ᴋʜôɴɢ ǫᴜá ᴄᴀᴏ. ᴠì ᴠậʏ, ʙạɴ ᴄó ᴛʜể''ᴛ ᴛᴏᴏ ʜɪɢʜ. ᴛʜᴜꜱ, ʏᴏᴜ ᴄᴀɴ'
+    - 'lore5:&7ʟᴜôɴ ᴄʜạʏ ᴛʀốɴ ᴋʜỏɪ ᴄʜúɴɢ ở ᴄᴜốɪ đườɴɢ.'
+    - 'lore7:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'
+    - 'lore9:&f &eᴄʟɪᴄᴋ để ᴛᴇʟᴇᴘᴏʀᴛ ᴠàᴏ ᴀʀᴇɴᴀ'
+    - 'lore10:&f &cᴍấᴛ đồ ᴋʜɪ ᴄʜếᴛ'
+    RewardType: AND
+    Reward:
+      RewardType1: COMMAND
+      Reward1:
+      - opendungeoneasymenu %player%
+      RewardType2: CLOSE
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  dungeon_easy_3:
+    MenuItem:
+    - name:&aᴇᴀꜱʏ ᴀʀᴇɴᴀ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴍột ᴀʀᴇɴᴀ ᴠớɪ 20 ᴢᴏᴍʙɪᴇꜱ ʟɪêɴ ᴛụᴄ ꜱᴘᴀᴡɴ'
+    - 'lore2:&7ᴄʜúɴɢ ᴄó ꜱứᴄ ᴍạɴʜ ᴠà ᴛʀᴀɴɢ ʙị ᴋʜáᴄ ɴʜᴀᴜ,'
+    - 'lore3:&7ᴛùʏ ᴛʜᴜộᴄ ᴠàᴏ ᴄấᴘ độ ᴄủᴀ ᴄʜúɴɢ, ɴʜưɴɢ'
+    - 'lore4:&7ᴛốᴄ độ ᴋʜôɴɢ ǫᴜá ᴄᴀᴏ. ᴠì ᴠậʏ, ʙạɴ ᴄó ᴛʜể''ᴛ ᴛᴏᴏ ʜɪɢʜ. ᴛʜᴜꜱ, ʏᴏᴜ ᴄᴀɴ'
+    - 'lore5:&7ʟᴜôɴ ᴄʜạʏ ᴛʀốɴ ᴋʜỏɪ ᴄʜúɴɢ ở ᴄᴜốɪ đườɴɢ.'
+    - 'lore7:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'
+    - 'lore9:&f &eᴄʟɪᴄᴋ để ᴛᴇʟᴇᴘᴏʀᴛ ᴠàᴏ ᴀʀᴇɴᴀ'
+    - 'lore10:&f &cᴍấᴛ đồ ᴋʜɪ ᴄʜếᴛ'
+    RewardType: AND
+    Reward:
+      RewardType1: COMMAND
+      Reward1:
+      - opendungeoneasymenu %player%
+      RewardType2: CLOSE
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  dungeon_easy_4:    MenuItem:
+    MenuItem:
+    - amount:1&a
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴍột ᴀʀᴇɴᴀ ᴠớɪ 20 ᴢᴏᴍʙɪᴇ ʟɪêɴ ᴛụᴄ ꜱᴘᴀᴡɴ'
+    - 'lore2:&7ᴄʜúɴɢ ᴄó ꜱứᴄ ᴍạɴʜ ᴠà ᴛʀᴀɴɢ ʙị ᴋʜáᴄ ɴʜᴀᴜ,'
+    - 'lore3:&7ᴛùʏ ᴛʜᴜộᴄ ᴠàᴏ ᴄấᴘ độ ᴄủᴀ ᴄʜúɴɢ, ɴʜưɴɢ'
+    - 'lore4:&7ᴛốᴄ độ ᴋʜôɴɢ ǫᴜá ᴄᴀᴏ. ᴅᴏ đó, ʙạɴ ᴄó ᴛʜể'
+    - 'lore5:&7ʟᴜôɴ ᴄʜạʏ ᴛʀốɴ ᴋʜỏɪ ᴄʜúɴɢ ở đườɴɢ ᴄùɴɢ.''ᴛ ᴛᴏᴏ ʜɪɢʜ. ᴛʜᴜꜱ, ʏᴏᴜ ᴄᴀɴ'
+    - 'lore7:&f ▪ ʏêᴜ ᴄầᴜ: &f &7x1'
+    - 'lore9:&f &eɴʜấᴘ để ᴅ dịch ᴄʜᴜʏểɴ ᴠàᴏ ᴀʀᴇɴᴀ'&7
+    - 'lore10:&f &cᴍấᴛ ᴠậᴛ ᴘʜẩᴍ ᴋʜɪ ᴄʜếᴛ'&e
+    - '    RewardType: AND&f&c'
+    Reward:
+    Reward:
+      Reward1:
+      Reward1:
+      RewardType2: CLOSE%player%
+    Message: ''
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 10'
+  dungeon_easy_5:
+  dungeon_easy_5:
+    MenuItem:
+    - amount:1&a
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴍột ᴀʀᴇɴᴀ ᴠớɪ 20 ᴢᴏᴍʙɪᴇ ʟɪêɴ ᴛụᴄ ꜱᴘᴀᴡɴ'
+    - 'lore2:&7ᴄʜúɴɢ ᴄó ꜱứᴄ ᴍạɴʜ ᴠà ᴛʀᴀɴɢ ʙị ᴋʜáᴄ ɴʜᴀᴜ,'
+    - 'lore3:&7ᴛùʏ ᴛʜᴜộᴄ ᴠàᴏ ᴄấᴘ độ ᴄủᴀ ᴄʜúɴɢ, ɴʜưɴɢ'
+    - 'lore4:&7ᴛốᴄ độ ᴋʜôɴɢ ǫᴜá ᴄᴀᴏ. ᴅᴏ đó, ʙạɴ ᴄó ᴛʜể'
+    - 'lore5:&7ʟᴜôɴ ᴄʜạʏ ᴛʀốɴ ᴋʜỏɪ ᴄʜúɴɢ ở đườɴɢ ᴄùɴɢ.''ᴛ ᴛᴏᴏ ʜɪɢʜ. ᴛʜᴜꜱ, ʏᴏᴜ ᴄᴀɴ'
+    - 'lore7:&f ▪ ʏêᴜ ᴄầᴜ: &f &7x1'
+    - 'lore9:&f &eɴʜấᴘ để ᴅ dịch ᴄʜᴜʏểɴ ᴠàᴏ ᴀʀᴇɴᴀ'&7
+    - 'lore10:&f &cᴍấᴛ ᴠậᴛ ᴘʜẩᴍ ᴋʜɪ ᴄʜếᴛ'&e
+    - '    RewardType: AND&f&c'
+    Reward:
+    Reward:
+      Reward1:
+      Reward1:
+      RewardType2: CLOSE%player%
+    Message: ''
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 11'
+  dungeon_easy_6:
+  dungeon_easy_6:
+    MenuItem:
+    - amount:1&a
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴍột ᴀʀᴇɴᴀ ᴠớɪ 20 ᴢᴏᴍʙɪᴇ ʟɪêɴ ᴛụᴄ ꜱᴘᴀᴡɴ'
+    - 'lore2:&7ᴄʜúɴɢ ᴄó ꜱứᴄ ᴍạɴʜ ᴠà ᴛʀᴀɴɢ ʙị ᴋʜáᴄ ɴʜᴀᴜ,'
+    - 'lore3:&7ᴛùʏ ᴛʜᴜộᴄ ᴠàᴏ ᴄấᴘ độ ᴄủᴀ ᴄʜúɴɢ, ɴʜưɴɢ'
+    - 'lore4:&7ᴛốᴄ độ ᴋʜôɴɢ ǫᴜá ᴄᴀᴏ. ᴅᴏ đó, ʙạɴ ᴄó ᴛʜể'
+    - 'lore5:&7ʟᴜôɴ ᴄʜạʏ ᴛʀốɴ ᴋʜỏɪ ᴄʜúɴɢ ở đườɴɢ ᴄùɴɢ.''ᴛ ᴛᴏᴏ ʜɪɢʜ. ᴛʜᴜꜱ, ʏᴏᴜ ᴄᴀɴ'
+    - 'lore7:&f ▪ ʏêᴜ ᴄầᴜ: &f &7x1'
+    - 'lore9:&f &eɴʜấᴘ để ᴅ dịch ᴄʜᴜʏểɴ ᴠàᴏ ᴀʀᴇɴᴀ'&7
+    - 'lore10:&f &cᴍấᴛ ᴠậᴛ ᴘʜẩᴍ ᴋʜɪ ᴄʜếᴛ'&e
+    - '    RewardType: AND&f&c'
+    Reward:
+    Reward:
+      Reward1:
+      Reward1:
+      RewardType2: CLOSE%player%
+    Message: ''
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 12'
+  dungeon_easy_7:
+  dungeon_easy_7:
+    MenuItem:
+    - amount:1&a
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴍột ᴀʀᴇɴᴀ ᴠớɪ 20 ᴢᴏᴍʙɪᴇ ʟɪêɴ ᴛụᴄ ꜱᴘᴀᴡɴ'
+    - 'lore2:&7ᴄʜúɴɢ ᴄó ꜱứᴄ ᴍạɴʜ ᴠà ᴛʀᴀɴɢ ʙị ᴋʜáᴄ ɴʜᴀᴜ,'
+    - 'lore4:&7ᴛỐᴄ ĐỘ ᴋʜÔɴɢ ǫᴜÁ ᴄᴀᴏ. ᴠÌ ᴠẬʏ, ʙẠɴ ᴄÓ ᴛʜỂ'
+    - 'lore5:&7ʟÚᴄ ɴÀᴏ ᴄŨɴɢ ᴄÓ ᴛʜỂ ᴄʜẠʏ ᴛʀỐɴ ᴋʜỎɪ ᴄʜÚɴɢ ᴋʜɪ ɢẶᴘ ĐƯỜɴɢ ᴄÙɴɢ.'
+    - 'lore7:&f ▪ ʏÊᴜ ᴄẦᴜ: &f &7x1''ᴛ ᴛᴏᴏ ʜɪɢʜ. ᴛʜᴜꜱ, ʏᴏᴜ ᴄᴀɴ'
+    - 'lore9:&f &eɴʜẤᴘ ĐỂ ᴅỊ ᴄʜᴜʏỂɴ ĐẾɴ ĐẤᴜ ᴛʀƯỜɴɢ'&7
+    - 'lore10:&f &cᴍẤᴛ ᴠẬᴛ ᴘʜẨᴍ ᴋʜɪ ᴄʜẾᴛ'&7
+    - '    RewardType: AND&f&e'
+    - '    Reward:&f&c'
+      RewardType1: COMMAND
+    Reward:
+      - opendungeoneasymenu %player%
+      Reward1:
+    Message: ''%player%
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 19'
+    ExtraPermission: '  dungeon_easy_8:'
+    MenuItem:
+  dungeon_easy_8:
+    MenuItem:
+    - type:stick&a
+    - custommodeldata:1
+    - 'lore1:&7ᴍỘᴛ ĐẤᴜ ᴛʀƯỜɴɢ ᴠỚɪ 20 ᴢᴏᴍʙɪᴇ ʟɪÊɴ ᴛỤᴄ ꜱɪɴʜ ʀᴀ'
+    - 'lore2:&7ᴄʜÚɴɢ ᴄÓ ɴʜỮɴɢ ꜱỨᴄ ᴍẠɴʜ ᴠÀ ᴛʀᴀɴɢ ʙỊ ᴋʜÁᴄ ɴʜᴀᴜ,'
+    - 'lore3:&7ᴛÙʏ ᴛʜᴇᴏ ᴄẤᴘ ĐỘ ᴄỦᴀ ᴄʜÚɴɢ, ɴʜƯɴɢ'
+    - 'lore4:&7ᴛỐᴄ ĐỘ ᴋʜÔɴɢ ǫᴜÁ ᴄᴀᴏ. ᴠÌ ᴠẬʏ, ʙẠɴ ᴄÓ ᴛʜỂ'
+    - 'lore5:&7ʟÚᴄ ɴÀᴏ ᴄŨɴɢ ᴄÓ ᴛʜỂ ᴄʜẠʏ ᴛʀỐɴ ᴋʜỎɪ ᴄʜÚɴɢ ᴋʜɪ ɢẶᴘ ĐƯỜɴɢ ᴄÙɴɢ.'
+    - 'lore7:&f ▪ ʏÊᴜ ᴄẦᴜ: &f &7x1''ᴛ ᴛᴏᴏ ʜɪɢʜ. ᴛʜᴜꜱ, ʏᴏᴜ ᴄᴀɴ'
+    - 'lore9:&f &eɴʜẤᴘ ĐỂ ᴅỊ ᴄʜᴜʏỂɴ ĐẾɴ ĐẤᴜ ᴛʀƯỜɴɢ'&7
+    - 'lore10:&f &cᴍẤᴛ ᴠẬᴛ ᴘʜẨᴍ ᴋʜɪ ᴄʜẾᴛ'&7
+    - '    RewardType: AND&f&e'
+    - '    Reward:&f&c'
+      RewardType1: COMMAND
+    Reward:
+      - opendungeoneasymenu %player%
+      Reward1:
+    Message: ''%player%
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 20'
+    ExtraPermission: '  dungeon_easy_9:'
+    MenuItem:
+  dungeon_easy_9:
+    MenuItem:
+    - type:stick&a
+    - custommodeldata:1
+    - 'lore1:&7ᴍỘᴛ ĐẤᴜ ᴛʀƯỜɴɢ ᴠỚɪ 20 ᴢᴏᴍʙɪᴇ ʟɪÊɴ ᴛỤᴄ ꜱɪɴʜ ʀᴀ'
+    - 'lore2:&7ᴄʜÚɴɢ ᴄÓ ɴʜỮɴɢ ꜱỨᴄ ᴍẠɴʜ ᴠÀ ᴛʀᴀɴɢ ʙỊ ᴋʜÁᴄ ɴʜᴀᴜ,'
+    - 'lore3:&7ᴛÙʏ ᴛʜᴇᴏ ᴄẤᴘ ĐỘ ᴄỦᴀ ᴄʜÚɴɢ, ɴʜƯɴɢ'
+    - 'lore4:&7ᴛỐᴄ ĐỘ ᴋʜÔɴɢ ǫᴜÁ ᴄᴀᴏ. ᴠÌ ᴠẬʏ, ʙẠɴ ᴄÓ ᴛʜỂ'
+    - 'lore5:&7ʟÚᴄ ɴÀᴏ ᴄŨɴɢ ᴄÓ ᴛʜỂ ᴄʜẠʏ ᴛʀỐɴ ᴋʜỎɪ ᴄʜÚɴɢ ᴋʜɪ ɢẶᴘ ĐƯỜɴɢ ᴄÙɴɢ.'
+    - 'lore7:&f ▪ ʏÊᴜ ᴄẦᴜ: &f &7x1''ᴛ ᴛᴏᴏ ʜɪɢʜ. ᴛʜᴜꜱ, ʏᴏᴜ ᴄᴀɴ'
+    - 'lore9:&f &eɴʜẤᴘ ĐỂ ᴅỊ ᴄʜᴜʏỂɴ ĐẾɴ ĐẤᴜ ᴛʀƯỜɴɢ'&7
+    - 'lore10:&f &cᴍẤᴛ ᴠẬᴛ ᴘʜẨᴍ ᴋʜɪ ᴄʜẾᴛ'&7
+    - '    RewardType: AND&f&e'
+    - '    Reward:&f&c'
+      RewardType1: COMMAND
+    Reward:
+      - opendungeoneasymenu %player%
+      Reward1:
+    Message: ''%player%
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 21'
+    ExtraPermission: ''
+####################################################################################################################
+  dungeon_medium_1:
+    MenuItem:
+  dungeon_medium_1:
+    MenuItem:
+    - type:stick&e
+    - custommodeldata:1
+    - 'lore1:&7ᴠỪᴀ ᴛʜÚ ᴠỊ ᴠỪᴀ ᴋʜÓ ᴋʜĂɴ. ᴍỘᴛ ɴỬᴀ ʟÀ ĐẤᴛ,'
+    - 'lore2:&7ᴍỘᴛ ɴỬᴀ ʟÀ ɴƯỚᴄ. ʙẠɴ ꜱẼ ĐỐɪ ᴍẶᴛ ᴠỚɪ 25 ĐỐɪ ᴛʜỦ'
+    - 'lore3:&7ᴄẢ ꜱɪɴʜ ᴠẬᴛ ᴅƯỚɪ ɴƯỚᴄ ᴠÀ ᴄÁᴄ ᴄᴜɴɢ ᴛʜỦ, ᴘʜÁᴘ ꜱƯ ᴠÀ ɴʜIỀᴜ ʜƠɴ ɴỮᴀ.'
+    - 'lore4:&7ᴛʜᴀʏ ᴠÀᴏ ĐÓ, ᴘʜẦɴ ᴛʜƯỞɴɢ ᴛƯƠɴɢ Ứɴɢ'
+    - 'lore7:&f ▪ ʏêᴜ ᴄầᴜ: &f &7x1'
+    - 'lore9:&f &eɴʜẤᴘ ĐỂ  dịch chuyển ᴠÀᴏ ĐẤᴜ ᴛʀườɴɢ'&7
+    - 'lore10:&f &cᴍẤᴛ ĐỒ ᴋʜɪ ᴄʜẾᴛ'&7
+    - '    RewardType: AND&f&f&7'
+    - '    Reward:&f&e'
+    - '      RewardType1: COMMAND&f&c'
+      Reward1:
+    Reward:
+      RewardType2: CLOSE
+      Reward1:
+    ExtraPermission: ''%player%
+    InventoryLocation: 4
+    Message: '  dungeon_medium_2:'
+    ExtraPermission: '    MenuItem:'
+    - name:&eĐẤᴜ ᴛʀườɴɢ ᴠừᴀ
+  dungeon_medium_2:
+    MenuItem:
+    - custommodeldata:1&e
+    - 'lore1:&7ᴠừᴀ ʜẤᴘ ᴅẪɴ ᴠừᴀ ᴋʜó. ɴửᴀ ĐẤᴛ,'
+    - 'lore2:&7ɴửᴀ ɴướᴄ. ʙẠɴ ꜱẼ ĐỐɪ ᴍẶᴛ ᴠớɪ 25 ĐỐɪ ᴛʜủ'
+    - 'lore3:&7ᴄả ꜱɪɴʜ ᴠẬᴛ ᴅướɪ ɴướᴄ ᴠà ᴄả ᴄᴜɴɢ ᴛʜỦ, ᴘʜÙ ᴛʜỦʏ ᴠà ɴʜɪỀᴜ ʜƠɴ.'
+    - 'lore4:&7ᴛʜᴀʏ ᴠÀᴏ ĐÓ, ᴘʜẦɴ ᴛʜưởɴɢ ᴛƯƠɴɢ Ứɴɢ'
+    - 'lore5:&7ᴠớɪ ɴʜữɴɢ ᴋʜó ᴋʜăɴ.'
+    - 'lore7:&f ▪ ʏêᴜ ᴄầᴜ: &f &7x1'
+    - 'lore9:&f &eɴʜẤᴘ ĐỂ dịch chuyển ᴠÀᴏ ĐẤᴜ ᴛʀườɴɢ'&7
+    - 'lore10:&f &cᴍẤᴛ ĐỒ ᴋʜɪ ᴄʜẾᴛ'&7
+    - '    RewardType: AND&f&f&7'
+    - '    Reward:&f&e'
+    - '      RewardType1: COMMAND&f&c'
+      Reward1:
+    Reward:
+      RewardType2: CLOSE
+      Reward1:
+    ExtraPermission: ''%player%
+    InventoryLocation: 5
+    Message: '  dungeon_medium_3:'
+    ExtraPermission: '    MenuItem:'
+    - name:&eĐẤᴜ ᴛʀườɴɢ ᴠừᴀ
+  dungeon_medium_3:
+    MenuItem:
+    - custommodeldata:1&e
+    - 'lore1:&7ᴠừᴀ ʜẤᴘ ᴅẪɴ ᴠừᴀ ᴋʜó. ɴửᴀ ĐẤᴛ,'
+    - 'lore2:&7ɴửᴀ ɴướᴄ. ʙẠɴ ꜱẼ ĐỐɪ ᴍẶᴛ ᴠớɪ 25 ĐỐɪ ᴛʜủ'
+    - 'lore3:&7ᴄả ꜱɪɴʜ ᴠẬᴛ ᴅướɪ ɴướᴄ ᴠà ᴄả ᴄᴜɴɢ ᴛʜỦ, ᴘʜÙ ᴛʜỦʏ ᴠà ɴʜɪỀᴜ ʜƠɴ.'
+    - 'lore4:&7ᴛʜᴀʏ ᴠÀᴏ ĐÓ, ᴘʜẦɴ ᴛʜưởɴɢ ᴛƯƠɴɢ Ứɴɢ'
+    - 'lore5:&7ᴠớɪ ɴʜữɴɢ ᴋʜó ᴋʜăɴ.'
+    - 'lore7:&f ▪ ʏêᴜ ᴄầᴜ: &f &7x1'
+    - 'lore9:&f &eɴʜẤᴘ ĐỂ dịch chuyển ᴠÀᴏ ĐẤᴜ ᴛʀườɴɢ'&7
+    - 'lore10:&f &cᴍẤᴛ ĐỒ ᴋʜɪ ᴄʜẾᴛ'&7
+    - '    RewardType: AND&f&f&7'
+    - '    Reward:&f&e'
+    - '      RewardType1: COMMAND&f&c'
+      Reward1:
+    Reward:
+      RewardType2: CLOSE
+      Reward1:
+    ExtraPermission: ''%player%
+    InventoryLocation: 6
+    Message: '  dungeon_medium_4:'
+    ExtraPermission: '    MenuItem:'
+    - name:&eĐẤᴜ ᴛʀườɴɢ ᴠừᴀ
+  dungeon_medium_4:
+    MenuItem:
+    - custommodeldata:1&e
+    - 'lore1:&7ᴠừᴀ ʜẤᴘ ᴅẪɴ ᴠừᴀ ᴋʜó. ɴửᴀ ĐẤᴛ,'
+    - 'lore2:&7ɴửᴀ ɴướᴄ. ʙẠɴ ꜱẼ ĐỐɪ ᴍẶᴛ ᴠớɪ 25 ĐỐɪ ᴛʜủ'
+    - 'lore3:&7ᴄả ꜱɪɴʜ ᴠẬᴛ ᴅướɪ ɴướᴄ ᴠà ᴄả ᴄᴜɴɢ ᴛʜỦ, ᴘʜÙ ᴛʜỦʏ ᴠà ɴʜɪỀᴜ ʜƠɴ.'
+    - 'lore4:&7ᴛʜᴀʏ ᴠÀᴏ ĐÓ, ᴘʜẦɴ ᴛʜưởɴɢ ᴛƯƠɴɢ Ứɴɢ'
+    - 'lore5:&7ᴠớɪ ɴʜữɴɢ ᴋʜó ᴋʜăɴ.'
+    - 'lore7:&f ▪ ʏêᴜ ᴄầᴜ: &f &7x1'
+    - 'lore9:&f &eɴʜẤᴘ ĐỂ dịch chuyển ᴠÀᴏ ĐẤᴜ ᴛʀườɴɢ'&7
+    - 'lore10:&f &cᴍẤᴛ ĐỒ ᴋʜɪ ᴄʜẾᴛ'&7
+    - '    RewardType: AND&f&f&7'
+    - '    Reward:&f&e'
+    - '      RewardType1: COMMAND&f&c'
+      Reward1:  dungeon_medium_4:
+    Reward:
+    - name:&eᴍᴇᴅɪᴜᴍ ᴀʀᴇɴᴀ
+      Reward1:
+    - type:stick%player%
+    - custommodeldata:1
+    - 'lore1:&7ᴠᴜɪ ᴠᴀ̀ ᴋʜᴏ́. ɴᴜ̛̉ᴀ ᴛʀᴀ́ɪ Đᴀ̂́ᴛ,'
+    - 'lore2:&7ɴᴜ̛̉ᴀ ʟᴀ̀ ɴᴜ̛ᴏ̛́ᴄ. ʙᴀ̣ɴ ꜱᴇ̃ Đᴏ̂́ɪ Đᴀ̂̀ᴜ ᴠᴏ̛́ɪ 25 Đᴏ̂́ɪ ᴛʜᴜ̉'
+    - 'lore3:&7ᴄᴀ̉ ꜱɪɴʜ ᴠᴀ̣̂ᴛ ᴅᴜ̛ᴏ̛́ɪ ɴᴜ̛ᴏ̛́ᴄ ᴠᴀ̀ ᴄᴀ́ᴄ ᴄᴜɴɢ ᴛʜᴜ̉, ᴘʜᴀ́ᴘ ꜱᴜ̛ ᴠᴀ̀ ɴʜɪᴇ̂̀ᴜ ʜᴏ̛ɴ.'
+  dungeon_medium_5:
+    MenuItem:
+    - 'lore7:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'&e
+    - 'lore9:&f &eᴄʟɪᴄᴋ Đᴇ̂̉ ᴛᴇʟᴇᴘᴏʀᴛ ᴠᴀ̀ᴏ Đᴀ̂́ᴜ ᴛʀᴜ̛ᴏ̛̀ɴɢ'
+    - 'lore10:&f &cᴍᴀ̂́ᴛ ᴋɪᴇ̣̂ɴ ᴛᴜ̛ᴏ̛́ɴɢ ᴋʜɪ ᴄʜᴇ̂́ᴛ'
+    RewardType: AND
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&7'
+    - '      - opendungeonmediummenu %player%&7'
+    - '      RewardType2: CLOSE&7'
+    Message: ''&f&f&7
+    ExtraPermission: ''&f&e
+    - '    InventoryLocation: 13&f&c'
+  dungeon_medium_5:
+    Reward:
+    - name:&eᴍᴇᴅɪᴜᴍ ᴀʀᴇɴᴀ
+      Reward1:
+    - type:stick%player%
+    - custommodeldata:1
+    - 'lore1:&7ᴠᴜɪ ᴠᴀ̀ ᴋʜᴏ́. ɴᴜ̛̉ᴀ ᴛʀᴀ́ɪ Đᴀ̂́ᴛ,'
+    - 'lore2:&7ɴᴜ̛̉ᴀ ʟᴀ̀ ɴᴜ̛ᴏ̛́ᴄ. ʙᴀ̣ɴ ꜱᴇ̃ Đᴏ̂́ɪ Đᴀ̂̀ᴜ ᴠᴏ̛́ɪ 25 Đᴏ̂́ɪ ᴛʜᴜ̉'
+    - 'lore3:&7ᴄᴀ̉ ꜱɪɴʜ ᴠᴀ̣̂ᴛ ᴅᴜ̛ᴏ̛́ɪ ɴᴜ̛ᴏ̛́ᴄ ᴠᴀ̀ ᴄᴀ́ᴄ ᴄᴜɴɢ ᴛʜᴜ̉, ᴘʜᴀ́ᴘ ꜱᴜ̛ ᴠᴀ̀ ɴʜɪᴇ̂̀ᴜ ʜᴏ̛ɴ.'
+  dungeon_medium_6:
+    MenuItem:
+    - 'lore7:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'&e
+    - 'lore9:&f &eᴄʟɪᴄᴋ Đᴇ̂̉ ᴛᴇʟᴇᴘᴏʀᴛ ᴠᴀ̀ᴏ Đᴀ̂́ᴜ ᴛʀᴜ̛ᴏ̛̀ɴɢ'
+    - 'lore10:&f &cᴍᴀ̂́ᴛ ᴋɪᴇ̣̂ɴ ᴛᴜ̛ᴏ̛́ɴɢ ᴋʜɪ ᴄʜᴇ̂́ᴛ'
+    RewardType: AND
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&7'
+    - '      - opendungeonmediummenu %player%&7'
+    - '      RewardType2: CLOSE&7'
+    Message: ''&f&f&7
+    ExtraPermission: ''&f&e
+    - '    InventoryLocation: 14&f&c'
+  dungeon_medium_6:
+    Reward:
+    - name:&eᴍᴇᴅɪᴜᴍ ᴀʀᴇɴᴀ
+      Reward1:
+    - type:stick%player%
+    - custommodeldata:1
+    - 'lore1:&7ᴠᴜɪ ᴠᴀ̀ ᴋʜᴏ́. ɴᴜ̛̉ᴀ ᴛʀᴀ́ɪ Đᴀ̂́ᴛ,'
+    - 'lore2:&7ɴᴜ̛̉ᴀ ʟᴀ̀ ɴᴜ̛ᴏ̛́ᴄ. ʙᴀ̣ɴ ꜱᴇ̃ Đᴏ̂́ɪ Đᴀ̂̀ᴜ ᴠᴏ̛́ɪ 25 Đᴏ̂́ɪ ᴛʜᴜ̉'
+    - 'lore3:&7ᴄᴀ̉ ꜱɪɴʜ ᴠᴀ̣̂ᴛ ᴅᴜ̛ᴏ̛́ɪ ɴᴜ̛ᴏ̛́ᴄ ᴠᴀ̀ ᴄᴀ́ᴄ ᴄᴜɴɢ ᴛʜᴜ̉, ᴘʜᴀ́ᴘ ꜱᴜ̛ ᴠᴀ̀ ɴʜɪᴇ̂̀ᴜ ʜᴏ̛ɴ.'
+  dungeon_medium_7:
+    MenuItem:
+    - 'lore7:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'&e
+    - 'lore9:&f &eᴄʟɪᴄᴋ Đᴇ̂̉ ᴛᴇʟᴇᴘᴏʀᴛ ᴠᴀ̀ᴏ Đᴀ̂́ᴜ ᴛʀᴜ̛ᴏ̛̀ɴɢ'
+    - 'lore10:&f &cᴍᴀ̂́ᴛ ᴋɪᴇ̣̂ɴ ᴛᴜ̛ᴏ̛́ɴɢ ᴋʜɪ ᴄʜᴇ̂́ᴛ'
+    RewardType: AND
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&7'
+    - '      - opendungeonmediummenu %player%&7'
+    - '      RewardType2: CLOSE&7'
+    Message: ''&f&f&7
+    ExtraPermission: ''&f&e
+    - '    InventoryLocation: 15&f&c'
+  dungeon_medium_7:
+    Reward:
+    - name:&eᴍᴇᴅɪᴜᴍ ᴀʀᴇɴᴀ
+      Reward1:
+    - type:stick%player%
+    - custommodeldata:1
+    - 'lore1:&7ᴠᴜɪ ᴠᴀ̀ ᴋʜᴏ́. ɴᴜ̛̉ᴀ ᴛʀᴀ́ɪ Đᴀ̂́ᴛ,'
+    - 'lore2:&7ɴᴜ̛̉ᴀ ʟᴀ̀ ɴᴜ̛ᴏ̛́ᴄ. ʙᴀ̣ɴ ꜱᴇ̃ Đᴏ̂́ɪ Đᴀ̂̀ᴜ ᴠᴏ̛́ɪ 25 Đᴏ̂́ɪ ᴛʜᴜ̉'
+    - 'lore3:&7ᴄᴀ̉ ꜱɪɴʜ ᴠᴀ̣̂ᴛ ᴅᴜ̛ᴏ̛́ɪ ɴᴜ̛ᴏ̛́ᴄ ᴠᴀ̀ ᴄᴀ́ᴄ ᴄᴜɴɢ ᴛʜᴜ̉, ᴘʜᴀ́ᴘ ꜱᴜ̛ ᴠᴀ̀ ɴʜɪᴇ̂̀ᴜ ʜᴏ̛ɴ.'
+  dungeon_medium_8:
+    MenuItem:
+    - 'lore2:&7ɴᴜ̛̉ᴀ ʟᴀ̀ ɴᴜ̛ᴏ̛́ᴄ. ʙᴀ̣ɴ ꜱᴇ̃ ᴆᴏ̂́ɪ ᴍᴀ̣̆ᴛ ᴠᴏ̛́ɪ 25 ᴆᴏ̂́ɪ ᴛʜᴜ̉'&e
+    - 'lore3:&7ᴄᴀ̉ ꜱɪɴʜ ᴠᴀ̣̂ᴛ ᴅᴜ̛ᴏ̛́ɪ ɴᴜ̛ᴏ̛́ᴄ ᴠᴀ̀ ᴄᴜɴɢ ᴛʜᴜ̉, ᴘʜᴀ́ᴘ ꜱᴜ̛ ᴠᴀ̀ ɴʜɪᴇ̂̀ᴜ ʜᴏ̛ɴ ɴᴜ̛̃ᴀ.'
+    - 'lore4:&7ᴛʜᴀʏ ᴠᴀ̀ᴏ ᴆᴏ́, ᴘʜᴀ̂̀ɴ ᴛʜᴜ̛ᴏ̛̉ɴɢ ᴛᴜ̛ᴏ̛ɴɢ ᴜ̛́ɴɢ'
+    - 'lore5:&7ᴠᴏ̛́ɪ ɴʜᴜ̛̃ɴɢ ᴋʜᴏ́ ᴋʜᴀ̆ɴ.'
+    - 'lore7:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'
+    - 'lore9:&f &eᴄʟɪᴄᴋ ᴆᴇ̂̉ ᴆᴇ̂́ɴ ᴀʀᴇɴᴀ'&7
+    - 'lore10:&f &cᴍᴀ̂́ᴛ ᴆᴏ̂̀ ᴋʜɪ ᴄʜᴇ̂́ᴛ'&7
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&f&f&7'
+    - '      Reward1:&f&e'
+    - '      - opendungeonmediummenu %player%&f&c'
+      RewardType2: CLOSE
+    Reward:
+    ExtraPermission: ''
+      Reward1:
+  dungeon_medium_9:%player%
+    MenuItem:
+    Message: '    - name:&eᴀʀᴇɴᴀ ᴠᴜ̛̀ᴀ'
+    ExtraPermission: '    - amount:1'
+    - type:stick
+  dungeon_medium_9:
+    MenuItem:
+    - 'lore2:&7ɴᴜ̛̉ᴀ ʟᴀ̀ ɴᴜ̛ᴏ̛́ᴄ. ʙᴀ̣ɴ ꜱᴇ̃ ᴆᴏ̂́ɪ ᴍᴀ̣̆ᴛ ᴠᴏ̛́ɪ 25 ᴆᴏ̂́ɪ ᴛʜᴜ̉'&e
+    - 'lore3:&7ᴄᴀ̉ ꜱɪɴʜ ᴠᴀ̣̂ᴛ ᴅᴜ̛ᴏ̛́ɪ ɴᴜ̛ᴏ̛́ᴄ ᴠᴀ̀ ᴄᴜɴɢ ᴛʜᴜ̉, ᴘʜᴀ́ᴘ ꜱᴜ̛ ᴠᴀ̀ ɴʜɪᴇ̂̀ᴜ ʜᴏ̛ɴ ɴᴜ̛̃ᴀ.'
+    - 'lore4:&7ᴛʜᴀʏ ᴠᴀ̀ᴏ ᴆᴏ́, ᴘʜᴀ̂̀ɴ ᴛʜᴜ̛ᴏ̛̉ɴɢ ᴛᴜ̛ᴏ̛ɴɢ ᴜ̛́ɴɢ'
+    - 'lore5:&7ᴠᴏ̛́ɪ ɴʜᴜ̛̃ɴɢ ᴋʜᴏ́ ᴋʜᴀ̆ɴ.'
+    - 'lore7:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'
+    - 'lore9:&f &eᴄʟɪᴄᴋ ᴆᴇ̂̉ ᴆᴇ̂́ɴ ᴀʀᴇɴᴀ'&7
+    - 'lore10:&f &cᴍᴀ̂́ᴛ ᴆᴏ̂̀ ᴋʜɪ ᴄʜᴇ̂́ᴛ'&7
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&f&f&7'
+    - '      Reward1:&f&e'
+    - '      - opendungeonmediummenu %player%&f&c'
+      RewardType2: CLOSE
+    Reward:
+    ExtraPermission: ''
+      Reward1:
+%player%
+####################################################################################################################
+    Message: '  dungeon_hard_1:'
+    ExtraPermission: '    MenuItem:'
+    - name:&cᴀʀᴇɴᴀ ᴋʜᴏ́
+    - amount:1
+    - type:stick
+  dungeon_hard_1:
+    MenuItem:
+    - 'lore2:&7ʜɪᴇ̣̂ɴ ᴅɪᴇ̣̂ɴ ꜱᴇ̃ ᴋʜɪᴇ̂́ɴ ᴠɪᴇ̣̂ᴄ ꜱᴏ̂́ɴɢ ꜱᴏ́ᴛ ᴛʜᴜ̛̣ᴄ ꜱᴜ̛̣ ᴋʜᴏ́ ᴋʜᴀ̆ɴ.'&c
+    - 'lore3:&7ɴʜᴜ̛̃ɴɢ ǫᴜᴀ́ɪ ᴠᴀ̣̂ᴛ ᴍᴏ̛́ɪ ɴʜᴀ̂́ᴛ ᴠᴀ̀ ᴍᴀ̣ɴʜ ᴍᴇ̃ ɴʜᴀ̂́ᴛ'
+    - 'lore4:&7ᴏ̛̉ ᴆᴀ̂ʏ, ᴄᴜ̀ɴɢ ᴠᴏ̛́ɪ ɴʜᴜ̛̃ɴɢ ᴘʜᴀ̂̀ɴ ᴛʜᴜ̛ᴏ̛̉ɴɢ ᴛᴏ̂́ᴛ ɴʜᴀ̂́ᴛ.'
+    - 'lore6:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴆᴇ̂̉ ᴆᴇ̂́ɴ ᴀʀᴇɴᴀ'&7
+    - 'lore9:&f &cᴍᴀ̂́ᴛ ᴆᴏ̂̀ ᴋʜɪ ᴄʜᴇ̂́ᴛ'&7
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&f&f&7'
+    - '      Reward1:&f&e'
+    - '      - opendungeonhardmenu %player%&f&c'
+      RewardType2: CLOSE
+    Reward:
+    ExtraPermission: ''
+      Reward1:
+  dungeon_hard_2:%player%
+    MenuItem:
+    Message: '    - name:&cᴀʀᴇɴᴀ ᴋʜᴏ́'
+    ExtraPermission: '    - amount:1'
+    - type:stick
+  dungeon_hard_2:
+    MenuItem:
+    - 'lore2:&7ʜɪᴇ̣̂ɴ ᴅɪᴇ̣̂ɴ ꜱᴇ̃ ᴋʜɪᴇ̂́ɴ ᴠɪᴇ̣̂ᴄ ꜱᴏ̂́ɴɢ ꜱᴏ́ᴛ ᴛʜᴜ̛̣ᴄ ꜱᴜ̛̣ ᴋʜᴏ́ ᴋʜᴀ̆ɴ.'&c
+    - 'lore3:&7ɴʜᴜ̛̃ɴɢ ǫᴜᴀ́ɪ ᴠᴀ̣̂ᴛ ᴍᴏ̛́ɪ ɴʜᴀ̂́ᴛ ᴠᴀ̀ ᴍᴀ̣ɴʜ ᴍᴇ̃ ɴʜᴀ̂́ᴛ'    - 'lore4:&7ᴀʀᴇ ʜᴇʀᴇ, ᴀʟᴏɴɢ ᴡɪᴛʜ ᴛʜᴇ ʙᴇꜱᴛ ʀᴇᴡᴀʀᴅꜱ.'
+    - 'lore6:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ɪɴ ᴀʀᴇɴᴀ'
+    - 'lore9:&f &cɪɴᴠᴇɴᴛᴏʀʏ ɪꜱ ʟᴏꜱᴛ ᴏɴ ᴅᴇᴀᴛʜ'&7
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&f&f&7'
+    - '      - opendungeonhardmenu %player%&f&e'
+    - '      RewardType2: CLOSE&f&c'
+    Message: ''
+    Reward:
+    InventoryLocation: 8
+      Reward1:
+    MenuItem:%player%
+    - name:&cʜᴀʀᴅ ᴀʀᴇɴᴀ
+    Message: '    - amount:1'
+    ExtraPermission: '    - type:stick'
+    - custommodeldata:1
+  dungeon_hard_3:
+    MenuItem:
+    - 'lore3:&7ᴛʜᴇ ɴᴇᴡᴇꜱᴛ ᴀɴᴅ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴍᴏɴꜱᴛᴇʀꜱ'&c
+    - 'lore4:&7ᴀʀᴇ ʜᴇʀᴇ, ᴀʟᴏɴɢ ᴡɪᴛʜ ᴛʜᴇ ʙᴇꜱᴛ ʀᴇᴡᴀʀᴅꜱ.'
+    - 'lore6:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ɪɴ ᴀʀᴇɴᴀ'
+    - 'lore9:&f &cɪɴᴠᴇɴᴛᴏʀʏ ɪꜱ ʟᴏꜱᴛ ᴏɴ ᴅᴇᴀᴛʜ'&7
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&f&f&7'
+    - '      - opendungeonhardmenu %player%&f&e'
+    - '      RewardType2: CLOSE&f&c'
+    Message: ''
+    Reward:
+    InventoryLocation: 9
+      Reward1:
+    MenuItem:%player%
+    - name:&cʜᴀʀᴅ ᴀʀᴇɴᴀ
+    Message: '    - amount:1'
+    ExtraPermission: '    - type:stick'
+    - custommodeldata:1
+  dungeon_hard_4:
+    MenuItem:
+    - 'lore3:&7ᴛʜᴇ ɴᴇᴡᴇꜱᴛ ᴀɴᴅ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴍᴏɴꜱᴛᴇʀꜱ'&c
+    - 'lore4:&7ᴀʀᴇ ʜᴇʀᴇ, ᴀʟᴏɴɢ ᴡɪᴛʜ ᴛʜᴇ ʙᴇꜱᴛ ʀᴇᴡᴀʀᴅꜱ.'
+    - 'lore6:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ɪɴ ᴀʀᴇɴᴀ'
+    - 'lore9:&f &cɪɴᴠᴇɴᴛᴏʀʏ ɪꜱ ʟᴏꜱᴛ ᴏɴ ᴅᴇᴀᴛʜ'&7
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&f&f&7'
+    - '      - opendungeonhardmenu %player%&f&e'
+    - '      RewardType2: CLOSE&f&c'
+    Message: ''
+    Reward:
+    InventoryLocation: 16
+      Reward1:
+    MenuItem:%player%
+    - name:&cʜᴀʀᴅ ᴀʀᴇɴᴀ
+    Message: '    - amount:1'
+    ExtraPermission: '    - type:stick'
+    - custommodeldata:1
+  dungeon_hard_5:
+    MenuItem:
+    - 'lore3:&7ᴛʜᴇ ɴᴇᴡᴇꜱᴛ ᴀɴᴅ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴍᴏɴꜱᴛᴇʀꜱ'&c
+    - 'lore4:&7ᴀʀᴇ ʜᴇʀᴇ, ᴀʟᴏɴɢ ᴡɪᴛʜ ᴛʜᴇ ʙᴇꜱᴛ ʀᴇᴡᴀʀᴅꜱ.'
+    - 'lore6:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ɪɴ ᴀʀᴇɴᴀ'
+    - 'lore9:&f &cɪɴᴠᴇɴᴛᴏʀʏ ɪꜱ ʟᴏꜱᴛ ᴏɴ ᴅᴇᴀᴛʜ'&7
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&f&f&7'
+    - '      - opendungeonhardmenu %player%&f&e'
+    - '      RewardType2: CLOSE&f&c'
+    Message: ''
+    Reward:
+    InventoryLocation: 17
+      Reward1:
+    MenuItem:    - name:&cʜᴀʀᴅ ᴀʀᴇɴᴀ%player%
+    - amount:1
+    Message: '    - type:stick'
+    ExtraPermission: '    - custommodeldata:1'
+    - 'lore1:&7ɪɴʜᴜᴍᴀɴ! ᴛʜᴇ ᴍᴜʟᴛɪᴛᴜᴅᴇ ᴏꜰ ᴍᴏɴꜱᴛᴇʀꜱ'
+  dungeon_hard_6:
+    MenuItem:
+    - 'lore4:&7ᴀʀᴇ ʜᴇʀᴇ, ᴀʟᴏɴɢ ᴡɪᴛʜ ᴛʜᴇ ʙᴇꜱᴛ ʀᴇᴡᴀʀᴅꜱ.'&c
+    - 'lore6:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ɪɴ ᴀʀᴇɴᴀ'
+    - 'lore9:&f &cɪɴᴠᴇɴᴛᴏʀʏ ɪꜱ ʟᴏꜱᴛ ᴏɴ ᴅᴇᴀᴛʜ'
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&7'
+    - '      - opendungeonhardmenu %player%&f&f&7'
+    - '      RewardType2: CLOSE&f&e'
+    Message: ''&f&c
+    ExtraPermission: ''
+    Reward:
+  dungeon_hard_7:
+      Reward1:
+    - name:&cʜᴀʀᴅ ᴀʀᴇɴᴀ%player%
+    - amount:1
+    Message: '    - type:stick'
+    ExtraPermission: '    - custommodeldata:1'
+    - 'lore1:&7ɪɴʜᴜᴍᴀɴ! ᴛʜᴇ ᴍᴜʟᴛɪᴛᴜᴅᴇ ᴏꜰ ᴍᴏɴꜱᴛᴇʀꜱ'
+  dungeon_hard_7:
+    MenuItem:
+    - 'lore4:&7ᴀʀᴇ ʜᴇʀᴇ, ᴀʟᴏɴɢ ᴡɪᴛʜ ᴛʜᴇ ʙᴇꜱᴛ ʀᴇᴡᴀʀᴅꜱ.'&c
+    - 'lore6:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ɪɴ ᴀʀᴇɴᴀ'
+    - 'lore9:&f &cɪɴᴠᴇɴᴛᴏʀʏ ɪꜱ ʟᴏꜱᴛ ᴏɴ ᴅᴇᴀᴛʜ'
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&7'
+    - '      - opendungeonhardmenu %player%&f&f&7'
+    - '      RewardType2: CLOSE&f&e'
+    Message: ''&f&c
+    ExtraPermission: ''
+    Reward:
+  dungeon_hard_8:
+      Reward1:
+    - name:&cʜᴀʀᴅ ᴀʀᴇɴᴀ%player%
+    - amount:1
+    Message: '    - type:stick'
+    ExtraPermission: '    - custommodeldata:1'
+    - 'lore1:&7ɪɴʜᴜᴍᴀɴ! ᴛʜᴇ ᴍᴜʟᴛɪᴛᴜᴅᴇ ᴏꜰ ᴍᴏɴꜱᴛᴇʀꜱ'
+  dungeon_hard_8:
+    MenuItem:
+    - 'lore4:&7ᴀʀᴇ ʜᴇʀᴇ, ᴀʟᴏɴɢ ᴡɪᴛʜ ᴛʜᴇ ʙᴇꜱᴛ ʀᴇᴡᴀʀᴅꜱ.'&c
+    - 'lore6:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ɪɴ ᴀʀᴇɴᴀ'
+    - 'lore9:&f &cɪɴᴠᴇɴᴛᴏʀʏ ɪꜱ ʟᴏꜱᴛ ᴏɴ ᴅᴇᴀᴛʜ'
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&7'
+    - '      - opendungeonhardmenu %player%&f&f&7'
+    - '      RewardType2: CLOSE&f&e'
+    Message: ''&f&c
+    ExtraPermission: ''
+    Reward:
+  dungeon_hard_9:
+      Reward1:
+    - name:&cʜᴀʀᴅ ᴀʀᴇɴᴀ%player%
+    - amount:1
+    Message: '    - type:stick'
+    ExtraPermission: '    - custommodeldata:1'
+    - 'lore1:&7ɪɴʜᴜᴍᴀɴ! ᴛʜᴇ ᴍᴜʟᴛɪᴛᴜᴅᴇ ᴏꜰ ᴍᴏɴꜱᴛᴇʀꜱ'
+  dungeon_hard_9:
+    MenuItem:
+    - 'lore4:&7ᴀʀᴇ ʜᴇʀᴇ, ᴀʟᴏɴɢ ᴡɪᴛʜ ᴛʜᴇ ʙᴇꜱᴛ ʀᴇᴡᴀʀᴅꜱ.'&c
+    - 'lore6:&f ▪ ʀᴇǫᴜɪʀᴇ: &f &7x1'
+    - 'lore8:&f &eᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ɪɴ ᴀʀᴇɴᴀ'    - 'lore9:&f &cɪɴᴠᴇɴᴛᴏʀʏ ɪꜱ ʟᴏꜱᴛ ᴏɴ ᴅᴇᴀᴛʜ'
+    RewardType: AND
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&7'
+    - '      - opendungeonhardmenu %player%&7'
+    - '      RewardType2: CLOSE&f&f&7'
+    Message: ''&f&e
+    ExtraPermission: ''&f&c
+    InventoryLocation: 27
+    Reward:
+####################################################################################################################
+      Reward1:
+    MenuItem:%player%
+    - type:stick
+    Message: '    - custommodeldata:1'
+    ExtraPermission: '    - name:&f'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+  invitem:
+    MenuItem:
+    - type:stick
+    - custommodeldata:1
+    - name:&f
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27

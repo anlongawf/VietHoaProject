@@ -1,0 +1,1724 @@
+ShopName: RandomTeleport
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: randomtp:rtp
+RemovePlayerInventory: true
+shop:
+####################################################################################################################
+  ov1_buy:
+    MenuItem:
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    - 'lore7:&f &eɴʜᴀ̂́ᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ đᴇ̂̉ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'
+    RewardType: AND
+    Reward:
+      RewardType1: COMMAND
+      Reward1:
+      - betterrtp player %player% playworld
+      RewardType2: CLOSE
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+    Condition:
+    - type:money
+    - over:500
+  ov1_nomoney:
+    MenuItem:
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪᴇ̂̀ɴ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+###########################
+  ov2_buy:
+    MenuItem:
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    - 'lore7:&f &eɴʜᴀ̂́ᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ đᴇ̂̉ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'
+    RewardType: AND
+    Reward:
+      RewardType1: COMMAND
+      Reward1:
+      - betterrtp player %player% playworld
+      RewardType2: CLOSE
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+    Condition:
+    - type:money
+    - over:500
+  ov2_nomoney:
+    MenuItem:
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪᴇ̂̀ɴ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+###########################
+  ov3_buy:
+    MenuItem:
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'  ov3_nomoney:
+    - '    MenuItem:&f&e'
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    Reward:
+    - type:stick
+      Reward1:
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đưᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏểɴ'%player%
+    - 'lore2:&7đếɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪểᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜế ɢɪớɪ ꜱɪɴʜ ᴛồɴ.'
+    - 'lore5:&f ▪ ɢɪ́ᴀ: &6500&f'
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪềɴ'
+    Condition:
+    ExtraPermission: ''
+    InventoryLocation: 3
+  ov3_nomoney:
+    MenuItem:
+    MenuItem:&a
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - '    - custommodeldata:1&7'
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đưᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏểɴ'
+    - 'lore2:&7đếɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪểᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜế ɢɪớɪ ꜱɪɴʜ ᴛồɴ.'&f&6&f
+    - 'lore5:&f ▪ ɢɪ́ᴀ: &6500&f'&c
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ để ᴅɪ ᴄʜᴜʏểɴ'
+    ExtraPermission: '    RewardType: AND'
+    Reward:
+      RewardType1: COMMAND
+  ov4_buy:
+    MenuItem:
+      RewardType2: CLOSE&a
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+    - '    Condition:&7'
+    - '    - type:money&7'
+    - '    - over:500&7'
+    - '  ov4_nomoney:&f&6&f'
+    - '    MenuItem:&f&e'
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    Reward:
+    - type:stick
+      Reward1:
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đưᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏểɴ'%player%
+    - 'lore2:&7đếɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪểᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜế ɢɪớɪ ꜱɪɴʜ ᴛồɴ.'
+    - 'lore5:&f ▪ ɢɪ́ᴀ: &6500&f'
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪềɴ'
+    Condition:
+    ExtraPermission: ''
+    InventoryLocation: 10
+  ov4_nomoney:
+    MenuItem:
+    MenuItem:&a
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - '    - custommodeldata:1&7'
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đưᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏểɴ'
+    - 'lore2:&7đếɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪểᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜế ɢɪớɪ ꜱɪɴʜ ᴛồɴ.'&f&6&f
+    - 'lore5:&f ▪ ɢɪ́ᴀ: &6500&f'&c
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ để ᴅɪ ᴄʜᴜʏểɴ'
+    ExtraPermission: '    RewardType: AND'
+    Reward:
+      RewardType1: COMMAND
+  ov5_buy:
+    MenuItem:
+      RewardType2: CLOSE&a
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+    - '    Condition:&7'
+    - '    - type:money&7'
+    - '    - over:500&7'
+    - '  ov5_nomoney:&f&6&f'
+    - '    MenuItem:&f&e'
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    Reward:
+    - type:stick
+      Reward1:
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đưᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏểɴ'%player%
+    - 'lore2:&7đếɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪểᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    Message: ''
+    ExtraPermission: '    InventoryLocation: 11'
+    Condition:
+    Condition:
+    - over:500
+  ov5_nomoney:
+  ov5_nomoney:
+    MenuItem:
+    - amount:1&a
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ᴡɪʟʟ ʙᴇ ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ'
+    - 'lore2:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ'    - '
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &6500&f'&7
+    - 'lore7:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'&7
+    Message: ''&f&6&f
+    ExtraPermission: ''&f&c
+    Message: '    InventoryLocation: 11'
+    ExtraPermission: '###########################'
+  ov6_buy:
+    MenuItem:
+  ov6_buy:
+    MenuItem:
+    - type:stick&a
+    - custommodeldata:1
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ ᴆƯỢᴄ ᴅỊᴄʜ ᴄʜᴜʏỂɴ'
+    - 'lore2:&7ᴆẾɴ ᴍỘᴛ ᴆỊᴀ ᴆɪỂᴍ ɴɢẪᴜ ɴʜɪÊɴ'
+    - 'lore3:&7ɪɴ ᴛʜᴇ ꜱᴜʀᴠɪᴠᴀʟ ᴡᴏʀʟᴅ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &6500&f'&7
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ᴆỂ ᴅỊᴄʜ ᴄʜᴜʏỂɴ'&7
+    - '    RewardType: AND&f&6&f'
+    - '    Reward:&f&e'
+      RewardType1: COMMAND
+    Reward:
+      - betterrtp player %player% playworld
+      Reward1:
+    Message: ''%player%
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 12'
+    ExtraPermission: '    Condition:'
+    - type:money
+    Condition:
+  ov6_nomoney:
+    MenuItem:
+  ov6_nomoney:
+    MenuItem:
+    - type:stick&a
+    - custommodeldata:1
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ ᴆƯỢᴄ ᴅỊᴄʜ ᴄʜᴜʏỂɴ'
+    - 'lore2:&7ᴆẾɴ ᴍỘᴛ ᴆỊᴀ ᴆɪỂᴍ ɴɢẪᴜ ɴʜɪÊɴ'
+    - 'lore3:&7ɪɴ ᴛʜᴇ ꜱᴜʀᴠɪᴠᴀʟ ᴡᴏʀʟᴅ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &6500&f'&7
+    - 'lore7:&f &cᴋʜÔɴɢ ĐỦ ᴛɪỀɴ'&7
+    Message: ''&f&6&f
+    ExtraPermission: ''&f&c
+    Message: '    InventoryLocation: 12'
+    ExtraPermission: '###########################'
+  ov7_buy:
+    MenuItem:
+  ov7_buy:
+    MenuItem:
+    - type:stick&a
+    - custommodeldata:1
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ ᴆƯỢᴄ ᴅỊᴄʜ ᴄʜᴜʏỂɴ'
+    - 'lore2:&7ᴆẾɴ ᴍỘᴛ ᴆỊᴀ ᴆɪỂᴍ ɴɢẪᴜ ɴʜɪÊɴ'
+    - 'lore3:&7ɪɴ ᴛʜᴇ ꜱᴜʀᴠɪᴠᴀʟ ᴡᴏʀʟᴅ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &6500&f'&7
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ᴆỂ ᴅỊᴄʜ ᴄʜᴜʏỂɴ'&7
+    - '    RewardType: AND&f&6&f'
+    - '    Reward:&f&e'
+      RewardType1: COMMAND
+    Reward:
+      - betterrtp player %player% playworld
+      Reward1:
+    Message: ''%player%
+    ExtraPermission: ''
+    Message: '    InventoryLocation: 19'
+    ExtraPermission: '    Condition:'
+    - type:money
+    Condition:
+  ov7_nomoney:
+    MenuItem:
+  ov7_nomoney:
+    MenuItem:
+    - type:stick&a
+    - custommodeldata:1
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ ᴆƯỢᴄ ᴅỊᴄʜ ᴄʜᴜʏỂɴ'
+    - 'lore2:&7ᴆẾɴ ᴍỘᴛ ᴆỊᴀ ᴆɪỂᴍ ɴɢẪᴜ ɴʜɪÊɴ'
+    - 'lore3:&7ɪɴ ᴛʜᴇ ꜱᴜʀᴠɪᴠᴀʟ ᴡᴏʀʟᴅ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &6500&f'&7
+    - 'lore7:&f &cᴋʜÔɴɢ ĐỦ ᴛɪỀɴ'&7
+    Message: ''&f&6&f
+    ExtraPermission: ''&f&c
+    Message: '    InventoryLocation: 19'
+    ExtraPermission: '###########################'
+  ov8_buy:
+    MenuItem:
+  ov8_buy:
+    MenuItem:
+    - type:stick&a
+    - custommodeldata:1
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ ᴆƯỢᴄ ᴅỊᴄʜ ᴄʜᴜʏỂɴ'
+    - 'lore2:&7ᴆẾɴ ᴍỘᴛ ᴆỊᴀ ᴆɪỂᴍ ɴɢẪᴜ ɴʜɪÊɴ'
+    - 'lore3:&7ɪɴ ᴛʜᴇ ꜱᴜʀᴠɪᴠᴀʟ ᴡᴏʀʟᴅ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &6500&f'&7
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ᴆỂ ᴅỊᴄʜ ᴄʜᴜʏỂɴ'&7
+    - '    RewardType: AND    Reward:&f&6&f'
+    - '      RewardType1: COMMAND&f&e'
+      Reward1:
+    Reward:
+      RewardType2: CLOSE
+      Reward1:
+    ExtraPermission: ''%player%
+    InventoryLocation: 20
+    Message: '    Condition:'
+    ExtraPermission: '    - type:money'
+    - over:500
+    Condition:
+    MenuItem:
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+  ov8_nomoney:
+    MenuItem:
+    - custommodeldata:1&a
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ  dịch chuyển'
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ở ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'&7
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪᴇ̂̀ɴ'&7
+    Message: ''&7
+    ExtraPermission: ''&f&6&f
+    - '    InventoryLocation: 20&f&c'
+    Message: '###########################'
+    ExtraPermission: '  ov9_buy:'
+    MenuItem:
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+  ov9_buy:
+    MenuItem:
+    - custommodeldata:1&a
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ dịch chuyển'
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ở ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'&7
+    - 'lore7:&f &eɴʜẤɴ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴛᴇʟᴇᴘᴏʀᴛ'&7
+    - '    RewardType: AND&7'
+    - '    Reward:&f&6&f'
+    - '      RewardType1: COMMAND&f&e'
+      Reward1:
+    Reward:
+      RewardType2: CLOSE
+      Reward1:
+    ExtraPermission: ''%player%
+    InventoryLocation: 21
+    Message: '    Condition:'
+    ExtraPermission: '    - type:money'
+    - over:500
+    Condition:
+    MenuItem:
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+  ov9_nomoney:
+    MenuItem:
+    - custommodeldata:1&a
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ dịch chuyển'
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ở ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'&7
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪᴇ̂̀ɴ'&7
+    Message: ''&7
+    ExtraPermission: ''&f&6&f
+    - '    InventoryLocation: 21&f&c'
+    Message: '###########################'
+    ExtraPermission: '  ov10_buy:'
+    MenuItem:
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+  ov10_buy:
+    MenuItem:
+    - custommodeldata:1&a
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ dịch chuyển'
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ở ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'&7
+    - 'lore7:&f &eɴʜẤɴ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴛᴇʟᴇᴘᴏʀᴛ'&7
+    - '    RewardType: AND&7'
+    - '    Reward:&f&6&f'
+    - '      RewardType1: COMMAND&f&e'
+      Reward1:
+    Reward:
+      RewardType2: CLOSE
+      Reward1:
+    ExtraPermission: ''%player%
+    InventoryLocation: 28
+    Message: '    Condition:'
+    ExtraPermission: '    - type:money'
+    - over:500
+    Condition:
+    MenuItem:
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+  ov11_nomoney:
+    MenuItem:
+    - custommodeldata:1&a
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ dịch chuyển'
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ở ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    Message: ''&7
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 28&f&6&f'
+    - '###########################&f&c'
+    Message: '  ov12_buy:'
+    ExtraPermission: '    MenuItem:'
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    - amount:1
+  ov12_buy:
+    MenuItem:
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'&a
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    - 'lore7:&f &eɴʜᴀ̂́ᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ đᴇ̂̉ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'&7
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&f&6&f'
+    - '      Reward1:&f&e'
+      - betterrtp player %player% playworld
+    Reward:
+    Message: ''
+      Reward1:
+    InventoryLocation: 29%player%
+    Condition:
+    Message: '    - type:money'
+    ExtraPermission: '    - over:500'
+  ov12_nomoney:
+    Condition:
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    - amount:1
+  ov12_nomoney:
+    MenuItem:
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'&a
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪᴇ̂̀ɴ'&7
+    Message: ''&7
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 29&f&6&f'
+    - '###########################&f&c'
+    Message: '  ov13_buy:'
+    ExtraPermission: '    MenuItem:'
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    - amount:1
+  ov13_buy:
+    MenuItem:
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'&a
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    - 'lore7:&f &eɴʜᴀ̂́ᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ đᴇ̂̉ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'&7
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&f&6&f'
+    - '      Reward1:&f&e'
+      - betterrtp player %player% playworld
+    Reward:
+    Message: ''
+      Reward1:
+    InventoryLocation: 30%player%
+    Condition:
+    Message: '    - type:money'
+    ExtraPermission: '    - over:500'
+  ov13_nomoney:
+    Condition:
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    - amount:1
+  ov13_nomoney:
+    MenuItem:
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'&a
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪᴇ̂̀ɴ'&7
+    Message: ''&7
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 30&f&6&f'
+    - '###########################&f&c'
+    Message: '  ov14_buy:'
+    ExtraPermission: '    MenuItem:'
+    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ
+    - amount:1
+  ov14_buy:
+    MenuItem:
+    - 'lore1:&7ʙᴀ̣ɴ ꜱᴇ̃ đᴜ̛ᴏ̛̣ᴄ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'&a
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    - 'lore7:&f &eɴʜᴀ̂́ᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ đᴇ̂̉ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'&7
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&f&6&f'
+    - '      Reward1:      - betterrtp player %player% playworld&f&e'
+      RewardType2: CLOSE
+    Reward:
+    ExtraPermission: ''
+      Reward1:
+    Condition:%player%
+    - type:money
+    Message: '    - over:500'
+    ExtraPermission: '  ov14_nomoney:'
+    MenuItem:
+    Condition:
+    - amount:1
+    - type:stick
+  ov14_nomoney:
+    MenuItem:
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'&a
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪᴇ̂̀ɴ'
+    Message: ''&7
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 37&7'
+    - '###########################&f&6&f'
+    - '  ov15_buy:&f&c'
+    Message: '    MenuItem:'
+    ExtraPermission: '    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ'
+    - amount:1
+    - type:stick
+  ov15_buy:
+    MenuItem:
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'&a
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴅɪ ᴄʜᴜʏỂɴ'
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&f&6&f'
+    - '      - betterrtp player %player% playworld&f&e'
+      RewardType2: CLOSE
+    Reward:
+    ExtraPermission: ''
+      Reward1:
+    Condition:%player%
+    - type:money
+    Message: '    - over:500'
+    ExtraPermission: '  ov15_nomoney:'
+    MenuItem:
+    Condition:
+    - amount:1
+    - type:stick
+  ov15_nomoney:
+    MenuItem:
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'&a
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪᴇ̂̀ɴ'
+    Message: ''&7
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 38&7'
+    - '###########################&f&6&f'
+    - '  ov16_buy:&f&c'
+    Message: '    MenuItem:'
+    ExtraPermission: '    - name:&aᴏᴠᴇʀᴡᴏʀʟᴅ'
+    - amount:1
+    - type:stick
+  ov16_buy:
+    MenuItem:
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'&a
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴅɪ ᴄʜᴜʏỂɴ'
+    - '    RewardType: AND&7'
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&f&6&f'
+    - '      - betterrtp player %player% playworld&f&e'
+      RewardType2: CLOSE
+    Reward:
+    ExtraPermission: ''
+      Reward1:
+    Condition:%player%
+    - type:money
+    Message: '    - over:500'
+    ExtraPermission: '  ov16_nomoney:'
+    MenuItem:
+    Condition:
+    - amount:1
+    - type:stick
+  ov16_nomoney:
+    MenuItem:
+    - 'lore2:&7đᴇ̂́ɴ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'&a
+    - 'lore3:&7ᴛʀᴏɴɢ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ ꜱɪɴʜ ᴛᴏ̂̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6500&f'
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪᴇ̂̀ɴ'
+    - ''
+    - '    InventoryLocation: 39&7'
+    - '####################################################################################################################&7'
+    - '  nw1_buy:&f&6&f'
+    - '    MenuItem:&f&c'
+    Message: '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ'
+    ExtraPermission: '    - amount:1'
+    - type:stick
+    - custommodeldata:1
+  nw1_buy:
+    MenuItem:
+    - 'lore3:&7ɴʜᴜ̛ɴɢ ᴀɴ ᴛᴏᴀ̀ɴ.'&c
+    - 'lore5:&f ▪ ɢɪᴀ́: &6750&f'
+    - 'lore7:&f &eɴʜᴀ̂́ᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ đᴇ̂̉ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'
+    RewardType: AND
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&7'
+    - '      - betterrtp player %player% playworld_nether&f&6&f'
+    - '      RewardType2: CLOSE&f&e'
+    Message: ''
+    Reward:
+    InventoryLocation: 4
+      Reward1:
+    - type:money%player%
+    - over:750
+    Message: '  nw1_nomoney:'
+    ExtraPermission: '    MenuItem:'
+    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ
+    Condition:
+    - type:stick
+    - custommodeldata:1
+  nw1_nomoney:
+    MenuItem:
+    - 'lore3:&7ɴʜᴜ̛ɴɢ ᴀɴ ᴛᴏᴀ̀ɴ.'&c
+    - 'lore5:&f ▪ ɢɪᴀ́: &6750&f'
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪᴇ̂̀ɴ'
+    Message: ''
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 4&7'
+    - '##############################################&7'
+    - '  nw_buy_2:&f&6&f'
+    - '    MenuItem:&f&c'
+    Message: '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ'
+    ExtraPermission: '    - amount:1'
+    - type:stick
+    - custommodeldata:1
+  nw_buy_2:
+    MenuItem:
+    - 'lore3:&7ɴʜᴜ̛ɴɢ ᴀɴ ᴛᴏᴀ̀ɴ.'&c
+    - 'lore5:&f ▪ ɢɪᴀ́: &6750&f'
+    - 'lore7:&f &eɴʜᴀ̂́ᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ đᴇ̂̉ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'
+    RewardType: AND
+    - '    Reward:&7'
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&7'
+    - '      - betterrtp player %player% playworld_nether&f&6&f'
+    - '      RewardType2: CLOSE&f&e'
+    Message: ''
+    Reward:
+    InventoryLocation: 5
+      Reward1:
+    - type:money%player%
+    - over:750
+    Message: '  nw_nomoney_2:'
+    ExtraPermission: '    MenuItem:'
+    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ
+    Condition:
+    - type:stick
+    - custommodeldata:1
+  nw_nomoney_2:
+    MenuItem:
+    - 'lore3:&7ɴʜᴜ̛ɴɢ ᴀɴ ᴛᴏᴀ̀ɴ.'&c
+    - 'lore5:&f ▪ ɢɪᴀ́: &6750&f'
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪᴇ̂̀ɴ'
+    Message: ''
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 5&7'
+    - '##############################################&7'
+    - '  nw_buy_3:&f&6&f'
+    - '    MenuItem:&f&c'
+    Message: '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ'
+    ExtraPermission: '    - amount:1'
+    - type:stick
+    - custommodeldata:1
+  nw_buy_3:
+    MenuItem:
+    - 'lore3:&7ɴʜᴜ̛ɴɢ ᴀɴ ᴛᴏᴀ̀ɴ.'&c
+    - 'lore5:&f ▪ ɢɪᴀ́: &6750&f'
+    - 'lore7:&f &eɴʜᴀ̂́ᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ đᴇ̂̉ ᴅɪ ᴄʜᴜʏᴇ̂̉ɴ'
+    RewardType: AND    Reward:
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&7'
+    - '      - betterrtp player %player% playworld_nether&7'
+    - '      RewardType2: CLOSE&f&6&f'
+    Message: ''&f&e
+    ExtraPermission: ''
+    Reward:
+    Condition:
+      Reward1:
+    - over:750%player%
+  nw_nomoney_3:
+    Message: '    MenuItem:'
+    ExtraPermission: '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ'
+    - amount:1
+    Condition:
+    - custommodeldata:1
+    - 'lore1:&7ʙắᴛ đầᴜ ᴄᴜộᴄ ᴘʜɪêᴜ ʟưᴜ ᴄủᴀ ʙạɴ'
+  nw_nomoney_3:
+    MenuItem:
+    - 'lore5:&f ▪ ɢɪá: &6750&f'&c
+    - 'lore7:&f &cᴋʜôɴɢ đủ ᴛɪềɴ'
+    Message: ''
+    ExtraPermission: ''
+    - '    InventoryLocation: 6&7'
+    - '##############################################&7'
+    - '  nw_buy_4:&7'
+    - '    MenuItem:&f&6&f'
+    - '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ&f'
+    Message: '    - amount:1'
+    ExtraPermission: '    - type:stick'
+    - custommodeldata:1
+    - 'lore1:&7ʙắᴛ đầᴜ ᴄᴜộᴄ ᴘʜɪêᴜ ʟưᴜ ᴄủᴀ ʙạɴ'
+  nw_buy_4:
+    MenuItem:
+    - 'lore5:&f ▪ ɢɪá: &6750&f'&c
+    - 'lore7:&f &eɴʜấɴ ᴄʜᴜột ᴛʀáɪ để ᴅɪ ᴄʜᴜʏểɴ'
+    RewardType: AND
+    Reward:
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&7'
+    - '      - betterrtp player %player% playworld_nether&7'
+    - '      RewardType2: CLOSE&f&6&f'
+    Message: ''&f&e
+    ExtraPermission: ''
+    Reward:
+    Condition:
+      Reward1:
+    - over:750%player%
+  nw_nomoney_4:
+    Message: '    MenuItem:'
+    ExtraPermission: '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ'
+    - amount:1
+    Condition:
+    - custommodeldata:1
+    - 'lore1:&7ʙắᴛ đầᴜ ᴄᴜộᴄ ᴘʜɪêᴜ ʟưᴜ ᴄủᴀ ʙạɴ'
+  nw_nomoney_4:
+    MenuItem:
+    - 'lore5:&f ▪ ɢɪá: &6750&f'&c
+    - 'lore7:&f &cᴋʜôɴɢ đủ ᴛɪềɴ'
+    Message: ''
+    ExtraPermission: ''
+    - '    InventoryLocation: 13&7'
+    - '##############################################&7'
+    - '  nw_buy_5:&7'
+    - '    MenuItem:&f&6&f'
+    - '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ&f'
+    Message: '    - amount:1'
+    ExtraPermission: '    - type:stick'
+    - custommodeldata:1
+    - 'lore1:&7ʙắᴛ đầᴜ ᴄᴜộᴄ ᴘʜɪêᴜ ʟưᴜ ᴄủᴀ ʙạɴ'
+  nw_buy_5:
+    MenuItem:
+    - 'lore5:&f ▪ ɢɪá: &6750&f'&c
+    - 'lore7:&f &eɴʜấɴ ᴄʜᴜột ᴛʀáɪ để ᴅɪ ᴄʜᴜʏểɴ'
+    RewardType: AND
+    Reward:
+    - '      RewardType1: COMMAND&7'
+    - '      Reward1:&7'
+    - '      - betterrtp player %player% playworld_nether&7'
+    - '      RewardType2: CLOSE&f&6&f'
+    Message: ''&f&e
+    ExtraPermission: ''
+    Reward:
+    Condition:
+      Reward1:
+    - over:750%player%
+  nw_nomoney_5:
+    Message: '    MenuItem:'
+    ExtraPermission: '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ'
+    - amount:1
+    Condition:
+    - custommodeldata:1
+    - 'lore1:&7ʙắᴛ đầᴜ ᴄᴜộᴄ ᴘʜɪêᴜ ʟưᴜ ᴄủᴀ ʙạɴ'
+  nw_nomoney_5:
+    MenuItem:
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪᴇ̂̀ɴ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+    - '##############################################&7'
+    - '  nw_buy_6:&7'
+    - '    MenuItem:&7'
+    - '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ&f&6&f'
+    - '    - amount:1&f&c'
+    Message: '    - type:stick'
+    ExtraPermission: '    - custommodeldata:1'
+    - 'lore1:&7ʙᴀ̆́ᴛ đᴀ̂̀ᴜ ᴄᴜᴏ̣̂ᴄ ᴘʜɪᴇ̂ᴜ ʟᴜ̛ᴜ'
+    - 'lore2:&7ᴏ̛̉ ɴᴇᴛʜᴇʀ ᴛᴀ̣ɪ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+  nw_buy_6:
+    MenuItem:
+    - 'lore7:&f &eɴʜᴀ̂́ᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ đᴇ̂̉ ᴅ dịch ᴄʜᴜʏᴇ̂̉ɴ'&c
+    RewardType: AND
+    Reward:
+      RewardType1: COMMAND
+    - '      Reward1:&7'
+    - '      - betterrtp player %player% playworld_nether&7'
+    - '      RewardType2: CLOSE&7'
+    Message: ''&f&6&f
+    ExtraPermission: ''&f&e
+    InventoryLocation: 15
+    Reward:
+    - type:money
+      Reward1:
+  nw_nomoney_6:%player%
+    MenuItem:
+    Message: '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ'
+    ExtraPermission: '    - amount:1'
+    - type:stick
+    Condition:
+    - 'lore1:&7ʙᴀ̆́ᴛ đᴀ̂̀ᴜ ᴄᴜᴏ̣̂ᴄ ᴘʜɪᴇ̂ᴜ ʟᴜ̛ᴜ'
+    - 'lore2:&7ᴏ̛̉ ɴᴇᴛʜᴇʀ ᴛᴀ̣ɪ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+  nw_nomoney_6:
+    MenuItem:
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪᴇ̂̀ɴ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+    - '##############################################&7'
+    - '  nw_buy_7:&7'
+    - '    MenuItem:&7'
+    - '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ&f&6&f'
+    - '    - amount:1&f&c'
+    Message: '    - type:stick'
+    ExtraPermission: '    - custommodeldata:1'
+    - 'lore1:&7ʙᴀ̆́ᴛ đᴀ̂̀ᴜ ᴄᴜᴏ̣̂ᴄ ᴘʜɪᴇ̂ᴜ ʟᴜ̛ᴜ'
+    - 'lore2:&7ᴏ̛̉ ɴᴇᴛʜᴇʀ ᴛᴀ̣ɪ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+  nw_buy_7:
+    MenuItem:
+    - 'lore7:&f &eɴʜᴀ̂́ᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ đᴇ̂̉ ᴅ dịch ᴄʜᴜʏᴇ̂̉ɴ'&c
+    RewardType: AND
+    Reward:
+      RewardType1: COMMAND
+    - '      Reward1:&7'
+    - '      - betterrtp player %player% playworld_nether&7'
+    - '      RewardType2: CLOSE&7'
+    Message: ''&f&6&f
+    ExtraPermission: ''&f&e
+    InventoryLocation: 22
+    Reward:
+    - type:money
+      Reward1:
+  nw_nomoney_7:%player%
+    MenuItem:
+    Message: '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ'
+    ExtraPermission: '    - amount:1'
+    - type:stick
+    Condition:
+    - 'lore1:&7ʙᴀ̆́ᴛ đᴀ̂̀ᴜ ᴄᴜᴏ̣̂ᴄ ᴘʜɪᴇ̂ᴜ ʟᴜ̛ᴜ'
+    - 'lore2:&7ᴏ̛̉ ɴᴇᴛʜᴇʀ ᴛᴀ̣ɪ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+  nw_nomoney_7:
+    MenuItem:
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪᴇ̂̀ɴ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 22
+    - '##############################################&7'
+    - '  nw_buy_8:&7'
+    - '    MenuItem:&7'
+    - '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ&f&6&f'
+    - '    - amount:1&f&c'
+    Message: '    - type:stick'
+    ExtraPermission: '    - custommodeldata:1'
+    - 'lore1:&7ʙᴀ̆́ᴛ đᴀ̂̀ᴜ ᴄᴜᴏ̣̂ᴄ ᴘʜɪᴇ̂ᴜ ʟᴜ̛ᴜ'
+    - 'lore2:&7ᴏ̛̉ ɴᴇᴛʜᴇʀ ᴛᴀ̣ɪ ᴍᴏ̣̂ᴛ đɪ̣ᴀ đɪᴇ̂̉ᴍ ɴɢᴀ̂̃ᴜ ɴʜɪᴇ̂ɴ'
+  nw_buy_8:
+    MenuItem:
+    RewardType: AND&c
+    Reward:
+      RewardType1: COMMAND
+      Reward1:
+    - '      - betterrtp player %player% playworld_nether&7'
+    - '      RewardType2: CLOSE&7'
+    Message: ''&7
+    ExtraPermission: ''&f&6&f
+    - '    InventoryLocation: 23&f&e'
+    Condition:
+    Reward:
+    - over:750
+      Reward1:
+    MenuItem:%player%
+    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ
+    Message: '    - amount:1'
+    ExtraPermission: '    - type:stick'
+    - custommodeldata:1
+    Condition:
+    - 'lore2:&7Ở ɴᴇᴛʜᴇʀ ᴛẠɪ ᴍỘᴛ ĐỊᴀ ĐIỂᴍ ɴɢẪᴜ'
+    - 'lore3:&7ɴʜIÊɴ ᴀɴ ᴛOÀɴ.'
+  nw_nomoney_8:
+    MenuItem:
+    Message: ''&c
+    ExtraPermission: ''
+    InventoryLocation: 23
+##############################################
+    - '  nw_buy_9:&7'
+    - '    MenuItem:&7'
+    - '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ&7'
+    - '    - amount:1&f&6&f'
+    - '    - type:stick&f&c'
+    Message: '    - custommodeldata:1'
+    - 'lore1:&7ʙẮᴛ ĐẦᴜ ᴄᴜỘᴄ ᴘʜIÊᴜ ʟƯᴜ ᴄỦᴀ ʙẠɴ'
+    - 'lore2:&7Ở ɴᴇᴛʜᴇʀ ᴛẠɪ ᴍỘᴛ ĐỊᴀ ĐIỂᴍ ɴɢẪᴜ'
+    - 'lore3:&7ɴʜIÊɴ ᴀɴ ᴛOÀɴ.'
+  nw_buy_9:
+    MenuItem:
+    RewardType: AND&c
+    Reward:
+      RewardType1: COMMAND
+      Reward1:
+    - '      - betterrtp player %player% playworld_nether&7'
+    - '      RewardType2: CLOSE&7'
+    Message: ''&7
+    ExtraPermission: ''&f&6&f
+    - '    InventoryLocation: 24&f&e'
+    Condition:
+    Reward:
+    - over:750
+      Reward1:
+    MenuItem:%player%
+    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ
+    Message: '    - amount:1'
+    ExtraPermission: '    - type:stick'
+    - custommodeldata:1
+    Condition:
+    - 'lore2:&7Ở ɴᴇᴛʜᴇʀ ᴛẠɪ ᴍỘᴛ ĐỊᴀ ĐIỂᴍ ɴɢẪᴜ'
+    - 'lore3:&7ɴʜIÊɴ ᴀɴ ᴛOÀɴ.'
+  nw_nomoney_9:
+    MenuItem:
+    Message: ''&c
+    ExtraPermission: ''
+    InventoryLocation: 24
+##############################################
+    - '  nw_buy_10:&7'
+    - '    MenuItem:&7'
+    - '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ&7'
+    - '    - amount:1&f&6&f'
+    - '    - type:stick&f&c'
+    Message: '    - custommodeldata:1'
+    - 'lore1:&7ʙẮᴛ ĐẦᴜ ᴄᴜỘᴄ ᴘʜIÊᴜ ʟƯᴜ ᴄỦᴀ ʙẠɴ'
+    - 'lore2:&7Ở ɴᴇᴛʜᴇʀ ᴛẠɪ ᴍỘᴛ ĐỊᴀ ĐIỂᴍ ɴɢẪᴜ'
+    - 'lore3:&7ɴʜIÊɴ ᴀɴ ᴛOÀɴ.'
+  nw_buy_10:
+    MenuItem:
+    RewardType: AND&c
+    Reward:
+      RewardType1: COMMAND
+      Reward1:
+    - '      - betterrtp player %player% playworld_nether&7'
+    - '      RewardType2: CLOSE&7'
+    Message: ''&7
+    ExtraPermission: ''&f&6&f
+    - '    InventoryLocation: 31&f&e'
+    Condition:
+    Reward:
+    - over:750
+      Reward1:
+    MenuItem:%player%
+    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ
+    Message: '    - amount:1'
+    ExtraPermission: '    - type:stick'
+    - custommodeldata:1
+    Condition:
+    - 'lore3:&7ʙᴜᴛ ꜱᴀꜰᴇ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &6750&f'
+  nw_nomoney_10:
+    MenuItem:
+    ExtraPermission: ''&c
+    InventoryLocation: 31
+##############################################
+  nw_buy_11:
+    - '    MenuItem:&7'
+    - '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ&7'
+    - '    - amount:1&7'
+    - '    - type:stick&f&6&f'
+    - '    - custommodeldata:1&f&c'
+    - 'lore1:&7ʙắᴛ đầᴜ ᴄᴜộᴄ ᴘʜɪêᴜ ʟưᴜ ᴄủᴀ ʙạɴ'
+    - 'lore2:&7ɪɴ ɴᴇᴛʜᴇʀ ɪɴ ᴀ ʀᴀɴᴅᴏᴍ'
+    - 'lore3:&7ʙᴜᴛ ꜱᴀꜰᴇ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &6750&f'
+  nw_buy_11:
+    MenuItem:
+    Reward:&c
+      RewardType1: COMMAND
+      Reward1:
+      - betterrtp player %player% playworld_nether
+    - '      RewardType2: CLOSE&7'
+    Message: ''&7
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 32&f&6&f'
+    - '    Condition:&f&e'
+    - type:money
+    Reward:
+  nw_nomoney_11:
+      Reward1:
+    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ%player%
+    - amount:1
+    Message: '    - type:stick'
+    ExtraPermission: '    - custommodeldata:1'
+    - 'lore1:&7ʙắᴛ đầᴜ ᴄᴜộᴄ ᴘʜɪêᴜ ʟưᴜ ᴄủᴀ ʙạɴ'
+    Condition:
+    - 'lore3:&7ʙᴜᴛ ꜱᴀꜰᴇ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &6750&f'
+  nw_nomoney_11:
+    MenuItem:
+    ExtraPermission: ''&c
+    InventoryLocation: 32
+##############################################
+  nw_buy_12:
+    - '    MenuItem:&7'
+    - '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ&7'
+    - '    - amount:1&7'
+    - '    - type:stick&f&6&f'
+    - '    - custommodeldata:1&f&c'
+    - 'lore1:&7ʙắᴛ đầᴜ ᴄᴜộᴄ ᴘʜɪêᴜ ʟưᴜ ᴄủᴀ ʙạɴ'
+    - 'lore2:&7ɪɴ ɴᴇᴛʜᴇʀ ɪɴ ᴀ ʀᴀɴᴅᴏᴍ'
+    - 'lore3:&7ʙᴜᴛ ꜱᴀꜰᴇ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &6750&f'
+  nw_buy_12:
+    MenuItem:
+    Reward:&c
+      RewardType1: COMMAND
+      Reward1:
+      - betterrtp player %player% playworld_nether
+    - '      RewardType2: CLOSE&7'
+    Message: ''&7
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 33&f&6&f'
+    - '    Condition:&f&e'
+    - type:money
+    Reward:
+  nw_nomoney_12:
+      Reward1:
+    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ%player%
+    - amount:1
+    Message: '    - type:stick'
+    ExtraPermission: '    - custommodeldata:1'
+    - 'lore1:&7ʙắᴛ đầᴜ ᴄᴜộᴄ ᴘʜɪêᴜ ʟưᴜ ᴄủᴀ ʙạɴ'
+    Condition:
+    - 'lore3:&7ʙᴜᴛ ꜱᴀꜰᴇ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &6750&f'
+  nw_nomoney_12:
+    MenuItem:
+    ExtraPermission: ''&c
+    InventoryLocation: 33
+##############################################
+  nw_buy_13:
+    - '    MenuItem:&7'
+    - '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ&7'
+    - '    - amount:1&7'
+    - '    - type:stick&f&6&f'
+    - '    - custommodeldata:1&f&c'
+    - 'lore1:&7ʙắᴛ đầᴜ ᴄᴜộᴄ ᴘʜɪêᴜ ʟưᴜ ᴄủᴀ ʙạɴ'
+    ExtraPermission: 'lore2:&7ɪɴ ɴᴇᴛʜᴇʀ ɪɴ ᴀ ʀᴀɴᴅᴏᴍ'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6750&f'
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴅỊᴄʜ ᴄʜᴜʏỂɴ'
+  nw_buy_13:
+    MenuItem:
+      RewardType1: COMMAND&c
+      Reward1:
+      - betterrtp player %player% playworld_nether
+      RewardType2: CLOSE
+    Message: ''&7
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 40&7'
+    - '    Condition:&f&6&f'
+    - '    - type:money&f&e'
+    - over:750
+    Reward:
+    MenuItem:
+      Reward1:
+    - amount:1%player%
+    - type:stick
+    Message: '    - custommodeldata:1'
+    - 'lore1:&7ʙẮᴛ ĐẦᴜ ᴄᴜỘᴄ ᴘʜɪÊᴜ ʟƯᴜ'
+    - 'lore2:&7ở ɴᴇᴛʜᴇʀ ᴛʀᴏɴɢ ᴍỘᴛ ᴠỊ ᴛʀÍ'
+    Condition:
+    - 'lore5:&f ▪ ɢɪᴀ́: &6750&f'
+    - 'lore7:&f &cᴋʜÔɴɢ ĐỦ ᴛɪỀɴ'
+  nw_nomoney_13:
+    MenuItem:
+    InventoryLocation: 40&c
+##############################################
+  nw_buy_14:
+    MenuItem:
+    - '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ&7'
+    - '    - amount:1&7'
+    - '    - type:stick&7'
+    - '    - custommodeldata:1&f&6&f'
+    - 'lore1:&7ʙẮᴛ ĐẦᴜ ᴄᴜỘᴄ ᴘʜɪÊᴜ ʟƯᴜ'&f&c
+    - 'lore2:&7ở ɴᴇᴛʜᴇʀ ᴛʀᴏɴɢ ᴍỘᴛ ᴠỊ ᴛʀÍ'
+    - 'lore3:&7ᴠɪ̣ ᴛʀɪ́ ᴀɴ ᴛᴏᴀ̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6750&f'
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴅỊᴄʜ ᴄʜᴜʏỂɴ'
+  nw_buy_14:
+    MenuItem:
+      RewardType1: COMMAND&c
+      Reward1:
+      - betterrtp player %player% playworld_nether
+      RewardType2: CLOSE
+    Message: ''&7
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 41&7'
+    - '    Condition:&f&6&f'
+    - '    - type:money&f&e'
+    - over:750
+    Reward:
+    MenuItem:
+      Reward1:
+    - amount:1%player%
+    - type:stick
+    Message: '    - custommodeldata:1'
+    - 'lore1:&7ʙẮᴛ ĐẦᴜ ᴄᴜỘᴄ ᴘʜɪÊᴜ ʟƯᴜ'
+    - 'lore2:&7ở ɴᴇᴛʜᴇʀ ᴛʀᴏɴɢ ᴍỘᴛ ᴠỊ ᴛʀÍ'
+    Condition:
+    - 'lore5:&f ▪ ɢɪᴀ́: &6750&f'
+    - 'lore7:&f &cᴋʜÔɴɢ ĐỦ ᴛɪỀɴ'
+  nw_nomoney_14:
+    MenuItem:
+    InventoryLocation: 41&c
+##############################################
+  nw_buy_15:
+    MenuItem:
+    - '    - name:&cɴᴇᴛʜᴇʀ ᴡᴏʀʟᴅ&7'
+    - '    - amount:1&7'
+    - '    - type:stick&7'
+    - '    - custommodeldata:1&f&6&f'
+    - 'lore1:&7ʙẮᴛ ĐẦᴜ ᴄᴜỘᴄ ᴘʜɪÊᴜ ʟƯᴜ'&f&c
+    - 'lore2:&7ở ɴᴇᴛʜᴇʀ ᴛʀᴏɴɢ ᴍỘᴛ ᴠỊ ᴛʀÍ'
+    - 'lore3:&7ᴠɪ̣ ᴛʀɪ́ ᴀɴ ᴛᴏᴀ̀ɴ.'
+    - 'lore5:&f ▪ ɢɪᴀ́: &6750&f'
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴅỊᴄʜ ᴄʜᴜʏỂɴ'
+  nw_buy_15:
+    MenuItem:
+      RewardType1: COMMAND&c
+      Reward1:
+      - betterrtp player %player% playworld_nether
+      RewardType2: CLOSE
+    Message: ''&7
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 42&7'
+    - '    Condition:&f&6&f'
+    - '    - type:money&f&e'
+    - over:750
+    Reward:
+    MenuItem:
+      Reward1:
+    - amount:1%player%
+    - type:stick    - custommodeldata:1
+    - 'lore1:&7ꜱᴛᴀʀᴛ ʏᴏᴜʀ ᴀᴅᴠᴇɴᴛᴜʀᴇ'
+    - 'lore2:&7ɪɴ ɴᴇᴛʜᴇʀ ɪɴ ᴀ ʀᴀɴᴅᴏᴍ'
+    - 'lore3:&7ʙᴜᴛ ꜱᴀꜰᴇ ʟᴏᴄᴀᴛɪᴏɴ.'
+    Condition:
+    - 'lore7:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+  nw_nomoney_15:
+    MenuItem:
+####################################################################################################################&c
+  ew1_buy:
+    MenuItem:
+    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ
+    - '    - amount:1&7'
+    - '    - type:stick&7'
+    - '    - custommodeldata:1&7'
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'&f&6&f
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'&f&c
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴅ dịch chuyển'
+    RewardType: AND
+  ew1_buy:
+    MenuItem:
+      Reward1:&d
+      - betterrtp player %player% playworld_the_end
+      RewardType2: CLOSE
+    Message: ''
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 7&7'
+    - '    Condition:&7'
+    - '    - type:money&f&6&f'
+    - '    - over:2500&f&e'
+  ew1_nomoney:
+    Reward:
+    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ
+      Reward1:
+    - type:stick%player%
+    - custommodeldata:1
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    Condition:
+    - 'lore7:&f &cᴋʜÔɴɢ ĐỦ ᴛɪỀɴ'
+    Message: ''
+  ew1_nomoney:
+    MenuItem:
+########################################################&d
+  ew_buy_2:
+    MenuItem:
+    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ
+    - '    - amount:1&7'
+    - '    - type:stick&7'
+    - '    - custommodeldata:1&7'
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'&f&6&f
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'&f&c
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴅ dịch chuyển'
+    RewardType: AND
+  ew_buy_2:
+    MenuItem:
+      Reward1:&d
+      - betterrtp player %player% playworld_the_end
+      RewardType2: CLOSE
+    Message: ''
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 8&7'
+    - '    Condition:&7'
+    - '    - type:money&f&6&f'
+    - '    - over:2500&f&e'
+  ew_nomoney_2:
+    Reward:
+    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ
+      Reward1:
+    - type:stick%player%
+    - custommodeldata:1
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    Condition:
+    - 'lore7:&f &cᴋʜÔɴɢ ĐỦ ᴛɪỀɴ'
+    Message: ''
+  ew_nomoney_2:
+    MenuItem:
+########################################################&d
+  ew_buy_3:  ew_buy_3:
+    MenuItem:
+    - name:&dᴛʜẾ ɢɪỚɪ ᴇɴᴅ
+    - '    - amount:1&7'
+    - '    - type:stick&7'
+    - '    - custommodeldata:1&7'
+    - 'lore1:&7ĐỪɴɢ ɴɢẦɴ ɴɢẠɪ ᴋʜÁᴍ ᴘʜÁ'&f&6&f
+    - 'lore2:&7ᴛʜẾ ɢɪỚɪ ᴇɴᴅ. ᴅ dịch ᴄʜᴜʏỂɴ ɴɢᴀʏ ʙÂʏ ɢɪỜ'&f&c
+    - 'lore3:&7ĐẾɴ ᴍỘᴛ ĐỊᴀ ĐIỂᴍ ɴɢẪᴜ ɴʜɪÊɴ.'
+    - 'lore5:&f ▪ ɢɪÁ: &62500&f'
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴅ dịch ᴄʜᴜʏỂɴ'
+    RewardType: AND
+  ew_buy_3:
+    MenuItem:
+      Reward1:&d
+      - betterrtp player %player% playworld_the_end
+      RewardType2: CLOSE
+    Message: ''
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 9&7'
+    - '    Condition:&7'
+    - '    - type:money&f&6&f'
+    - '    - over:2500&f&e'
+  ew_nomoney_3:
+    Reward:
+    - name:&dᴛʜẾ ɢɪỚɪ ᴇɴᴅ
+      Reward1:
+    - type:stick%player%
+    - custommodeldata:1
+    - 'lore1:&7ĐỪɴɢ ɴɢẦɴ ɴɢẠɪ ᴋʜÁᴍ ᴘʜÁ'
+    - 'lore2:&7ᴛʜẾ ɢɪỚɪ ᴇɴᴅ. ᴅ dịch ᴄʜᴜʏỂɴ ɴɢᴀʏ ʙÂʏ ɢɪỜ'
+    - 'lore3:&7ĐẾɴ ᴍỘᴛ ĐỊᴀ ĐIỂᴍ ɴɢẪᴜ ɴʜɪÊɴ.'
+    Condition:
+    - 'lore7:&f &cᴋʜÔɴɢ ĐỦ ᴛɪỀɴ'
+    Message: ''
+  ew_nomoney_3:
+    MenuItem:
+########################################################&d
+  ew_buy_4:
+    MenuItem:
+    - name:&dᴛʜẾ ɢɪỚɪ ᴇɴᴅ
+    - '    - amount:1&7'
+    - '    - type:stick&7'
+    - '    - custommodeldata:1&7'
+    - 'lore1:&7ĐỪɴɢ ɴɢẦɴ ɴɢẠɪ ᴋʜÁᴍ ᴘʜÁ'&f&6&f
+    - 'lore2:&7ᴛʜẾ ɢɪỚɪ ᴇɴᴅ. ᴅ dịch ᴄʜᴜʏỂɴ ɴɢᴀʏ ʙÂʏ ɢɪỜ'&f&c
+    - 'lore3:&7ĐẾɴ ᴍỘᴛ ĐỊᴀ ĐIỂᴍ ɴɢẪᴜ ɴʜɪÊɴ.'
+    - 'lore5:&f ▪ ɢɪÁ: &62500&f'
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴅ dịch ᴄʜᴜʏỂɴ'
+    RewardType: AND
+  ew_buy_4:
+    MenuItem:
+      Reward1:&d
+      - betterrtp player %player% playworld_the_end
+      RewardType2: CLOSE
+    Message: ''
+    ExtraPermission: ''&7
+    - '    InventoryLocation: 16&7'
+    - '    Condition:&7'
+    - '    - type:money&f&6&f'
+    - '    - over:2500&f&e'
+  ew_nomoney_4:
+    Reward:
+    - name:&dᴛʜẾ ɢɪỚɪ ᴇɴᴅ
+      Reward1:
+    - type:stick%player%
+    - custommodeldata:1
+    - 'lore1:&7ĐỪɴɢ ɴɢẦɴ ɴɢẠɪ ᴋʜÁᴍ ᴘʜÁ'
+    - 'lore2:&7ᴛʜẾ ɢɪỚɪ ᴇɴᴅ. ᴅ dịch ᴄʜᴜʏỂɴ ɴɢᴀʏ ʙÂʏ ɢɪỜ'
+    - 'lore3:&7ĐẾɴ ᴍỘᴛ ĐỊᴀ ĐIỂᴍ ɴɢẪᴜ ɴʜɪÊɴ.'
+    Condition:
+    - 'lore7:&f &cᴋʜÔɴɢ ĐỦ ᴛɪỀɴ'
+    Message: ''
+  ew_nomoney_4:
+    MenuItem:
+########################################################&d
+  ew_buy_5:
+    MenuItem:
+    - name:&dᴛʜẾ ɢɪỚɪ ᴇɴᴅ
+    - '    - amount:1&7'
+    - '    - type:stick&7'
+    - '    - custommodeldata:1&7'
+    - 'lore1:&7ĐỪɴɢ ɴɢẦɴ ɴɢẠɪ ᴋʜÁᴍ ᴘʜÁ'&f&6&f
+    - 'lore2:&7ᴛʜẾ ɢɪỚɪ ᴇɴᴅ. ᴅ dịch ᴄʜᴜʏỂɴ ɴɢᴀʏ ʙÂʏ ɢɪỜ'&f&c
+    - 'lore3:&7ĐẾɴ ᴍỘᴛ ĐỊᴀ ĐIỂᴍ ɴɢẪᴜ ɴʜɪÊɴ.'
+    - 'lore5:&f ▪ ɢɪÁ: &62500&f'
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴅ dịch ᴄʜᴜʏỂɴ'
+    RewardType: AND
+  ew_buy_5:
+    MenuItem:
+    MenuItem:&d
+    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - '    - custommodeldata:1&7'
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'&f&6&f
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'&e
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴅ dịch ᴄʜᴜʏỂɴ'
+    Reward:
+    Reward:
+      Reward1:
+      Reward1:%player%
+      - betterrtp player %player% playworld_the_end
+    Message: '      RewardType2: CLOSE'
+    Message: ''
+    ExtraPermission: ''
+    Condition:
+    Condition:
+    - type:money
+  ew_nomoney_5:
+    MenuItem:
+    MenuItem:&d
+    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - '    - custommodeldata:1&7'
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'&f&6&f
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'&c
+    - 'lore7:&f &cᴋʜÔɴɢ ĐỦ ᴛɪỀɴ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 17
+  ew_buy_6:
+    MenuItem:
+    MenuItem:&d
+    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - '    - custommodeldata:1&7'
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'&f&6&f
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'&e
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴅ dịch ᴄʜᴜʏỂɴ'
+    Reward:
+    Reward:
+      Reward1:
+      Reward1:%player%
+      - betterrtp player %player% playworld_the_end
+    Message: '      RewardType2: CLOSE'
+    Message: ''
+    ExtraPermission: ''
+    Condition:
+    Condition:
+    - type:money
+  ew_nomoney_6:
+    MenuItem:
+    MenuItem:&d
+    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - '    - custommodeldata:1&7'
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'&f&6&f
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'&c
+    - 'lore7:&f &cᴋʜÔɴɢ ĐỦ ᴛɪỀɴ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 18
+  ew_buy_7:
+    MenuItem:
+    MenuItem:&d
+    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - '    - custommodeldata:1&7'
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'&f&6&f
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'&e
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴅ dịch ᴄʜᴜʏỂɴ'
+    Reward:
+    Reward:
+      Reward1:
+      Reward1:%player%
+      - betterrtp player %player% playworld_the_end    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪềɴ'
+    Message: ''
+    Condition:
+    InventoryLocation: 25
+########################################################
+  ew_nomoney_7:
+    MenuItem:
+    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7Đừɴɢ ɴɢầɴ ɴɢạɪ ᴋʜáᴍ ᴘʜá'
+    - 'lore2:&7ᴛʜế ɢɪớɪ ᴄᴜốɪ.  dịch chuyển ɴɢᴀʏ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'
+    - 'lore7:&f &eɴʜấɴ ᴄʜᴜột ᴛʀáɪ để ᴅịᴄʜ ᴄʜᴜʏểɴ'&c
+    Message: '    RewardType: AND'
+    ExtraPermission: '    Reward:'
+      RewardType1: COMMAND
+      Reward1:
+  ew_buy_8:
+    MenuItem:
+    Message: ''&d
+    ExtraPermission: ''
+    InventoryLocation: 26
+    Condition:
+    - '    - type:money&7'
+    - '    - over:2500&7'
+    - '  ew_nomoney_8:&7'
+    - '    MenuItem:&f&6&f'
+    - '    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ&f&e'
+    - amount:1
+    Reward:
+    - custommodeldata:1
+      Reward1:
+    - 'lore2:&7ᴛʜế ɢɪớɪ ᴄᴜốɪ. ᴅịᴄʜ ᴄʜᴜʏểɴ ɴɢᴀʏ'%player%
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪềɴ'
+    Message: ''
+    Condition:
+    InventoryLocation: 26
+########################################################
+  ew_nomoney_8:
+    MenuItem:
+    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7Đừɴɢ ɴɢầɴ ɴɢạɪ ᴋʜáᴍ ᴘʜá'
+    - 'lore2:&7ᴛʜế ɢɪớɪ ᴄᴜốɪ. ᴅịᴄʜ ᴄʜᴜʏểɴ ɴɢᴀʏ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'
+    - 'lore7:&f &eɴʜấɴ ᴄʜᴜột ᴛʀáɪ để ᴅịᴄʜ ᴄʜᴜʏểɴ'&c
+    Message: '    RewardType: AND'
+    ExtraPermission: '    Reward:'
+      RewardType1: COMMAND
+      Reward1:
+  ew_buy_9:
+    MenuItem:
+    Message: ''&d
+    ExtraPermission: ''
+    InventoryLocation: 27
+    Condition:
+    - '    - type:money&7'
+    - '    - over:2500&7'
+    - '  ew_nomoney_9:&7'
+    - '    MenuItem:&f&6&f'
+    - '    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ&f&e'
+    - amount:1
+    Reward:
+    - custommodeldata:1
+      Reward1:
+    - 'lore2:&7ᴛʜế ɢɪớɪ ᴄᴜốɪ. ᴅịᴄʜ ᴄʜᴜʏểɴ ɴɢᴀʏ'%player%
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'
+    - 'lore7:&f &cᴋʜᴏ̂ɴɢ đᴜ̉ ᴛɪềɴ'
+    Message: ''
+    Condition:
+    InventoryLocation: 27
+########################################################
+  ew_nomoney_9:
+    MenuItem:
+    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7Đừɴɢ ɴɢầɴ ɴɢạɪ ᴋʜáᴍ ᴘʜá'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'&7
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴛᴇʟᴇᴘᴏʀᴛ'&6
+    - '    RewardType: AND&f&c'
+    Message: '    Reward:'
+    ExtraPermission: '      RewardType1: COMMAND'
+      Reward1:
+      - betterrtp player %player% playworld_the_end
+  ew_buy_10:
+    MenuItem:
+    ExtraPermission: ''&d
+    InventoryLocation: 34
+    Condition:
+    - type:money
+    - '    - over:2500&7'
+    - '  ew_nomoney_10:&7'
+    - '    MenuItem:&7'
+    - '    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ&f&6&f'
+    - '    - amount:1&f&e'
+    - type:stick
+    Reward:
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+      Reward1:
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'%player%
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'
+    - 'lore7:&f &cᴋʜÔɴɢ ĐỦ ᴛIỀɴ'
+    Message: ''
+    ExtraPermission: ''
+    Condition:
+########################################################
+  ew_buy_11:
+  ew_nomoney_10:
+    MenuItem:
+    - amount:1&d
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'&7
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴛᴇʟᴇᴘᴏʀᴛ'&6
+    - '    RewardType: AND&f&c'
+    Message: '    Reward:'
+    ExtraPermission: '      RewardType1: COMMAND'
+      Reward1:
+      - betterrtp player %player% playworld_the_end
+  ew_buy_11:
+    MenuItem:
+    ExtraPermission: ''&d
+    InventoryLocation: 35
+    Condition:
+    - type:money
+    - '    - over:2500&7'
+    - '  ew_nomoney_11:&7'
+    - '    MenuItem:&7'
+    - '    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ&f&6&f'
+    - '    - amount:1&f&e'
+    - type:stick
+    Reward:
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+      Reward1:
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'%player%
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'
+    - 'lore7:&f &cᴋʜÔɴɢ ĐỦ ᴛIỀɴ'
+    Message: ''
+    ExtraPermission: ''
+    Condition:
+########################################################
+  ew_buy_12:
+  ew_nomoney_11:
+    MenuItem:
+    - amount:1&d
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'&7
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴛᴇʟᴇᴘᴏʀᴛ'&6
+    - '    RewardType: AND&f&c'
+    Message: '    Reward:'
+    ExtraPermission: '      RewardType1: COMMAND'
+      Reward1:
+      - betterrtp player %player% playworld_the_end
+  ew_buy_12:
+    MenuItem:
+    ExtraPermission: ''&d
+    InventoryLocation: 36
+    Condition:    - type:money
+    - over:2500
+    - '  ew_nomoney_12:&7'
+    - '    MenuItem:&7'
+    - '    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ&7'
+    - '    - amount:1&f&6&f'
+    - '    - type:stick&f&e'
+    - custommodeldata:1
+    Reward:
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+      Reward1:
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'%player%
+    - 'lore7:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36
+    Condition:
+  ew_buy_13:
+    MenuItem:
+  ew_nomoney_12:
+    MenuItem:
+    - type:stick&d
+    - custommodeldata:1
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'&7
+    - 'lore7:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ'&7
+    - '    RewardType: AND&f&6&f'
+    - '    Reward:&f&c'
+    Message: '      RewardType1: COMMAND'
+    ExtraPermission: '      Reward1:'
+      - betterrtp player %player% playworld_the_end
+      RewardType2: CLOSE
+  ew_buy_13:
+    MenuItem:
+    InventoryLocation: 43&d
+    Condition:
+    - type:money
+    - over:2500
+    - '  ew_nomoney_13:&7'
+    - '    MenuItem:&7'
+    - '    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ&7'
+    - '    - amount:1&f&6&f'
+    - '    - type:stick&f&e'
+    - custommodeldata:1
+    Reward:
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+      Reward1:
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'%player%
+    - 'lore7:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 43
+    Condition:
+  ew_buy_14:
+    MenuItem:
+  ew_nomoney_13:
+    MenuItem:
+    - type:stick&d
+    - custommodeldata:1
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'&7
+    - 'lore7:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ'&7
+    - '    RewardType: AND&f&6&f'
+    - '    Reward:&f&c'
+    Message: '      RewardType1: COMMAND'
+    ExtraPermission: '      Reward1:'
+      - betterrtp player %player% playworld_the_end
+      RewardType2: CLOSE
+  ew_buy_14:
+    MenuItem:
+    InventoryLocation: 44&d
+    Condition:
+    - type:money
+    - over:2500
+    - '  ew_nomoney_14:&7'
+    - '    MenuItem:&7'
+    - '    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ&7'
+    - '    - amount:1&f&6&f'
+    - '    - type:stick&f&e'
+    - custommodeldata:1
+    Reward:
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+      Reward1:
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'%player%
+    - 'lore7:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''    InventoryLocation: 44
+########################################################
+    Condition:
+    MenuItem:
+    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ
+  ew_nomoney_14:
+    MenuItem:
+    - custommodeldata:1&d
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'&7
+    - 'lore7:&f &eɴʜẤᴘ ᴄʜUỘᴛ ᴛRÁI ĐỂ ᴅỊᴄH ᴄHUYỂN'&7
+    - '    RewardType: AND&7'
+    - '    Reward:&f&6&f'
+    - '      RewardType1: COMMAND&f&c'
+    Message: '      Reward1:'
+    ExtraPermission: '      - betterrtp player %player% playworld_the_end'
+      RewardType2: CLOSE
+    Message: ''
+  ew_buy_15:
+    MenuItem:
+    Condition:&d
+    - type:money
+    - over:2500
+  ew_nomoney_15:
+    - '    MenuItem:&7'
+    - '    - name:&dᴇɴᴅ ᴡᴏʀʟᴅ&7'
+    - '    - amount:1&7'
+    - '    - type:stick&f&6&f'
+    - '    - custommodeldata:1&f&e'
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+    Reward:
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+      Reward1:
+    - 'lore7:&f &cᴋHÔɴG ĐỦ TIỀN'%player%
+    Message: ''
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 45'
+####################################################################################################################
+    Condition:
+    MenuItem:
+    - type:stick
+  ew_nomoney_15:
+    MenuItem:
+    Message: ''&d
+    ExtraPermission: ''
+    InventoryLocation: 45
+
+    - 'lore1:&7ᴅᴏ ɴᴏᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ'
+    - 'lore2:&7ᴛʜᴇ ᴇɴᴅ ᴡᴏʀʟᴅ. ᴛᴇʟᴇᴘᴏʀᴛ ɴᴏᴡ'
+    - 'lore3:&7ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ʟᴏᴄᴀᴛɪᴏɴ.'
+    - 'lore5:&f ▪ ᴘʀɪᴄᴇ: &62500&f'
+    - 'lore7:&f &cɴᴏᴛ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ'
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 45
+####################################################################################################################
+  invitem:
+    MenuItem:
+    - type:stick
+    - custommodeldata:1
+    - name:&f
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 45

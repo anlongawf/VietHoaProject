@@ -1,0 +1,237 @@
+ShopName: Profile
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: Profile
+RemovePlayerInventory: true
+shop:
+  Head:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:PLAYER_HEAD
+    - playerhead:%player_name%
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+  Account:
+    MenuItem:
+    - name:&d%player_name%
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴛᴀ̀ɪ ᴋʜᴏᴀ̉ɴ ᴄᴜ̉ᴀ ʙᴀ̣ɴ'
+    - 'lore3:&f ▪ ʀᴀɴᴋ %vault_prefix%'
+    - 'lore4:&f ▪ ʙᴀɴᴋ &6%vault_eco_balance_formatted%&f#&f'
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 50
+  Combat:
+    MenuItem:
+    - name:&f⻔⻔
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴛʜᴏ̂ɴɢ ᴋᴇ̂ ᴠᴇ̂̀#&7ᴋɪɴʜ ɴɢʜɪᴇ̣̂ᴍ ᴄʜɪᴇ̂́ɴ đᴀ̂́ᴜ ᴄᴜ̉ᴀ ʙᴀ̣ɴ'
+    - 'lore3:&f ▪ ᴋɪʟʟꜱ: #ff7a7a%statistic_player_kills%'
+    - 'lore4:&f ▪ ᴅᴇᴀᴛʜꜱ: #ff7a7a%statistic_deaths%'
+    - 'lore5:&f ▪ ᴅᴀᴍᴀɢᴇ ᴅᴇᴀʟᴛ: #ff7a7a%statistic_damage_dealt%'
+    - 'lore6:&f ▪ ᴅᴀᴍᴀɢᴇ ᴛᴀᴋᴇɴ: #ff7a7a%statistic_damage_taken%'
+    - 'lore7:&f ▪ ᴇɴᴇᴍʏ ᴄᴏᴜɴᴛ: #ff7a7a%combatlogx_enemy_count% '
+    - 'lore8:&f ▪ ᴘᴜɴɪꜱʜᴍᴇɴᴛ ᴄᴏᴜɴᴛ: #ff7a7a%combatlogx_punishment_count%'
+    - 'lore10:&8ᴛʜᴏ̂ɴɢ ᴋᴇ̂ ᴄʜɪᴇ̂́ɴ đᴀ̂́ᴜ'
+    - hideflags:all
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  Game:
+    MenuItem:
+    - name:&f⻔⻔
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴛʜᴏ̂ɴɢ ᴋᴇ̂ ᴠᴇ̂̀#&7ᴋɪɴʜ ɴɢʜɪᴇ̣̂ᴍ ɢᴀᴍᴇ ᴄᴜ̉ᴀ ʙᴀ̣ɴ'
+    - 'lore3:&f ▪ ᴜꜱᴇᴅ ɪᴛᴇᴍꜱ: #7aff87%statistic_use_item%'
+    - 'lore4:&f ▪ ʙʀᴏᴋᴇɴ ʙʟᴏᴄᴋꜱ: #7aff87%statistic_mine_block%'
+    - 'lore5:&f ▪ ᴄʀᴀꜰᴛᴇᴅ ɪᴛᴇᴍꜱ: #7aff87%statistic_craft_item%'
+    - 'lore6:&f ▪ ᴀɴɪᴍᴀʟꜱ ʙʀᴇᴅ: #7aff87%statistic_animals_bred%'
+    - 'lore7:&f ▪ ᴄᴀᴜɢʜᴛ ꜰɪꜱʜ: #7aff87%statistic_fish_caught%'
+    - 'lore8:&f ▪ ɪᴛᴇᴍꜱ ᴇɴᴄʜᴀɴᴛᴇᴅ: #7aff87%statistic_item_enchanted%'
+    - 'lore9:&f ▪ ᴠɪʟʟᴀɢᴇʀ ᴛʀᴀᴅᴇꜱ: #7aff87%statistic_traded_with_villager%'
+    - 'lore11:&8ᴛʜᴏ̂ɴɢ ᴋᴇ̂ ɢᴀᴍᴇ'
+    RewardType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 16
+  Others:
+    MenuItem:
+    - name:&f⻔⻔
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ᴛʜᴏ̂ɴɢ ᴋᴇ̂ ᴋʜᴏ̂ɴɢ ᴛʜᴜᴏ̣̂ᴄ#&7ᴅᴀɴʜ ᴍᴜ̣ᴄ ɴᴀ̀ᴏ ᴋʜᴀ́ᴄ''ᴛ ꜰɪᴛ#&7ɪɴ ᴏᴛʜᴇʀ ᴄᴀᴛᴇɢᴏʀɪᴇꜱ'
+    - 'lore3:&f ▪ ᴄʟᴀɪᴍꜱ: #ffcb94%ultimateclaims_totalchunks%'
+    - 'lore4:&f ▪ ʜᴏᴍᴇꜱ ꜱᴇᴛ: #ffcb94%essentials_homes_set%/%essentials_homes_max%'
+    - 'lore5:&f ▪ ᴀᴄᴛɪᴠᴇ ᴀᴜᴄᴛɪᴏɴꜱ: #ffcb94%auctionmaster_own_auctions%'
+    - 'lore6:&f ▪ ᴀᴄᴛɪᴠᴇ ʙɪᴅ: #ffcb94%auctionmaster_own_bids% '
+    - 'lore8:&8ᴛʜᴏ̂ɴɢ ᴋᴇ̂ ᴋʜᴀ́ᴄ'    RewardType: NOTHING
+    RewardType: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 21'
+    InventoryLocation: 
+    MenuItem:
+    - name:&f⻔⻔
+    - amount:1&f
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7sᴛᴀᴛs ᴀʙᴏᴜᴛ ʏᴏᴜʀ#&7ᴊᴏʙs ᴇxᴘᴇʀɪᴇɴᴄᴇ'
+    - 'lore3:&f ▪ ᴄᴜʀʀᴇɴᴛ ᴊᴏʙꜱ: #94e7ff%jobsr_user_joinedjobcount%/%jobsr_maxjobs%'&7&7
+    - 'lore4:&f ▪ ᴊᴏʙ ᴘᴏɪɴᴛꜱ: #94e7ff%jobsr_user_points%'%jobsr_user_joinedjobcount%%jobsr_maxjobs%
+    - 'lore5:&f ▪ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ǫᴜᴇꜱᴛꜱ: #94e7ff%jobsr_user_doneq%'%jobsr_user_points%
+    - 'lore6:&f ▪ ʙʀᴇᴡɪɴɢ ꜱᴛᴀɴᴅꜱ: #94e7ff%jobsr_user_bstandcount%/%jobsr_user_maxbstandcount%'%jobsr_user_doneq%
+    - 'lore7:&f ▪ ꜰᴜʀɴᴀᴄᴇꜱ: #94e7ff%jobsr_user_furncount%/%jobsr_user_maxfurncount%'%jobsr_user_bstandcount%%jobsr_user_maxbstandcount%
+    - 'lore9:&8ᴊᴏʙs sᴛᴀᴛɪsᴛɪᴄs'&f%jobsr_user_furncount%%jobsr_user_maxfurncount%
+    - '    - hideflags:all&8'
+    - RewardType: NOTHING
+    RewardType: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 25'
+    InventoryLocation: 
+    MenuItem:
+    - name:&f⻔⻔
+    - amount:1&f
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7sᴛᴀᴛs ᴀʙᴏᴜᴛ ʏᴏᴜʀ#&7ᴄʀᴀᴛᴇs ᴇxᴘᴇʀɪᴇɴᴄᴇ'
+    - 'lore3:#eaa1ffᴏᴘᴇɴɪɴɢ ᴛɪᴍᴇs'&7&7
+    - 'lore4:&f ▪ ᴅᴀɪʟʏ: #eaa1ff%excellentcrates_openings_daily%'
+    - 'lore5:&f ▪ ʙᴀʟᴀɴᴄᴇᴅ: #eaa1ff%excellentcrates_openings_balanced%'%excellentcrates_openings_daily%
+    - 'lore6:&f ▪ ᴅɪᴠᴇʀsɪᴛʏ: #eaa1ff%excellentcrates_openings_diversity%'%excellentcrates_openings_balanced%
+    - 'lore7:&f ▪ ᴇᴘɪᴄ: #eaa1ff%excellentcrates_openings_epic%'%excellentcrates_openings_diversity%
+    - 'lore9:&8ᴄʀᴀᴛᴇs sᴛᴀᴛɪsᴛɪᴄs'&f%excellentcrates_openings_epic%
+    - '    - hideflags:all&8'
+    - RewardType: NOTHING
+    RewardType: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 34'
+    InventoryLocation: 
+############################################################################
+# Angel Chest - All show cases
+############################################################################
+
+  AngelChest_3:
+    MenuItem:
+    - name:&f
+    - amount:1&f
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7sᴛᴀᴛs ᴀʙᴏᴜᴛ ʏᴏᴜʀ#&7ᴀɴɢᴇʟ ᴄʜᴇsᴛs'
+    - 'lore3:#fffb82&l| ᴀɴɢᴇʟ ᴄʜᴇsᴛ 1'&7&7
+    - 'lore4:#fffb82&l| &7ʀᴇᴍᴏᴠɪɴɢ ɪɴ &f%angelchest_time_1%'
+    - 'lore5:#fffb82&l| &7ᴛᴏ̣ᴀ ᴅᴏ̣ &f%angelchest_x_1%X %angelchest_y_1%Y %angelchest_z_1%Z'%angelchest_time_1%
+    - 'lore7:#fffb82&l| ᴀɴɢᴇʟ ᴄʜᴇsᴛ 2'&7&f%angelchest_x_1%%angelchest_y_1%%angelchest_z_1%
+    - 'lore8:#fffb82&l| &7ʀᴇᴍᴏᴠɪɴɢ ɪɴ &f%angelchest_time_2%'
+    - 'lore9:#fffb82&l| &7ᴛᴏ̣ᴀ ᴅᴏ̣ &f%angelchest_x_2%X %angelchest_y_2%Y %angelchest_z_2%Z'%angelchest_time_2%
+    - 'lore11:#fffb82&l| ᴀɴɢᴇʟ ᴄʜᴇsᴛ 3'&7&f%angelchest_x_2%%angelchest_y_2%%angelchest_z_2%
+    - 'lore12:#fffb82&l| &7ʀᴇᴍᴏᴠɪɴɢ ɪɴ &f%angelchest_time_3%'
+    - 'lore13:#fffb82&l| &7ᴛᴏ̣ᴀ ᴅᴏ̣ &f%angelchest_x_3%X %angelchest_y_3%Y %angelchest_z_3%Z'%angelchest_time_3%
+    - 'lore15:&8ᴀɴɢᴇʟ sᴛᴀᴛɪsᴛɪᴄs'&l&7&f%angelchest_x_3%%angelchest_y_3%%angelchest_z_3%
+    - '    - hideflags:all&8'
+    - RewardType: NOTHING
+    RewardType: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 30'
+    InventoryLocation: 
+    - type:placeholdermatch    - '%angelchest_isactive_3%:match:true'
+    - 
+    - '    - AngelChest_2:%angelchest_isactive_3%'
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick&f
+    - custommodeldata:1
+    - 'lore1:&7sᴛᴀᴛs ᴀʙᴏᴜᴛ ʏᴏᴜʀ#&7ᴀɴɢᴇʟ ᴄʜᴇsᴛs'
+    - 'lore3:#fffb82&l| ᴀɴɢᴇʟ ᴄʜᴇsᴛ 1'
+    - 'lore4:#fffb82&l| &7ʀᴇᴍᴏᴠɪɴɢ ɪɴ &f%angelchest_time_1%'
+    - 'lore5:#fffb82&l| &7ᴄᴏᴏʀᴅs &f%angelchest_x_1%X %angelchest_y_1%Y %angelchest_z_1%Z'
+    - 'lore7:#fffb82&l| ᴀɴɢᴇʟ ᴄʜᴇsᴛ 2'&7&f%angelchest_time_1%
+    - 'lore8:#fffb82&l| &7ʀᴇᴍᴏᴠɪɴɢ ɪɴ &f%angelchest_time_2%'%angelchest_x_1%%angelchest_y_1%%angelchest_z_1%
+    - 'lore9:#fffb82&l| &7ᴄᴏᴏʀᴅs &f%angelchest_x_2%X %angelchest_y_2%Y %angelchest_z_2%Z'
+    - 'lore11:&8ᴀɴɢᴇʟ sᴛᴀᴛɪsᴛɪᴄs'&l&7&f%angelchest_time_2%
+    - '    - hideflags:all&l&7&f%angelchest_x_2%%angelchest_y_2%%angelchest_z_2%'
+    - '    - RewardType: NOTHING&8'
+    - Message: ''
+    RewardType: ''
+    Message: '    Message: 30'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:placeholdermatch
+    - '%angelchest_isactive_2%:match:true'
+    - 
+    - '    - AngelChest_1:%angelchest_isactive_2%'
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick&f
+    - custommodeldata:1
+    - 'lore1:&7sᴛᴀᴛs ᴀʙᴏᴜᴛ ʏᴏᴜʀ#&7ᴀɴɢᴇʟ ᴄʜᴇsᴛs'
+    - 'lore3:#fffb82&l| ᴀɴɢᴇʟ ᴄʜᴇsᴛ 1'
+    - 'lore4:#fffb82&l| &7ʀᴇᴍᴏᴠɪɴɢ ɪɴ &f%angelchest_time_1%'
+    - 'lore5:#fffb82&l| &7ᴄᴏᴏʀᴅs &f%angelchest_x_1%X %angelchest_y_1%Y %angelchest_z_1%Z'
+    - 'lore7:&8ᴀɴɢᴇʟ sᴛᴀᴛɪsᴛɪᴄs'&l&7&f%angelchest_time_1%
+    - '    - hideflags:all&l&7&f%angelchest_x_1%%angelchest_y_1%%angelchest_z_1%'
+    - '    - RewardType: NOTHING&8'
+    - Message: ''
+    RewardType: ''
+    Message: '    Message: 30'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:placeholdermatch
+    - '%angelchest_isactive_1%:match:true'
+    - 
+    - '    - AngelChest_NoStats:%angelchest_isactive_1%'
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick&f
+    - custommodeldata:1
+    - 'lore1:&7sᴛᴀᴛs ᴀʙᴏᴜᴛ ʏᴏᴜʀ#&7ᴀɴɢᴇʟ ᴄʜᴇsᴛs'
+    - 'lore3:&f ▪ ᴀᴄᴛɪᴠᴇ ᴄʜᴇꜱᴛꜱ: #fffb82%angelchest_activechests%'
+    - 'lore5:&8ᴄᴜʀʀᴇɴᴛʟʏ ɴᴏ sᴛᴀᴛs'&7&7
+    - '    - hideflags:all&f%angelchest_activechests%'
+    - '    - RewardType: NOTHING&8'
+    - Message: ''
+    RewardType: ''
+    Message: '    Message: 30'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:permission
+    - match:angelchest.use
+    - 
+    - AngelChest_Locked:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick&f
+    - custommodeldata:1
+    - 'lore1:&7sᴛᴀᴛs ᴀʙᴏᴜᴛ ʏᴏᴜʀ#&7ᴀɴɢᴇʟ ᴄʜᴇsᴛs'
+    - 'lore3:&f ▪ ᴀᴄᴛɪᴠᴇ ᴄʜᴇꜱᴛꜱ: #fffb82%angelchest_activechests%'
+    - 'lore5:&8ꜰᴇᴀᴛᴜʀᴇ ɴᴏᴛ ᴜɴʟᴏᴄᴋᴇᴅ'&7&7
+    - '    - hideflags:all&f%angelchest_activechests%'
+    - '    - RewardType: NOTHING&8'
+    - Message: ''
+    RewardType: ''
+    Message: '    Message: 30'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: ############################################################################
+
+  InvItem:
+    MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick&f
+    - custommodeldata:1
+    - RewardType: NOTHING
+    - Message: ''
+    RewardType: ''
+    Message: '    Message: 54'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 54

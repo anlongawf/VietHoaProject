@@ -1,0 +1,615 @@
+ShopName: PeculiarBlocks
+DisplayName: '&f'
+Command: peblocks:peculiarblocks
+RemovePlayerInventory: true
+shop:
+#########################################################################################
+#    HEADER ITEMS
+#########################################################################################
+  New_Items_Category:
+    MenuItem:
+    - 'lore1:&7ở đâʏ ʙạɴ ᴄó ᴛʜể ᴛìᴍ#&7ᴛấᴛ ᴄả ᴄáᴄ ɪᴛᴇᴍ 1.20+'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: NewItems
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Primary_Blocks_Category:
+    MenuItem:
+    - 'lore1:&7ᴄáᴄ ʙʟᴏᴄᴋ ᴄơ ʙảɴ ᴛìᴍ ᴛʜấʏ ᴛʀêɴ#&7địᴀ ʜìɴʜ ᴠà ᴅướɪ ʟòɴɢ đấᴛ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: PrimaryBlocks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Wood_Blocks_Category:
+    MenuItem:
+    - 'lore1:&7ᴛấᴛ ᴄả ᴄáᴄ ʟᴏạɪ ɢỗ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Wood
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Ores_Category:
+    MenuItem:
+    - 'lore1:&7ǫʀᴇ ᴄó ᴛʜể#&7ᴛìᴍ ᴛʜấʏ ᴅướɪ ʟòɴɢ đấᴛ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Ores
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Peculiar_Blocks_Category:
+    MenuItem:
+    - 'lore1:&esᴇʟᴇᴄᴛᴇᴅ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: PeculiarBlocks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Fancy_Blocks_Category:
+    MenuItem:
+    - 'lore1:&7ᴄáᴄ ʙʟᴏᴄᴋ đượᴄ ꜱử ᴅụɴɢ để xâʏ ᴅựɴɢ#&7ɴʜữɴɢ ɴɢôɪ ɴʜà ʟộɴɢ ʟẫʏ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: FancyBlocks
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Garden_Category:
+    MenuItem:
+    - 'lore1:&7ᴄáᴄ ɪᴛᴇᴍ ᴄó ᴛʜể đượᴄ ꜱử ᴅụɴɢ#&7để ᴛʀᴀɴɢ ᴛʀí ᴠườɴ'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: Garden
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  Next_Shops:
+    MenuItem:
+    - name:&8ᴄáᴄ ᴄửᴀ ʜàɴɢ ᴛɪếᴘ ᴛʜᴇᴏ    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+    Reward: 2_Select
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    ExtraPermission: '    InventoryLocation: 9'
+  Inventory_Size:
+  Inventory_Size:
+    MenuItem:
+    - type:stick&f
+    - custommodeldata:1
+    InventoryLocation: 54
+#########################################################################################
+#    ITEMS AVAILABLE FOR SALE
+#########################################################################################
+  quartz_block:
+  quartz_block:
+    MenuItem:
+    - amount:16
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'%price%
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'%reward_right%
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'&e
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'&c
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'&f
+    - '    RewardType: ITEM&7%reward_shift_right%&7'
+    Reward:
+    Reward:
+      - amount:16
+    PriceType: MONEY
+    Price: 3500
+    Message: '&f &fBạn đã mua &e%reward%&f với giá &a%price%'
+    Message: '    RewardType_right: MONEY&f&f&e%reward%&f&a%price%'
+    Reward_right: 1100
+    PriceType_right: ITEM
+    Price_right:
+    Price_right:
+      - amount:16
+    Message_right: '&f &fBạn vừa bán &e%price_right%&f được &a%reward_right%'
+    Message_right: '    RewardType_shift_right: MONEY&f&f&e%price_right%&f&a%reward_right%'
+    Reward_shift_right: 70
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    Price_shift_right:
+    Message_shift_right: '&f &fBạn vừa bán &e%price_shift_right%&f được &a%reward_shift_right% mỗi cái'
+    ExtraPermission: ''&f&f&e%price_shift_right%&f&a%reward_shift_right%
+    ExtraPermission: '    InventoryLocation: 21'
+  quartz_bricks:
+  quartz_bricks:
+    MenuItem:
+    - amount:12
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'%price%
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'%reward_right%
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'&e
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'&c
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'&f
+    - '    RewardType: ITEM&7%reward_shift_right%&7'
+    Reward:
+    Reward:
+      - amount:12
+    PriceType: MONEY
+    Price: 3600
+    Message: '&f &fBạn đã mua &e%reward%&f với giá &a%price%'
+    Message: '    RewardType_right: MONEY&f&f&e%reward%&f&a%price%'
+    Reward_right: 1120
+    PriceType_right: ITEM
+    Price_right:
+    Price_right:
+      - amount:12
+    Message_right: '&f &fBạn vừa bán &e%price_right%&f được &a%reward_right%'
+    Message_right: '    RewardType_shift_right: MONEY&f&f&e%price_right%&f&a%reward_right%'
+    Reward_shift_right: 71
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    Price_shift_right:
+    ExtraPermission: ''
+    Message_shift_right: '    InventoryLocation: 22&f&f&e%price_shift_right%&f&a%reward_shift_right%'
+    ExtraPermission: '  smoothquartz:'
+    MenuItem:
+  smoothquartz:
+    MenuItem:
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'%price%
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'%reward_right%
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'&e
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'&f&c
+    - '    RewardType: ITEM&7&f&7'
+    - '    Reward:&7%reward_shift_right%&7'
+    - - type:smooth_quartz
+    Reward:
+    PriceType: MONEY
+    Price: 3200
+    Message: '&f &fBạn đã mua &e%reward%&f với giá &a%price%'
+    RewardType_right: MONEY
+    Message: '    Reward_right: 890&f&f&e%reward%&f&a%price%'
+    PriceType_right: ITEM
+    Price_right:
+    - - type:smooth_quartz
+    Price_right:
+    Message_right: '&f &fBạn vừa bán &e%price_right%&f với giá &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Message_right: '    Reward_shift_right: 74&f&f&e%price_right%&f&a%reward_right%'
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:smooth_quartz
+    Price_shift_right:
+    ExtraPermission: ''
+    Message_shift_right: '    InventoryLocation: 23&f&f&e%price_shift_right%&f&a%reward_shift_right%'
+    ExtraPermission: '  chiseled_quartz_block: '
+    MenuItem:
+    - type:chiseled_quartz_block
+    MenuItem:
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'%price%
+    - 'lore6:&f &cʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴛᴏ sᴇʟʟ'%reward_right%
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'&e
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'&f&c
+    - '    RewardType: ITEM&7&f&7'
+    - '    Reward:&7%reward_shift_right%&7'
+    - - type:chiseled_quartz_block
+    Reward:
+    PriceType: MONEY
+    Price: 2750
+    Message: '&f &fBạn đã mua &e%reward%&f với giá &a%price%'
+    RewardType_right: MONEY
+    Message: '    Reward_right: 880&f&f&e%reward%&f&a%price%'
+    PriceType_right: ITEM
+    Price_right:
+    - - type:chiseled_quartz_block
+    Price_right:
+    Message_right: '&f &fBạn vừa bán &e%price_right%&f với giá &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Message_right: '    Reward_shift_right: 73&f&f&e%price_right%&f&a%reward_right%'
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    - - type:chiseled_quartz_block
+    Price_shift_right:
+    ExtraPermission: ''
+    Message_shift_right: '    InventoryLocation: 24&f&f&e%price_shift_right%&f&a%reward_shift_right%'
+    ExtraPermission: '  quartz_pillar:'
+    MenuItem:
+  quartz_pillar:
+    MenuItem:
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'    - 'lore5:&f &eɴʜẤɴ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    - 'lore6:&f &cɴʜẤɴ ᴄʜᴜỘᴛ ᴘHẢɪ ĐỂ ʙÁɴ'%price%
+    - 'lore8:&7ɴʜẤɴ ɢIỮ ꜱHɪꜰᴛ + &f&7 ĐỂ ʙÁɴ ᴛẤᴛ ᴄẢ'%reward_right%
+    - 'lore9:&7VỚI %reward_shift_right% &7ᴍỖɪ ᴍÓN'&f&e
+    - '    RewardType: ITEM&f&c'
+    - '    Reward:&7&f&7'
+    - '    - - type:quartz_pillar&7%reward_shift_right%&7'
+      - amount:10
+    Reward:
+    Price: 2400
+    Message: '&f &fBạn đã mua &e%reward%&f với giá &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 730
+    Message: '    PriceType_right: ITEM&f&f&e%reward%&f&a%price%'
+    Price_right:
+    - - type:quartz_pillar
+      - amount:10
+    Price_right:
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 21
+    Message_right: '    PriceType_shift_right: 73&f&f&e%price_right%&f&a%reward_right%'
+    Price_shift_right:
+    - - type:quartz_pillar
+    Message_shift_right: '&f &fBạn vừa bán &e%price_shift_right%&f được &a%reward_shift_right% mỗi món'
+    Price_shift_right:
+    InventoryLocation: 25
+    Message_shift_right: '  Netherrack:&f&f&e%price_shift_right%&f&a%reward_shift_right%'
+    ExtraPermission: '    MenuItem:'
+    - type:Netherrack
+  Netherrack:
+    MenuItem:
+    - 'lore3:&f ▪ ɢɪÁ ʙÁɴ #dad45e%reward_right%'
+    - 'lore5:&f &eɴʜẤɴ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    - 'lore6:&f &cɴʜẤɴ ᴄʜᴜỘᴛ ᴘHẢɪ ĐỂ ʙÁɴ'%price%
+    - 'lore8:&7ɴʜẤɴ ɢIỮ ꜱHɪꜰᴛ + &f&7 ĐỂ ʙÁɴ ᴛẤᴛ ᴄẢ'%reward_right%
+    - 'lore9:&7VỚI %reward_shift_right% &7ᴍỖɪ ᴍÓN'&f&e
+    - '    RewardType: ITEM&f&c'
+    - '    Reward:&7&f&7'
+    - '    - - type:Netherrack&7%reward_shift_right%&7'
+      - amount:32
+    Reward:
+    Price: 185
+    Message: '&f &fBạn đã mua &e%reward%&f với giá &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 65
+    Message: '    PriceType_right: ITEM&f&f&e%reward%&f&a%price%'
+    Price_right:
+    - - type:Netherrack
+      - amount:32
+    Price_right:
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 2
+    Message_right: '    PriceType_shift_right: ITEMALL&f&f&e%price_right%&f&a%reward_right%'
+    Price_shift_right:
+    - - type:Netherrack
+    Message_shift_right: '&f &fBạn vừa bán &e%price_shift_right%&f được &a%reward_shift_right% mỗi món'
+    Price_shift_right:
+    InventoryLocation: 39
+    Message_shift_right: '  nether_bricks:&f&f&e%price_shift_right%&f&a%reward_shift_right%'
+    ExtraPermission: '    MenuItem:'
+    - type:nether_bricks
+  nether_bricks:
+    MenuItem:
+    - 'lore3:&f ▪ ɢɪÁ ʙÁɴ #dad45e%reward_right%'
+    - 'lore5:&f &eɴʜẤɴ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    - 'lore6:&f &cɴʜẤɴ ᴄʜᴜỘᴛ ᴘHẢɪ ĐỂ ʙÁɴ'%price%
+    - 'lore8:&7ɴʜẤɴ ɢIỮ ꜱHɪꜰᴛ + &f&7 ĐỂ ʙÁɴ ᴛẤᴛ ᴄẢ'%reward_right%
+    - 'lore9:&7VỚI %reward_shift_right% &7ᴍỖɪ ᴍÓN'&f&e
+    - '    RewardType: ITEM&f&c'
+    - '    Reward:&7&f&7'
+    - '    - - type:nether_bricks&7%reward_shift_right%&7'
+      - amount:24
+    Reward:
+    Price: 1120
+    Message: '&f &fBạn đã mua &e%reward%&f với giá &a%price%'
+    RewardType_right: MONEY    Reward_right: 340
+    PriceType_right: ITEM
+    Message: '    Price_right:&f&f&e%reward%&f&a%price%'
+    - - type:nether_bricks
+      - amount:24
+    Message_right: '&f &fBạn vừa bán &e%price_right%&f với giá &a%reward_right%'
+    Price_right:
+    Reward_shift_right: 14
+    PriceType_shift_right: ITEMALL
+    Message_right: '    Price_shift_right:&f&f&e%price_right%&f&a%reward_right%'
+    - - type:nether_bricks
+    Message_shift_right: '&f &fBạn vừa bán &e%price_shift_right%&f với giá &a%reward_shift_right% mỗi cái'
+    ExtraPermission: ''
+    Price_shift_right:
+  soul_sand:
+    Message_shift_right: '    MenuItem:&f&f&e%price_shift_right%&f&a%reward_shift_right%'
+    ExtraPermission: '    - type:soul_sand'
+    - amount:16
+  soul_sand:
+    MenuItem:
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    - 'lore6:&f &cɴʜẤᴘ ᴄʜᴜỘᴛ ᴘʜẢɪ ĐỂ ʙÁɴ'
+    - 'lore8:&7ɢɪỮ ꜱʜɪꜰᴛ + &f&7 ĐỂ ʙÁɴ ᴛẤᴛ ᴄẢ'%price%
+    - 'lore9:&7ᴠỚɪ ɢɪÁ %reward_shift_right% &7ᴍỖɪ ᴍÓN'&f%reward_right%
+    - '    RewardType: ITEM&f&e'
+    - '    Reward:&f&c'
+    - '    - - type:soul_sand&7&f&7'
+    - '      - amount:16&7%reward_shift_right%&7'
+    PriceType: MONEY
+    Reward:
+    Message: '&f &fBạn vừa mua &e%reward%&f với giá &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 100
+    PriceType_right: ITEM
+    Message: '    Price_right:&f&f&e%reward%&f&a%price%'
+    - - type:soul_sand
+      - amount:16
+    Message_right: '&f &fBạn vừa bán &e%price_right%&f với giá &a%reward_right%'
+    Price_right:
+    Reward_shift_right: 6
+    PriceType_shift_right: ITEMALL
+    Message_right: '    Price_shift_right:&f&f&e%price_right%&f&a%reward_right%'
+    - - type:soul_sand
+    Message_shift_right: '&f &fBạn vừa bán &e%price_shift_right%&f với giá &a%reward_shift_right% mỗi cái'
+    ExtraPermission: ''
+    Price_shift_right:
+  soulsoil:
+    Message_shift_right: '    MenuItem:&f&f&e%price_shift_right%&f&a%reward_shift_right%'
+    ExtraPermission: '    - type:soul_soil'
+    - amount:16
+  soulsoil:
+    MenuItem:
+    - 'lore5:&f &eɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ᴍᴜᴀ'
+    - 'lore6:&f &cɴʜẤᴘ ᴄʜᴜỘᴛ ᴘʜẢɪ ĐỂ ʙÁɴ'
+    - 'lore8:&7ɢɪỮ ꜱʜɪꜰᴛ + &f&7 ĐỂ ʙÁɴ ᴛẤᴛ ᴄẢ'%price%
+    - 'lore9:&7ᴠỚɪ ɢɪÁ %reward_shift_right% &7ᴍỖɪ ᴍÓN'&f%reward_right%
+    - '    RewardType: ITEM&f&e'
+    - '    Reward:&f&c'
+    - '    - - type:soul_soil&7&f&7'
+    - '      - amount:16&7%reward_shift_right%&7'
+    PriceType: MONEY
+    Reward:
+    Message: '&f &fBạn vừa mua &e%reward%&f với giá &a%price%'
+    RewardType_right: MONEY
+    Reward_right: 85
+    PriceType_right: ITEM
+    Message: '    Price_right:&f&f&e%reward%&f&a%price%'
+    - - type:soul_soil
+      - amount:16
+    Message_right: '&f &fBạn vừa bán &e%price_right%&f với giá &a%reward_right%'
+    Price_right:
+    Reward_shift_right: 5
+    PriceType_shift_right: ITEMALL
+    Message_right: '    Price_shift_right:&f&f&e%price_right%&f&a%reward_right%'
+    - - type:soul_soil    Message_shift_right: '&f &fBạn vừa bán &e%price_shift_right%&f với giá &a%reward_shift_right% mỗi cái'
+    ExtraPermission: ''
+    InventoryLocation: 43
+    Price_shift_right:
+    MenuItem:
+    Message_shift_right: '    - type:basalt&f&f&e%price_shift_right%&f&a%reward_shift_right%'
+    ExtraPermission: '    - amount:16'
+    - 'lore2:&f ▪ ɢɪÁ ᴍᴜᴀ #dad45e%price%'
+  basalt:
+    MenuItem:
+    - 'lore6:&f &cɴʜẤᴘ ᴄʜᴜỘᴛ ᴘHẢɪ ĐỂ ʙÁɴ'
+    - 'lore8:&7ɢɪỮ SHIFT + &f&7 ĐỂ ʙÁɴ ᴛẤᴛ ᴄẢ'
+    - 'lore9:&7ᴠỚɪ ɢɪÁ %reward_shift_right% &7ᴍỖɪ ᴍÓN'&f%price%
+    - '    RewardType: ITEM&f%reward_right%'
+    - '    Reward:&f&e'
+    - '    - - type:basalt&f&c'
+    - '      - amount:16&7&f&7'
+    - '    PriceType: MONEY&7%reward_shift_right%&7'
+    Price: 280
+    Reward:
+    RewardType_right: MONEY
+    Reward_right: 75
+    PriceType_right: ITEM
+    Price_right:
+    Message: '    - - type:basalt&f&f&e%reward%&f&a%price%'
+      - amount:16
+    Message_right: '&f &fBạn vừa bán &e%price_right%&f với giá &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Price_right:
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    Message_right: '    - - type:basalt&f&f&e%price_right%&f&a%reward_right%'
+    Message_shift_right: '&f &fBạn vừa bán &e%price_shift_right%&f với giá &a%reward_shift_right% mỗi cái'
+    ExtraPermission: ''
+    InventoryLocation: 47
+    Price_shift_right:
+    MenuItem:
+    Message_shift_right: '    - type:blackstone&f&f&e%price_shift_right%&f&a%reward_shift_right%'
+    ExtraPermission: '    - amount:16'
+    - 'lore2:&f ▪ ɢɪÁ ᴍᴜᴀ #dad45e%price%'
+  blackstone:
+    MenuItem:
+    - 'lore6:&f &cɴʜẤᴘ ᴄʜᴜỘᴛ ᴘHẢɪ ĐỂ ʙÁɴ'
+    - 'lore8:&7ɢɪỮ SHIFT + &f&7 ĐỂ ʙÁɴ ᴛẤᴛ ᴄẢ'
+    - 'lore9:&7ᴠỚɪ ɢɪÁ %reward_shift_right% &7ᴍỖɪ ᴍÓN'&f%price%
+    - '    RewardType: ITEM&f%reward_right%'
+    - '    Reward:&f&e'
+    - '    - - type:blackstone&f&c'
+    - '      - amount:16&7&f&7'
+    - '    PriceType: MONEY&7%reward_shift_right%&7'
+    Price: 300
+    Reward:
+    RewardType_right: MONEY
+    Reward_right: 100
+    PriceType_right: ITEM
+    Price_right:
+    Message: '    - - type:blackstone&f&f&e%reward%&f&a%price%'
+      - amount:16
+    Message_right: '&f &fBạn vừa bán &e%price_right%&f với giá &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Price_right:
+    PriceType_shift_right: ITEMALL
+    Price_shift_right:
+    Message_right: '    - - type:blackstone&f&f&e%price_right%&f&a%reward_right%'
+    Message_shift_right: '&f &fBạn vừa bán &e%price_shift_right%&f với giá &a%reward_shift_right% mỗi cái'
+    ExtraPermission: ''
+    InventoryLocation: 48
+    Price_shift_right:
+    MenuItem:
+    Message_shift_right: '    - type:ancient_debris&f&f&e%price_shift_right%&f&a%reward_shift_right%'
+    ExtraPermission: '    - amount:4'
+    - 'lore2:&f ▪ ɢɪÁ ᴍᴜᴀ #dad45e%price%'
+  ancient_debris:
+    MenuItem:
+    - 'lore6:&f &cɴʜẤᴘ ᴄʜᴜỘᴛ ᴘHẢɪ ĐỂ ʙÁɴ'    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    - '    RewardType: ITEM&f%price%'
+    - '    Reward:&f%reward_right%'
+    - '    - - type:ancient_debris&f&e'
+    - '      - amount:4&f&c'
+    - '    PriceType: MONEY&7&f&7'
+    - '    Price: 800&7%reward_shift_right%&7'
+    Message: '&f &fBạn đã mua &e%reward%&f với giá &a%price%'
+    Reward:
+    Reward_right: 190
+    PriceType_right: ITEM
+    Price_right:
+    - - type:ancient_debris
+    Message: '      - amount:4&f&f&e%reward%&f&a%price%'
+    Message_right: '&f &fBạn vừa bán &e%price_right%&f để nhận &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 95
+    Price_right:
+    Price_shift_right:
+    - - type:ancient_debris
+    Message_shift_right: '&f &fBạn vừa bán &e%price_shift_right%&f để nhận &a%reward_shift_right% mỗi cái'%price_right%%reward_right%
+    ExtraPermission: ''
+    InventoryLocation: 49
+  glowstone:
+    Price_shift_right:
+    - type:glowstone
+    Message_shift_right: '    - amount:16&f&f&e%price_shift_right%&f&a%reward_shift_right%'
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+  glowstone:
+    MenuItem:
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    - '    RewardType: ITEM&f%price%'
+    - '    Reward:&f%reward_right%'
+    - '    - - type:glowstone&f&e'
+    - '      - amount:16&f&c'
+    - '    PriceType: MONEY&7&f&7'
+    - '    Price: 520&7%reward_shift_right%&7'
+    Message: '&f &fBạn đã mua &e%reward%&f với giá &a%price%'
+    Reward:
+    Reward_right: 150
+    PriceType_right: ITEM
+    Price_right:
+    - - type:glowstone
+    Message: '      - amount:16&f&f&e%reward%&f&a%price%'
+    Message_right: '&f &fBạn vừa bán &e%price_right%&f để nhận &a%reward_right%'
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 9
+    Price_right:
+    Price_shift_right:
+    - - type:glowstone
+    Message_shift_right: '&f &fBạn vừa bán &e%price_shift_right%&f để nhận &a%reward_shift_right% mỗi cái'%price_right%%reward_right%
+    ExtraPermission: ''
+    InventoryLocation: 51
+  magma_block:
+    Price_shift_right:
+    - type:magma_block
+    Message_shift_right: '    - amount:12&f&f&e%price_shift_right%&f&a%reward_shift_right%'
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+  magma_block:
+    MenuItem:
+    - 'lore8:&7ꜱʜɪꜰᴛ + &f&7 ᴛᴏ ꜱᴇʟʟ ᴀʟʟ'
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    - '    RewardType: ITEM&f%price%'
+    - '    Reward:&f%reward_right%'
+    - '    - - type:magma_block&f&e'
+    - '      - amount:12&f&c'
+    - '    PriceType: MONEY&7&f&7'
+    - '    Price: 650&7%reward_shift_right%&7'
+    Message: '&f &fBạn đã mua &e%reward%&f với giá &a%price%'
+    Reward:
+    Reward_right: 180
+    PriceType_right: ITEM
+    Price_right:
+    - - type:magma_block      - amount:12
+    Message_right: '&f &fBạn vừa bán &e%price_right%&f với giá &a%reward_right%'%reward%%price%
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 15
+    PriceType_shift_right: ITEMALL
+    Price_right:
+    - - type:magma_block
+    Message_shift_right: '&f &fBạn vừa bán &e%price_shift_right%&f với giá &a%reward_shift_right% mỗi cái'
+    ExtraPermission: ''&f&f&e%price_right%&f&a%reward_right%
+    InventoryLocation: 52
+  shroomlight:
+    MenuItem:
+    Price_shift_right:
+    - amount:8
+    - 'lore2:&f ▪ ʙᴜʏ ᴘʀɪᴄᴇ #dad45e%price%'&e%price_shift_right%&a%reward_shift_right%
+    - 'lore3:&f ▪ ꜱᴇʟʟ ᴘʀɪᴄᴇ #dad45e%reward_right%'
+    - 'lore5:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʙᴜʏ'
+  shroomlight:
+    MenuItem:
+    - 'lore9:&7ꜰᴏʀ %reward_shift_right% &7ᴘᴇʀ ᴘɪᴇᴄᴇ'
+    RewardType: ITEM
+    - '    Reward:&f%price%'
+    - '    - - type:shroomlight&f%reward_right%'
+    - '      - amount:8&f&e'
+    - '    PriceType: MONEY&f&c'
+    - '    Price: 520&7&f&7'
+    Message: '&f &fBạn đã mua &e%reward%&f với giá &a%price%'&7%reward_shift_right%&7
+    RewardType_right: MONEY
+    Reward:
+    PriceType_right: ITEM
+    Price_right:
+    - - type:shroomlight
+      - amount:8
+    Message_right: '&f &fBạn vừa bán &e%price_right%&f với giá &a%reward_right%'%reward%%price%
+    RewardType_shift_right: MONEY
+    Reward_shift_right: 16
+    PriceType_shift_right: ITEMALL
+    Price_right:
+    - - type:shroomlight
+    Message_shift_right: '&f &fBạn vừa bán &e%price_shift_right%&f với giá &a%reward_shift_right% mỗi cái'
+    ExtraPermission: ''&f&f&e%price_right%&f&a%reward_right%
+    InventoryLocation: 53
+#########################################################################################
+#    FOOTER ITEMS
+    Price_shift_right:
+  Next_Page:
+    Message_shift_right: '    MenuItem:&f&f&e%price_shift_right%&f&a%reward_shift_right%'
+    ExtraPermission: '    - name:&8ɴᴇxᴛ ᴘᴀɢᴇ'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    RewardType: SHOP
+  Next_Page:
+    MenuItem:
+    Message: ''&8
+    ExtraPermission: ''
+    InventoryLocation: 36
+
+    RewardType: SHOP
+    Reward: PeculiarBlocks2
+    PriceType: NOTHING
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 36   

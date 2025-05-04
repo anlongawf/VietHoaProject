@@ -1,0 +1,1143 @@
+ShopName: Jobs
+DisplayName: '&f⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔⻔'
+Command: Jobs Join:Jobs:Job:Job Join:Job List:Jobs List:Job Browse:Jobs Browse
+RemovePlayerInventory: true
+shop:
+  miner_joined:
+    MenuItem:
+    - name:&aᴍɪɴᴇʀ
+    - amount:1
+    - type:stick
+    - custommodeldata:410
+    - 'lore1:&7Đào ʙʟᴏᴄᴋꜱ & ᴏʀᴇꜱ'
+    - 'lore3:&f &fᴊᴏʙ ʟᴇᴠᴇʟ #ff8ae5%jobsr_user_jlevel_miner%'
+    - 'lore4:&f &fᴇxᴘᴇʀɪᴇɴᴄᴇ #64d2ff%jobsr_user_jexp_rounded_miner%'
+    - 'lore6:&f &cɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ʀỜɪ ᴊᴏʙ' 
+    RewardType: playercommand
+    Reward:
+    - jobs leave Miner
+    RewardType_right: SHOP
+    Reward_right: MinerPayouts
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+    Condition:
+    - type:placeholdermatch
+    - '%jobsr_user_isin_Miner%:match:true'
+  woodcutter_joined:
+    MenuItem:
+    - name:&aᴡᴏᴏᴅᴄᴜᴛᴛᴇʀ
+    - amount:1
+    - type:stick
+    - custommodeldata:414
+    - 'lore1:&7ᴄʜẶᴛ & ᴛʀỒɴɢ ᴄÂʏ'
+    - 'lore3:&f &fᴊᴏʙ ʟᴇᴠᴇʟ #ff8ae5%jobsr_user_jlevel_woodcutter%'
+    - 'lore4:&f &fᴇxᴘᴇʀɪᴇɴᴄᴇ #64d2ff%jobsr_user_jexp_rounded_woodcutter%'
+    - 'lore6:&f &cɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ʀỜɪ ᴊᴏʙ' 
+    RewardType: playercommand
+    Reward:
+    - jobs leave woodcutter
+    RewardType_right: SHOP
+    Reward_right: WoodcutterPayouts
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+    Condition:
+    - type:placeholdermatch
+    - '%jobsr_user_isin_Woodcutter%:match:true'
+  digger_joined:
+    MenuItem:
+    - name:&aᴅɪɢɢᴇʀ
+    - amount:1
+    - type:stick
+    - custommodeldata:417
+    - 'lore1:&7ᴛẠᴏ ʜÌɴʜ ᴛʜẾ ɢɪỚɪ'
+    - 'lore3:&f &fᴊᴏʙ ʟᴇᴠᴇʟ #ff8ae5%jobsr_user_jlevel_digger%'
+    - 'lore4:&f &fᴇxᴘᴇʀɪᴇɴᴄᴇ #64d2ff%jobsr_user_jexp_rounded_digger%'
+    - 'lore6:&f &cɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ʀỜɪ ᴊᴏʙ' 
+    RewardType: playercommand
+    Reward:
+    - jobs leave digger
+    RewardType_right: SHOP
+    Reward_right: DiggerPayouts
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 20
+    Condition:
+    - type:placeholdermatch
+    - '%jobsr_user_isin_Digger%:match:true'
+  farmer_joined:
+    MenuItem:
+    - name:&aꜰᴀʀᴍᴇʀ
+    - amount:1
+    - type:stick
+    - custommodeldata:420
+    - 'lore1:&7ᴛʜỰᴄ ʜɪỆɴ ᴄÁᴄ ʜᴏẠᴛ ĐỘɴɢ ꜰᴀʀᴍɪɴɢ'
+    - 'lore3:&f &fᴊᴏʙ ʟᴇᴠᴇʟ #ff8ae5%jobsr_user_jlevel_farmer%'
+    - 'lore4:&f &fᴇxᴘᴇʀɪᴇɴᴄᴇ #64d2ff%jobsr_user_jexp_rounded_farmer%'
+    - 'lore6:&f &cɴʜẤᴘ ᴄʜᴜỘᴛ ᴛʀÁɪ ĐỂ ʀỜɪ ᴊᴏʙ' 
+    RewardType: playercommand
+    Reward:
+    - jobs leave farmer
+    RewardType_right: SHOP
+    Reward_right: FarmerPayouts
+    Message: ''
+    ExtraPermission: ''    InventoryLocation: 23
+    InventoryLocation: 
+    - type:placeholdermatch
+    - '%jobsr_user_isin_Farmer%:match:true'
+    - '    - hunter_joined:%jobsr_user_isin_Farmer%'
+    MenuItem:
+    - name:&aʜᴜɴᴛᴇʀ
+    - amount:1&a
+    - type:stick
+    - custommodeldata:411
+    - 'lore1:&7ᴋɪʟʟ ᴍᴏʙs & ᴀɴɪᴍᴀʟs'
+    - 'lore3:&f &fᴊᴏʙ ʟᴇᴠᴇʟ #ff8ae5%jobsr_user_jlevel_hunter%'&7
+    - 'lore4:&f &fᴇxᴘᴇʀɪᴇɴᴄᴇ #64d2ff%jobsr_user_jexp_rounded_hunter%'%jobsr_user_jlevel_hunter%
+    - 'lore6:&f &cʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ ᴊᴏʙ' %jobsr_user_jexp_rounded_hunter%
+    - '    - RewardType: playercommand&f&c' 
+    RewardType: 
+    - jobs leave hunter
+    - RewardType_right: SHOP
+    RewardType_right: HunterPayouts
+    Reward_right: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 12'
+    InventoryLocation: 
+    - type:placeholdermatch
+    - '%jobsr_user_isin_Hunter%:match:true'
+    - '    - builder_joined:%jobsr_user_isin_Hunter%'
+    MenuItem:
+    - name:&aʙᴜɪʟᴅᴇʀ
+    - amount:1&a
+    - type:stick
+    - custommodeldata:415
+    - 'lore1:&7ᴘʟᴀᴄᴇ ʙʟᴏᴄᴋꜱ'
+    - 'lore3:&f &fᴊᴏʙ ʟᴇᴠᴇʟ #ff8ae5%jobsr_user_jlevel_builder%'&7
+    - 'lore4:&f &fᴇxᴘᴇʀɪᴇɴᴄᴇ #64d2ff%jobsr_user_jexp_rounded_builder%'%jobsr_user_jlevel_builder%
+    - 'lore6:&f &cʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ ᴊᴏʙ' %jobsr_user_jexp_rounded_builder%
+    - '    - RewardType: playercommand&f&c' 
+    RewardType: 
+    - jobs leave builder
+    - RewardType_right: SHOP
+    RewardType_right: BuilderPayouts
+    Reward_right: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 16'
+    InventoryLocation: 
+    - type:placeholdermatch
+    - '%jobsr_user_isin_Builder%:match:true'
+    - '    - explorer_joined:%jobsr_user_isin_Builder%'
+    MenuItem:
+    - name:&aᴇxᴘʟᴏʀᴇʀ
+    - amount:1&a
+    - type:stick
+    - custommodeldata:418
+    - 'lore1:&7ᴇxᴘʟᴏʀᴇ ᴛʜᴇ ᴍᴀᴘ'
+    - 'lore3:&f &fᴊᴏʙ ʟᴇᴠᴇʟ #ff8ae5%jobsr_user_jlevel_explorer%'&7
+    - 'lore4:&f &fᴇxᴘᴇʀɪᴇɴᴄᴇ #64d2ff%jobsr_user_jexp_rounded_explorer%'%jobsr_user_jlevel_explorer%
+    - 'lore6:&f &cʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ ᴊᴏʙ' %jobsr_user_jexp_rounded_explorer%
+    - '    - RewardType: playercommand&f&c' 
+    RewardType: 
+    - jobs leave explorer
+    - RewardType_right: SHOP
+    RewardType_right: ExplorerPayouts
+    Reward_right: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 21'
+    InventoryLocation: 
+    - type:placeholdermatch
+    - '%jobsr_user_isin_explorer%:match:true'
+    - '    - fisherman_joined:%jobsr_user_isin_explorer%'
+    MenuItem:
+    - name:&aꜰɪꜱʜᴇʀᴍᴀɴ
+    - amount:1&a
+    - type:stick
+    - custommodeldata:421
+    - 'lore1:&7ᴄᴀᴛᴄʜ ꜰɪsʜᴇs'
+    - 'lore3:&f &fᴊᴏʙ ʟᴇᴠᴇʟ #ff8ae5%jobsr_user_jlevel_fisherman%'&7
+    - 'lore4:&f &fᴇxᴘᴇʀɪᴇɴᴄᴇ #64d2ff%jobsr_user_jexp_rounded_fisherman%'%jobsr_user_jlevel_fisherman%
+    - 'lore6:&f &cʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ ᴊᴏʙ' %jobsr_user_jexp_rounded_fisherman%
+    - '    - RewardType: playercommand&f&c' 
+    RewardType: 
+    - jobs leave fisherman
+    - RewardType_right: SHOP
+    RewardType_right: FishermanPayouts
+    Reward_right: ''
+    Message: ''
+    ExtraPermission: '    ExtraPermission: 24'
+    InventoryLocation: - type:placeholdermatch
+    - '%jobsr_user_isin_fisherman%:match:true'
+    - crafter_joined:
+    - '    - MenuItem:%jobsr_user_isin_fisherman%'
+    - name:&aᴄʀᴀꜰᴛᴇʀ
+    - amount:1
+    - type:stick&a
+    - custommodeldata:412
+    - 'lore1:&7ᴄʀᴀꜰᴛ ɪᴛᴇᴍs'
+    - 'lore3:&f &fᴊᴏʙ ʟᴇᴠᴇʟ #ff8ae5%jobsr_user_jlevel_crafter%'
+    - 'lore4:&f &fᴇxᴘᴇʀɪᴇɴᴄᴇ #64d2ff%jobsr_user_jexp_rounded_crafter%'&7
+    - 'lore6:&f &cʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ ᴊᴏʙ' %jobsr_user_jlevel_crafter%
+    - '    - RewardType: playercommand&f&f%jobsr_user_jexp_rounded_crafter%'
+    - '    - Reward:&f&c' 
+    RewardType: - jobs leave crafter
+    RewardType_right: SHOP
+    - Reward_right: CrafterPayouts
+    RewardType_right: ''
+    Reward_right: ''
+    Message: '    Message: 13'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:placeholdermatch
+    - '%jobsr_user_isin_crafter%:match:true'
+    - weaponsmith_joined:
+    - '    - MenuItem:%jobsr_user_isin_crafter%'
+    - name:&aᴡᴇᴀᴘᴏɴꜱᴍɪᴛʜ
+    - amount:1
+    - type:stick&a
+    - custommodeldata:416
+    - 'lore1:&7ᴄʀᴀꜰᴛ ᴏʀ ʀᴇᴘᴀɪʀ ᴛᴏᴏʟꜱ & ᴡᴇᴀᴘᴏɴꜱ'
+    - 'lore3:&f &fᴊᴏʙ ʟᴇᴠᴇʟ #ff8ae5%jobsr_user_jlevel_weaponsmith%'
+    - 'lore4:&f &fᴇxᴘᴇʀɪᴇɴᴄᴇ #64d2ff%jobsr_user_jexp_rounded_weaponsmith%'&7
+    - 'lore6:&f &cʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ ᴊᴏʙ' %jobsr_user_jlevel_weaponsmith%
+    - '    - RewardType: playercommand&f&f%jobsr_user_jexp_rounded_weaponsmith%'
+    - '    - Reward:&f&c' 
+    RewardType: - jobs leave weaponsmith
+    RewardType_right: SHOP
+    - Reward_right: WeaponsmithPayouts
+    RewardType_right: ''
+    Reward_right: ''
+    Message: '    Message: 17'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:placeholdermatch
+    - '%jobsr_user_isin_weaponsmith%:match:true'
+    - enchanter_joined:
+    - '    - MenuItem:%jobsr_user_isin_weaponsmith%'
+    - name:&aᴇɴᴄʜᴀɴᴛᴇʀ
+    - amount:1
+    - type:stick&a
+    - custommodeldata:419
+    - 'lore1:&7ᴇɴᴄʜᴀɴᴛ ɪᴛᴇᴍꜱ'
+    - 'lore3:&f &fᴊᴏʙ ʟᴇᴠᴇʟ #ff8ae5%jobsr_user_jlevel_enchanter%'
+    - 'lore4:&f &fᴇxᴘᴇʀɪᴇɴᴄᴇ #64d2ff%jobsr_user_jexp_rounded_enchanter%'&7
+    - 'lore6:&f &cʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ ᴊᴏʙ' %jobsr_user_jlevel_enchanter%
+    - '    - RewardType: playercommand&f&f%jobsr_user_jexp_rounded_enchanter%'
+    - '    - Reward:&f&c' 
+    RewardType: - jobs leave enchanter
+    RewardType_right: SHOP
+    - Reward_right: EnchanterPayouts
+    RewardType_right: ''
+    Reward_right: ''
+    Message: '    Message: 22'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:placeholdermatch
+    - '%jobsr_user_isin_enchanter%:match:true'
+    - brewer_joined:
+    - '    - MenuItem:%jobsr_user_isin_enchanter%'
+    - name:&aʙʀᴇᴡᴇʀ
+    - amount:1
+    - type:stick&a
+    - custommodeldata:422
+    - 'lore1:&7ʙʀᴇᴡ ᴘᴏᴛɪᴏɴꜱ'
+    - 'lore3:&f &fᴊᴏʙ ʟᴇᴠᴇʟ #ff8ae5%jobsr_user_jlevel_brewer%'
+    - 'lore4:&f &fᴇxᴘᴇʀɪᴇɴᴄᴇ #64d2ff%jobsr_user_jexp_rounded_brewer%'&7
+    - 'lore6:&f &cʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ ᴊᴏʙ' %jobsr_user_jlevel_brewer%
+    - '    - RewardType: playercommand&f&f%jobsr_user_jexp_rounded_brewer%'
+    - '    - Reward:&f&c' 
+    RewardType: - jobs leave brewer
+    RewardType_right: SHOP
+    - Reward_right: BrewerPayouts
+    RewardType_right: ''
+    Reward_right: ''
+    Message: '    Message: 25'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - type:placeholdermatch    - '%jobsr_user_isin_brewer%:match:true'
+  cook_joined:
+    - MenuItem:
+    - '    - name:&aᴄᴏᴏᴋ%jobsr_user_isin_brewer%'
+    - amount:1
+    - type:stick
+    - custommodeldata:413&a
+    - 'lore1:&7ᴄᴏᴏᴋ ꜰᴏᴏᴅ'
+    - 'lore3:&f &fᴊᴏʙ ʟᴇᴠᴇʟ #ff8ae5%jobsr_user_jlevel_cook%'
+    - 'lore4:&f &fᴇxᴘᴇʀɪᴇɴᴄᴇ #64d2ff%jobsr_user_jexp_rounded_cook%'
+    - 'lore6:&f &cʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ ᴊᴏʙ' &7
+    - '    - RewardType: playercommand&f&f%jobsr_user_jlevel_cook%'
+    - '    - Reward:&f&f%jobsr_user_jexp_rounded_cook%'
+    - '    - jobs leave cook&f&c' 
+    RewardType: SHOP
+    Reward_right: CookPayouts
+    - Message: ''
+    RewardType_right: ''
+    Reward_right: 14
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: - type:placeholdermatch'
+    InventoryLocation: - '%jobsr_user_isin_cook%:match:true'
+  engineer_joined:
+    - MenuItem:
+    - '    - name:&aᴇɴɢɪɴᴇᴇʀ%jobsr_user_isin_cook%'
+    - amount:1
+    - type:stick
+    - custommodeldata:423&a
+    - 'lore1:&7ᴄʀᴀꜰᴛ ᴏʀ ᴘʟᴀᴄᴇ ʀᴇᴅꜱᴛᴏɴᴇ'
+    - 'lore3:&f &fᴊᴏʙ ʟᴇᴠᴇʟ #ff8ae5%jobsr_user_jlevel_engineer%'
+    - 'lore4:&f &fᴇxᴘᴇʀɪᴇɴᴄᴇ #64d2ff%jobsr_user_jexp_rounded_engineer%'
+    - 'lore6:&f &cʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ʟᴇᴀᴠᴇ ᴊᴏʙ' &7
+    - '    - RewardType: playercommand&f&f%jobsr_user_jlevel_engineer%'
+    - '    - Reward:&f&f%jobsr_user_jexp_rounded_engineer%'
+    - '    - jobs leave engineer&f&c' 
+    RewardType: SHOP
+    Reward_right: EnginnerPayouts
+    - Message: ''
+    RewardType_right: ''
+    Reward_right: 26
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: - type:placeholdermatch'
+    InventoryLocation: - '%jobsr_user_isin_engineer%:match:true'
+######################################################################################################################################################################################################
+    - miner_info:
+    - '    - MenuItem:%jobsr_user_isin_engineer%'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1&f
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    - RewardType: playercommand
+    - Reward:
+    - '    - jobs join Miner&7&7' 
+    RewardType: SHOP
+    Reward_right: MinerPayouts
+    - Message: ''
+    RewardType_right: ''
+    Reward_right: 11
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: - type:placeholdernumber'
+    InventoryLocation: - '%jobsr_user_joinedjobcount%:equals:3'
+    - type:permission
+    - match:jobs.max.3
+    - '    - woodcutter_info:%jobsr_user_joinedjobcount%'
+    - MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1&f
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    - RewardType: playercommand
+    - Reward:
+    - '    - jobs join woodcutter&7&7' 
+    RewardType: SHOP
+    Reward_right: WoodcutterPayouts
+    - Message: ''
+    RewardType_right: ''
+    Reward_right: 15
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: - type:placeholdernumber'
+    InventoryLocation: - '%jobsr_user_joinedjobcount%:equals:3'
+    - type:permission
+    - match:jobs.max.3
+    - '    - digger_info:%jobsr_user_joinedjobcount%'
+    - MenuItem:
+    - name:&f
+    - amount:1
+    - type:stick    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' &f
+    - RewardType: playercommand
+    - Reward:
+    - jobs join digger
+    - '    - RewardType_right: SHOP&7&7' 
+    RewardType: DiggerPayouts
+    Message: ''
+    - ExtraPermission: ''
+    RewardType_right: 20
+    Reward_right: 
+    Message: '    Message: - type:placeholdernumber'
+    ExtraPermission: - '%jobsr_user_joinedjobcount%:equals:3'
+    InventoryLocation: - type:permission
+    - match:jobs.max.3
+    - farmer_info:
+    - '    - MenuItem:%jobsr_user_joinedjobcount%'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' &f
+    - RewardType: playercommand
+    - Reward:
+    - jobs join farmer
+    - '    - RewardType_right: SHOP&7&7' 
+    RewardType: FarmerPayouts
+    Message: ''
+    - ExtraPermission: ''
+    RewardType_right: 23
+    Reward_right: 
+    Message: '    Message: - type:placeholdernumber'
+    ExtraPermission: - '%jobsr_user_joinedjobcount%:equals:3'
+    InventoryLocation: - type:permission
+    - match:jobs.max.3
+    - hunter_info:
+    - '    - MenuItem:%jobsr_user_joinedjobcount%'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' &f
+    - RewardType: playercommand
+    - Reward:
+    - jobs join hunter
+    - '    - RewardType_right: SHOP&7&7' 
+    RewardType: HunterPayouts
+    Message: ''
+    - ExtraPermission: ''
+    RewardType_right: 12
+    Reward_right: 
+    Message: '    Message: - type:placeholdernumber'
+    ExtraPermission: - '%jobsr_user_joinedjobcount%:equals:3'
+    InventoryLocation: - type:permission
+    - match:jobs.max.3
+    - builder_info:
+    - '    - MenuItem:%jobsr_user_joinedjobcount%'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' &f
+    - RewardType: playercommand
+    - Reward:
+    - jobs join builder
+    - '    - RewardType_right: SHOP&7&7' 
+    RewardType: BuilderPayouts
+    Message: ''
+    - ExtraPermission: ''
+    RewardType_right: 16
+    Reward_right: 
+    Message: '    Message: - type:placeholdernumber'
+    ExtraPermission: - '%jobsr_user_joinedjobcount%:equals:3'
+    InventoryLocation: - type:permission
+    - match:jobs.max.3
+    - explorer_info:
+    - '    - MenuItem:%jobsr_user_joinedjobcount%'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' &f
+    - RewardType: playercommand
+    - Reward:
+    - jobs join explorer
+    - '    - RewardType_right: SHOP&7&7' 
+    RewardType: ExplorerPayouts
+    Message: ''
+    - ExtraPermission: ''
+    RewardType_right: 21
+    Reward_right: 
+    Message: '    Message: - type:placeholdernumber'
+    ExtraPermission: - '%jobsr_user_joinedjobcount%:equals:3'
+    InventoryLocation: - type:permission
+    - match:jobs.max.3
+    - fisherman_info:
+    - '    - MenuItem:%jobsr_user_joinedjobcount%'
+    - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs'     RewardType: playercommand&f
+    - Reward:
+    - jobs join fisherman
+    - RewardType_right: SHOP
+    - '    - Reward_right: FishermanPayouts&7&7' 
+    RewardType: ''
+    ExtraPermission: ''
+    - InventoryLocation: 24
+    RewardType_right: 
+    Reward_right: - type:placeholdernumber
+    Message: - '%jobsr_user_joinedjobcount%:equals:3'
+    ExtraPermission: '    ExtraPermission: - type:permission'
+    InventoryLocation: - match:jobs.max.3
+  crafter_info:
+    - MenuItem:
+    - '    - name:&f%jobsr_user_joinedjobcount%'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    - RewardType: playercommand&f
+    - Reward:
+    - jobs join crafter
+    - RewardType_right: SHOP
+    - '    - Reward_right: CrafterPayouts&7&7' 
+    RewardType: ''
+    ExtraPermission: ''
+    - InventoryLocation: 13
+    RewardType_right: 
+    Reward_right: - type:placeholdernumber
+    Message: - '%jobsr_user_joinedjobcount%:equals:3'
+    ExtraPermission: '    ExtraPermission: - type:permission'
+    InventoryLocation: - match:jobs.max.3
+  weaponsmith_info:
+    - MenuItem:
+    - '    - name:&f%jobsr_user_joinedjobcount%'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    - RewardType: playercommand&f
+    - Reward:
+    - jobs join weaponsmith
+    - RewardType_right: SHOP
+    - '    - Reward_right: WeaponsmithPayouts&7&7' 
+    RewardType: ''
+    ExtraPermission: ''
+    - InventoryLocation: 17
+    RewardType_right: 
+    Reward_right: - type:placeholdernumber
+    Message: - '%jobsr_user_joinedjobcount%:equals:3'
+    ExtraPermission: '    ExtraPermission: - type:permission'
+    InventoryLocation: - match:jobs.max.3
+  enchanter_info:
+    - MenuItem:
+    - '    - name:&f%jobsr_user_joinedjobcount%'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    - RewardType: playercommand&f
+    - Reward:
+    - jobs join enchanter
+    - RewardType_right: SHOP
+    - '    - Reward_right: EnchanterPayouts&7&7' 
+    RewardType: ''
+    ExtraPermission: ''
+    - InventoryLocation: 22
+    RewardType_right: 
+    Reward_right: - type:placeholdernumber
+    Message: - '%jobsr_user_joinedjobcount%:equals:3'
+    ExtraPermission: '    ExtraPermission: - type:permission'
+    InventoryLocation: - match:jobs.max.3
+  brewer_info:
+    - MenuItem:
+    - '    - name:&f%jobsr_user_joinedjobcount%'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    - RewardType: playercommand&f
+    - Reward:
+    - jobs join brewer
+    - RewardType_right: SHOP
+    - '    - Reward_right: BrewerPayouts&7&7' 
+    RewardType: ''
+    ExtraPermission: ''
+    - InventoryLocation: 25
+    RewardType_right: 
+    Reward_right: - type:placeholdernumber
+    Message: - '%jobsr_user_joinedjobcount%:equals:3'
+    ExtraPermission: '    ExtraPermission: - type:permission'
+    InventoryLocation: - match:jobs.max.3
+  cook_info:
+    - MenuItem:
+    - '    - name:&f%jobsr_user_joinedjobcount%'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    - RewardType: playercommand&f
+    - Reward:
+    - jobs join cook    RewardType_right: SHOP
+    - Reward_right: CookPayouts
+    - Message: ''&7&7
+    RewardType: ''
+    InventoryLocation: 14
+    - Condition:
+    RewardType_right: - type:placeholdernumber
+    Reward_right: - '%jobsr_user_joinedjobcount%:equals:3'
+    Message: '    Message: - type:permission'
+    ExtraPermission: '    ExtraPermission: - match:jobs.max.3'
+    InventoryLocation: 
+    MenuItem:
+    - name:&f
+    - '    - amount:1%jobsr_user_joinedjobcount%'
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    RewardType: playercommand
+    - Reward:&f
+    - jobs join enginner
+    - RewardType_right: SHOP
+    - Reward_right: EngineerPayouts
+    - Message: ''&7&7
+    RewardType: ''
+    InventoryLocation: 26
+    - Condition:
+    RewardType_right: - type:placeholdernumber
+    Reward_right: - '%jobsr_user_joinedjobcount%:equals:3'
+    Message: '    Message: - type:permission'
+    ExtraPermission: '    ExtraPermission: - match:jobs.max.3'
+    InventoryLocation: ######################################################################################################################################################################################################
+  miner_fulljobs:
+    - MenuItem:
+    - '    - name:&f%jobsr_user_joinedjobcount%'
+    - amount:1
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    RewardType: playercommand
+    - Reward:&f
+    - jobs join Miner
+    - RewardType_right: SHOP
+    - Reward_right: MinerPayouts
+    - Message: ''&7&7
+    RewardType: ''
+    InventoryLocation: 11
+    - Condition:
+    RewardType_right: - type:placeholdernumber
+    Reward_right: - '%jobsr_user_joinedjobcount%:equals:2'
+    Message: '    Message: - type:permission'
+    ExtraPermission: '    ExtraPermission: - dontmatch:jobs.max.3'
+    InventoryLocation: 
+    MenuItem:
+    - name:&f
+    - '    - amount:1%jobsr_user_joinedjobcount%'
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    RewardType: playercommand
+    - Reward:&f
+    - jobs join woodcutter
+    - RewardType_right: SHOP
+    - Reward_right: WoodcutterPayouts
+    - Message: ''&7&7
+    RewardType: ''
+    InventoryLocation: 15
+    - Condition:
+    RewardType_right: - type:placeholdernumber
+    Reward_right: - '%jobsr_user_joinedjobcount%:equals:2'
+    Message: '    Message: - type:permission'
+    ExtraPermission: '    ExtraPermission: - dontmatch:jobs.max.3'
+    InventoryLocation: 
+    MenuItem:
+    - name:&f
+    - '    - amount:1%jobsr_user_joinedjobcount%'
+    - type:stick
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    RewardType: playercommand
+    - Reward:&f
+    - jobs join digger
+    - RewardType_right: SHOP
+    - Reward_right: DiggerPayouts
+    - Message: ''&7&7
+    RewardType: ''
+    InventoryLocation: 20
+    - Condition:
+    RewardType_right: - type:placeholdernumber
+    Reward_right: - '%jobsr_user_joinedjobcount%:equals:2'
+    Message: '    Message: - type:permission'
+    ExtraPermission: '    ExtraPermission: - dontmatch:jobs.max.3'
+    InventoryLocation: 
+    MenuItem:
+    - name:&f
+    - '    - amount:1%jobsr_user_joinedjobcount%'
+    - type:stick    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    RewardType: playercommand
+    Reward:
+    - jobs join farmer&f
+    - RewardType_right: SHOP
+    - Reward_right: FarmerPayouts
+    - Message: ''
+    - ExtraPermission: ''&7&7
+    RewardType: 23
+    Condition:
+    - type:placeholdernumber
+    RewardType_right: - '%jobsr_user_joinedjobcount%:equals:2'
+    Reward_right: - type:permission
+    Message: '    Message: - dontmatch:jobs.max.3'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:&f
+    - amount:1
+    - '    - type:stick%jobsr_user_joinedjobcount%'
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    RewardType: playercommand
+    Reward:
+    - jobs join hunter&f
+    - RewardType_right: SHOP
+    - Reward_right: HunterPayouts
+    - Message: ''
+    - ExtraPermission: ''&7&7
+    RewardType: 12
+    Condition:
+    - type:placeholdernumber
+    RewardType_right: - '%jobsr_user_joinedjobcount%:equals:2'
+    Reward_right: - type:permission
+    Message: '    Message: - dontmatch:jobs.max.3'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:&f
+    - amount:1
+    - '    - type:stick%jobsr_user_joinedjobcount%'
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    RewardType: playercommand
+    Reward:
+    - jobs join builder&f
+    - RewardType_right: SHOP
+    - Reward_right: BuilderPayouts
+    - Message: ''
+    - ExtraPermission: ''&7&7
+    RewardType: 16
+    Condition:
+    - type:placeholdernumber
+    RewardType_right: - '%jobsr_user_joinedjobcount%:equals:2'
+    Reward_right: - type:permission
+    Message: '    Message: - dontmatch:jobs.max.3'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:&f
+    - amount:1
+    - '    - type:stick%jobsr_user_joinedjobcount%'
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    RewardType: playercommand
+    Reward:
+    - jobs join explorer&f
+    - RewardType_right: SHOP
+    - Reward_right: ExplorerPayouts
+    - Message: ''
+    - ExtraPermission: ''&7&7
+    RewardType: 21
+    Condition:
+    - type:placeholdernumber
+    RewardType_right: - '%jobsr_user_joinedjobcount%:equals:2'
+    Reward_right: - type:permission
+    Message: '    Message: - dontmatch:jobs.max.3'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:&f
+    - amount:1
+    - '    - type:stick%jobsr_user_joinedjobcount%'
+    - custommodeldata:1
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    RewardType: playercommand
+    Reward:
+    - jobs join fisherman&f
+    - RewardType_right: SHOP
+    - Reward_right: FishermanPayouts
+    - Message: ''
+    - ExtraPermission: ''&7&7
+    RewardType: 24
+    Condition:
+    - type:placeholdernumber
+    RewardType_right: - '%jobsr_user_joinedjobcount%:equals:2'
+    Reward_right: - type:permission
+    Message: '    Message: - dontmatch:jobs.max.3'
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: 
+    - name:&f
+    - amount:1
+    - '    - type:stick%jobsr_user_joinedjobcount%'
+    - custommodeldata:1    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    - RewardType: playercommand
+    Reward:
+    - jobs join crafter
+    - RewardType_right: SHOP&f
+    - Reward_right: CrafterPayouts
+    - Message: ''
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 13&7&7' 
+    RewardType: 
+    - type:placeholdernumber
+    - '%jobsr_user_joinedjobcount%:equals:2'
+    RewardType_right: - type:permission
+    Reward_right: - dontmatch:jobs.max.3
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - name:&f
+    - amount:1
+    - type:stick
+    - '    - custommodeldata:1%jobsr_user_joinedjobcount%'
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    - RewardType: playercommand
+    Reward:
+    - jobs join weaponsmith
+    - RewardType_right: SHOP&f
+    - Reward_right: WeaponsmithPayouts
+    - Message: ''
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 17&7&7' 
+    RewardType: 
+    - type:placeholdernumber
+    - '%jobsr_user_joinedjobcount%:equals:2'
+    RewardType_right: - type:permission
+    Reward_right: - dontmatch:jobs.max.3
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - name:&f
+    - amount:1
+    - type:stick
+    - '    - custommodeldata:1%jobsr_user_joinedjobcount%'
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    - RewardType: playercommand
+    Reward:
+    - jobs join enchanter
+    - RewardType_right: SHOP&f
+    - Reward_right: EnchanterPayouts
+    - Message: ''
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 22&7&7' 
+    RewardType: 
+    - type:placeholdernumber
+    - '%jobsr_user_joinedjobcount%:equals:2'
+    RewardType_right: - type:permission
+    Reward_right: - dontmatch:jobs.max.3
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - name:&f
+    - amount:1
+    - type:stick
+    - '    - custommodeldata:1%jobsr_user_joinedjobcount%'
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    - RewardType: playercommand
+    Reward:
+    - jobs join brewer
+    - RewardType_right: SHOP&f
+    - Reward_right: BrewerPayouts
+    - Message: ''
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 25&7&7' 
+    RewardType: 
+    - type:placeholdernumber
+    - '%jobsr_user_joinedjobcount%:equals:2'
+    RewardType_right: - type:permission
+    Reward_right: - dontmatch:jobs.max.3
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - name:&f
+    - amount:1
+    - type:stick
+    - '    - custommodeldata:1%jobsr_user_joinedjobcount%'
+    - 'lore1:&7ʏᴏᴜ ʜᴀᴠᴇ ʀᴇᴀᴄʜᴇᴅ#&7ᴛʜᴇ ʟɪᴍɪᴛ ᴏꜰ ᴊᴏʙs' 
+    - RewardType: playercommand
+    Reward:
+    - jobs join cook
+    - RewardType_right: SHOP&f
+    - Reward_right: CookPayouts
+    - Message: ''
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 14&7&7' 
+    RewardType: 
+    - type:placeholdernumber
+    - '%jobsr_user_joinedjobcount%:equals:2'
+    RewardType_right: - type:permission
+    Reward_right: - dontmatch:jobs.max.3
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - name:&f
+    - amount:1
+    - type:stick
+    - custommodeldata:1    - 'lore1:&7ʙᴀ̣ɴ đᴀ̃ đᴀ̣ᴛ đᴇ̂́ɴ#&7ɢɪᴏ̛́ɪ ʜᴀ̣ɴ ᴄᴜ̉ᴀ ᴄᴀ́ᴄ ᴄᴏ̂ɴɢ ᴠɪᴇ̣̂ᴄ' %jobsr_user_joinedjobcount%
+    - RewardType: playercommand
+    - Reward:
+    - jobs join enginner
+    RewardType_right: SHOP
+    - Reward_right: EngineerPayouts&f
+    - Message: ''
+    - ExtraPermission: ''
+    - InventoryLocation: 26
+    - '    - Condition:&7&7' 
+    RewardType: - type:placeholdernumber
+    - '%jobsr_user_joinedjobcount%:equals:2'
+    - type:permission
+    RewardType_right: - dontmatch:jobs.max.3
+    Reward_right: ######################################################################################################################################################################################################
+    Message: '    Message: '
+    ExtraPermission: '    ExtraPermission: '
+    InventoryLocation: - name:&aᴍɪɴᴇʀ
+    - amount:1
+    - type:stick
+    - '    - custommodeldata:410%jobsr_user_joinedjobcount%'
+    - 'lore1:&7ᴋʜᴀɪ ᴛʜᴀ́ᴄ ᴄᴀ́ᴄ ᴋʜᴏ̂́ɪ & ǫᴜᴀ̣̆ɴɢ'
+    - 'lore3:#ee7b97ᴀᴄᴛɪᴏɴꜱ'
+    - 'lore4:&f ▪ ᴘʜᴀ́ ᴠᴏ̛̃'
+    - 'lore5:&f ▪ ᴛɴᴛʙʀᴇᴀᴋ'
+    - 'lore7:&f &eɴʜᴀ̂́ᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ đᴇ̂̉ ᴛʜᴀᴍ ɢɪᴀ'
+    - &a
+    - RewardType: playercommand
+    - Reward:
+    - jobs join Miner
+    - '    - RewardType_right: SHOP&7'
+    - '    - Reward_right: MinerPayouts'
+    - Message: ''&f
+    - ExtraPermission: ''&f
+    - '    - InventoryLocation: 11&f&e'
+  woodcutter_join:
+    RewardType: 
+    - name:&aᴡᴏᴏᴅᴄᴜᴛᴛᴇʀ
+    - amount:1
+    RewardType_right: - type:stick
+    Reward_right: - custommodeldata:414
+    Message: - 'lore1:&7ᴄʜᴀ̣̆ᴛ & ᴛʀᴏ̂̀ɴɢ ᴄᴀ̂ʏ'
+    ExtraPermission: - 'lore3:#ee7b97ᴀᴄᴛɪᴏɴꜱ'
+    InventoryLocation: - 'lore4:&f ▪ đᴀ̣̆ᴛ'
+    - 'lore5:&f ▪ ᴘʜᴀ́ ᴠᴏ̛̃'
+    - 'lore7:&f &eɴʜᴀ̂́ᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ đᴇ̂̉ ᴛʜᴀᴍ ɢɪᴀ'
+    - &a
+    - RewardType: playercommand
+    - Reward:
+    - jobs join woodcutter
+    - '    - RewardType_right: SHOP&7'
+    - '    - Reward_right: WoodcutterPayouts'
+    - Message: ''&f
+    - ExtraPermission: ''&f
+    - '    - InventoryLocation: 15&f&e'
+  digger_join:
+    RewardType: 
+    - name:&aᴅɪɢɢᴇʀ
+    - amount:1
+    RewardType_right: - type:stick
+    Reward_right: - custommodeldata:417
+    Message: - 'lore1:&7ᴛᴀ́ɪ ᴛᴀ̣ᴏ ᴛʜᴇ̂́ ɢɪᴏ̛́ɪ'
+    ExtraPermission: - 'lore3:#ee7b97ᴀᴄᴛɪᴏɴꜱ'
+    InventoryLocation: - 'lore4:&f ▪ ᴘʜᴀ́ ᴠᴏ̛̃'
+    - 'lore6:&f &eɴʜᴀ̂́ᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ đᴇ̂̉ ᴛʜᴀᴍ ɢɪᴀ'
+    
+    - RewardType: playercommand&a
+    - Reward:
+    - jobs join digger
+    - RewardType_right: SHOP
+    - '    - Reward_right: DiggerPayouts&7'
+    - Message: ''
+    - ExtraPermission: ''&f
+    - '    - InventoryLocation: 20&f&e'
+  farmer_join:
+    RewardType: 
+    - name:&aꜰᴀʀᴍᴇʀ
+    - amount:1
+    RewardType_right: - type:stick
+    Reward_right: - custommodeldata:420
+    Message: - 'lore1:&7ᴛʜᴜ̛̣ᴄ ʜɪᴇ̣̂ɴ ᴄᴀ́ᴄ ʜᴏᴀ̣ᴛ đᴏ̣̂ɴɢ ɴᴏ̂ɴɢ ɴɢʜɪᴇ̣̂ᴘ'
+    ExtraPermission: - 'lore3:#ee7b97ᴀᴄᴛɪᴏɴꜱ'
+    InventoryLocation: - 'lore4:&f ▪ ᴛʜᴜ ᴛʜᴀ̣̂ᴘ'
+    - 'lore5:&f ▪ đᴀ̣̆ᴛ'
+    - 'lore6:&f ▪ ᴘʜᴀ́ ᴠᴏ̛̃'
+    - 'lore7:&f ▪ ɢɪᴏ̂́ɴɢ'&a
+    - 'lore8:&f ▪ ᴄᴀ̆́ᴛ ʟᴏ̂ɴɢ'
+    - 'lore9:&f ▪ ᴠᴀ̆́ᴛ ꜱᴜ̛̃ᴀ'
+    - 'lore10:&f ▪ ᴛʜᴜᴀ̂̀ɴ ʜᴏ́ᴀ'
+    - 'lore12:&f &eɴʜᴀ̂́ᴘ ᴄʜᴜᴏ̣̂ᴛ ᴛʀᴀ́ɪ đᴇ̂̉ ᴛʜᴀᴍ ɢɪᴀ'&7
+    - '    - '
+    - '    - RewardType: playercommand&f'
+    - '    - Reward:&f'
+    - '    - jobs join farmer&f'
+    - '    - RewardType_right: SHOP&f'
+    - '    - Reward_right: FarmerPayouts&f'
+    - Message: ''&f
+    - ExtraPermission: ''    InventoryLocation: 23&f
+    - '    - hunter_join:&f&e'
+    MenuItem:
+    RewardType: - name:&aʜᴜɴᴛᴇʀ
+    - amount:1
+    - type:stick
+    RewardType_right: - custommodeldata:411
+    Reward_right: - 'lore1:&7ᴋɪʟʟ ᴍᴏʙs & ᴀɴɪᴍᴀʟs'
+    Message: - 'lore3:#ee7b97ᴀᴄᴛɪᴏɴꜱ'
+    ExtraPermission: - 'lore4:&f ▪ ᴋɪʟʟ'
+    InventoryLocation: - 'lore6:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ'
+    
+    RewardType: playercommand
+    - Reward:&a
+    - jobs join hunter
+    - RewardType_right: SHOP
+    - Reward_right: HunterPayouts
+    - Message: ''&7
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 12&f'
+    - '    - builder_join:&f&e'
+    MenuItem:
+    RewardType: - name:&aʙᴜɪʟᴅᴇʀ
+    - amount:1
+    - type:stick
+    RewardType_right: - custommodeldata:415
+    Reward_right: - 'lore1:&7ᴘʟᴀᴄᴇ ʙʟᴏᴄᴋꜱ'
+    Message: - 'lore3:#ee7b97ᴀᴄᴛɪᴏɴꜱ'
+    ExtraPermission: - 'lore4:&f ▪ ꜱᴛʀɪᴘ ʟᴏɢꜱ'
+    InventoryLocation: - 'lore5:&f ▪ ᴘʟᴀᴄᴇ'
+    - 'lore7:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ'
+    
+    - RewardType: playercommand&a
+    - Reward:
+    - jobs join builder
+    - RewardType_right: SHOP
+    - '    - Reward_right: BuilderPayouts&7'
+    - Message: ''
+    - ExtraPermission: ''&f
+    - '    - InventoryLocation: 16&f'
+    - '    - explorer_join:&f&e'
+    MenuItem:
+    RewardType: - name:&aᴇxᴘʟᴏʀᴇʀ
+    - amount:1
+    - type:stick
+    RewardType_right: - custommodeldata:418
+    Reward_right: - 'lore1:&7ᴇxᴘʟᴏʀᴇ ᴛʜᴇ ᴍᴀᴘ'
+    Message: - 'lore3:#ee7b97ᴀᴄᴛɪᴏɴꜱ'
+    ExtraPermission: - 'lore4:&f ▪ ᴇxᴘʟᴏʀᴇ'
+    InventoryLocation: - 'lore6:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ'
+    
+    RewardType: playercommand
+    - Reward:&a
+    - jobs join explorer
+    - RewardType_right: SHOP
+    - Reward_right: ExplorerPayouts
+    - Message: ''&7
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 21&f'
+    - '    - fisherman_join:&f&e'
+    MenuItem:
+    RewardType: - name:&aꜰɪꜱʜᴇʀᴍᴀɴ
+    - amount:1
+    - type:stick
+    RewardType_right: - custommodeldata:421
+    Reward_right: - 'lore1:&7ᴄᴀᴛᴄʜ ꜰɪsʜᴇs'
+    Message: - 'lore3:#ee7b97ᴀᴄᴛɪᴏɴꜱ'
+    ExtraPermission: - 'lore4:&f ▪ ꜰɪꜱʜ'
+    InventoryLocation: - 'lore6:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ'
+    
+    RewardType: playercommand
+    - Reward:&a
+    - jobs join fisherman
+    - RewardType_right: SHOP
+    - Reward_right: FishermanPayouts
+    - Message: ''&7
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 24&f'
+    - '    - crafter_join:&f&e'
+    MenuItem:
+    RewardType: - name:&aᴄʀᴀꜰᴛᴇʀ
+    - amount:1
+    - type:stick
+    RewardType_right: - custommodeldata:412
+    Reward_right: - 'lore1:&7ᴄʀᴀꜰᴛ ɪᴛᴇᴍs'
+    Message: - 'lore3:#ee7b97ᴀᴄᴛɪᴏɴꜱ'
+    ExtraPermission: - 'lore4:&f ▪ ᴄʀᴀꜰᴛ'
+    InventoryLocation: - 'lore5:&f ▪ ꜱᴍᴇʟᴛ'
+    - 'lore7:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ'
+    
+    - RewardType: playercommand&a
+    - Reward:
+    - jobs join crafter
+    - RewardType_right: SHOP
+    - '    - Reward_right: CrafterPayouts&7'
+    - Message: ''
+    - ExtraPermission: ''&f
+    - '    - InventoryLocation: 13&f'
+    - '    - weaponsmith_join:&f&e'
+    MenuItem:
+    RewardType: - name:&aᴡᴇᴀᴘᴏɴꜱᴍɪᴛʜ
+    - amount:1
+    - type:stick
+    RewardType_right: - custommodeldata:416
+    Reward_right: - 'lore1:&7ᴄʀᴀꜰᴛ ᴏʀ ʀᴇᴘᴀɪʀ ᴛᴏᴏʟꜱ & ᴡᴇᴀᴘᴏɴꜱ'
+    Message: - 'lore3:#ee7b97ᴀᴄᴛɪᴏɴꜱ'
+    ExtraPermission: - 'lore4:&f ▪ ᴄʀᴀꜰᴛ'
+    InventoryLocation: - 'lore5:&f ▪ ꜱᴍᴇʟᴛ'    - 'lore6:&f ▪ ʀᴇᴘᴀɪʀ'
+    - 'lore8:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ'
+    
+    - RewardType: playercommand&a
+    - Reward:
+    - jobs join weaponsmith
+    - RewardType_right: SHOP
+    - '    - Reward_right: WeaponsmithPayouts&7'
+    - Message: ''
+    - ExtraPermission: ''&f
+    - '    - InventoryLocation: 17&f'
+    - '    - enchanter_join:&f'
+    - '    - MenuItem:&f&e'
+    - name:&aᴇɴᴄʜᴀɴᴛᴇʀ
+    RewardType: - amount:1
+    - type:stick
+    - custommodeldata:419
+    RewardType_right: - 'lore1:&7ᴇɴᴄʜᴀɴᴛ ɪᴛᴇᴍꜱ'
+    Reward_right: - 'lore3:#ee7b97ᴀᴄᴛɪᴏɴꜱ'
+    Message: - 'lore4:&f ▪ ᴇɴᴄʜᴀɴᴛ'
+    ExtraPermission: - 'lore6:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ'
+    InventoryLocation: 
+    RewardType: playercommand
+    Reward:
+    - jobs join enchanter&a
+    - RewardType_right: SHOP
+    - Reward_right: EnchanterPayouts
+    - Message: ''
+    - ExtraPermission: ''&7
+    - '    - InventoryLocation: 22'
+    - '    - brewer_join:&f'
+    - '    - MenuItem:&f&e'
+    - name:&aʙʀᴇᴡᴇʀ
+    RewardType: - amount:1
+    - type:stick
+    - custommodeldata:422
+    RewardType_right: - 'lore1:&7ʙʀᴇᴡ ᴘᴏᴛɪᴏɴꜱ'
+    Reward_right: - 'lore3:#ee7b97ᴀᴄᴛɪᴏɴꜱ'
+    Message: - 'lore4:&f ▪ ᴄʀᴀꜰᴛ'
+    ExtraPermission: - 'lore5:&f ▪ ʙʀᴇᴡ'
+    InventoryLocation: - 'lore7:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ'
+    
+    RewardType: playercommand
+    - Reward:&a
+    - jobs join brewer
+    - RewardType_right: SHOP
+    - Reward_right: BrewerPayouts
+    - Message: ''&7
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 25&f'
+    - '    - cook_join:&f'
+    - '    - MenuItem:&f&e'
+    - name:&aᴄᴏᴏᴋ
+    RewardType: - amount:1
+    - type:stick
+    - custommodeldata:413
+    RewardType_right: - 'lore1:&7ᴄᴏᴏᴋ ꜰᴏᴏᴅ'
+    Reward_right: - 'lore3:#ee7b97ᴀᴄᴛɪᴏɴꜱ'
+    Message: - 'lore4:&f ▪ ᴄʀᴀꜰᴛ'
+    ExtraPermission: - 'lore5:&f ▪ ꜱᴍᴇʟᴛ'
+    InventoryLocation: - 'lore7:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ'
+    
+    RewardType: playercommand
+    - Reward:&a
+    - jobs join cook
+    - RewardType_right: SHOP
+    - Reward_right: CookPayouts
+    - Message: ''&7
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 14&f'
+    - '    - engineer_join:&f'
+    - '    - MenuItem:&f&e'
+    - name:&aᴇɴɢɪɴᴇᴇʀ
+    RewardType: - amount:1
+    - type:stick
+    - custommodeldata:423
+    RewardType_right: - 'lore1:&7ᴄʀᴀꜰᴛ ᴏʀ ᴘʟᴀᴄᴇ ʀᴇᴅꜱᴛᴏɴᴇ'
+    Reward_right: - 'lore3:#ee7b97ᴀᴄᴛɪᴏɴꜱ'
+    Message: - 'lore4:&f ▪ ᴘʟᴀᴄᴇ'
+    ExtraPermission: - 'lore5:&f ▪ ᴄʀᴀꜰᴛ'
+    InventoryLocation: - 'lore7:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ'
+    
+    RewardType: playercommand
+    - Reward:&a
+    - jobs join engineer
+    - RewardType_right: SHOP
+    - Reward_right: EngineerPayouts
+    - Message: ''&7
+    - ExtraPermission: ''
+    - '    - InventoryLocation: 26&f'
+    - '    - &f'
+    - 'lore7:&f &eʟᴇꜰᴛ ᴄʟɪᴄᴋ ᴛᴏ ᴊᴏɪɴ'
+    
+    RewardType: playercommand
+    Reward:
+    - jobs join engineer
+    RewardType_right: SHOP
+    Reward_right: EngineerPayouts
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 26
